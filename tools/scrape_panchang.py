@@ -190,6 +190,55 @@ def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
     return [event for event in parse_events_for_year(year, html) if datetime.fromisoformat(event.date).month == month]
 
 
+def parse_month_panchang_events(year: int, month: int, html: str) -> list[PanchangEvent]:
+    events: list[PanchangEvent] = []
+    pattern = re.compile(
+        r'<div class="dpEvent dpFlex">\s*'
+        r'<div class="dpEventDate[^"]*">\s*'
+        r'<div class="dpDate">(\d{1,2})</div>\s*'
+        r'<div class="dpEventWeekday">([^<]+)</div>\s*'
+        r'</div>\s*'
+        r'<div class="dpEventName">([\s\S]*?)</div>\s*'
+        r'</div>',
+        flags=re.I,
+    )
+    for match in pattern.finditer(html):
+        day_number = int(match.group(1))
+        weekday = html_text(match.group(2))
+        names_html = match.group(3)
+        for title_html in re.findall(r'<a\s+[^>]*>([\s\S]*?)</a>', names_html, flags=re.I):
+            title = html_text(title_html)
+            if not title:
+                continue
+            events.append(
+                PanchangEvent(
+                    date=date(year, month, day_number).isoformat(),
+                    title=title,
+                    detail=weekday,
+                    type=event_type_from_title(title),
+                )
+            )
+    unique: dict[tuple[str, str], PanchangEvent] = {}
+    for event in events:
+        unique[(event.date, event.title)] = event
+    return sorted(unique.values(), key=lambda item: (item.date, item.title))
+
+
+def fetch_month_panchang_events(year: int) -> list[PanchangEvent]:
+    events: list[PanchangEvent] = []
+    for month in range(1, 13):
+        month_date = date(year, month, 7).strftime("%d/%m/%Y")
+        try:
+            html = fetch(MONTH_URL.format(date=month_date))
+        except Exception:
+            html = ""
+        events.extend(parse_month_panchang_events(year, month, html))
+    unique: dict[tuple[str, str], PanchangEvent] = {}
+    for event in events:
+        unique[(event.date, event.title)] = event
+    return sorted(unique.values(), key=lambda item: (item.date, item.title))
+
+
 def previous_events_for_year(year: int) -> list[PanchangEvent]:
     if not OUT.exists():
         return []
@@ -246,12 +295,14 @@ def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
 def main() -> None:
     today = date.today()
     formatted = today.strftime("%d/%m/%Y")
+    events = fetch_month_panchang_events(today.year)
     try:
         festival_html = fetch(FESTIVAL_URL.format(year=today.year))
     except Exception:
         local_reference = Path("Documentation/hindu-calendar.html")
         festival_html = local_reference.read_text(encoding="utf-8", errors="ignore") if local_reference.exists() else ""
-    events = parse_events_for_year(today.year, festival_html)
+    if len(events) < 50:
+        events = parse_events_for_year(today.year, festival_html)
     previous_events = previous_events_for_year(today.year)
     if len(events) < 50 and len(previous_events) > len(events):
         events = previous_events

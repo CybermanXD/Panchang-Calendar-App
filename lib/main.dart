@@ -315,8 +315,6 @@ class _CalendarTabState extends State<CalendarTab> {
           ),
           const SizedBox(height: 30),
           Text('${DateFormat('MMMM').format(_visibleMonth)} Events', style: Theme.of(context).textTheme.titleLarge),
-          const SizedBox(height: 6),
-          Text('Selected date: ${DateFormat('dd MMMM yyyy').format(_selectedDate)}', style: TextStyle(color: colors.textMuted)),
           const SizedBox(height: 18),
           if (visibleEvents.isEmpty)
             Container(
