@@ -56,7 +56,7 @@ class PanchangTheme {
   final PanchangColors colors;
 
   static final softShadow = [
-    BoxShadow(color: Colors.brown.withOpacity(.10), blurRadius: 18, offset: const Offset(0, 8)),
+    BoxShadow(color: Colors.brown.withValues(alpha: .10), blurRadius: 18, offset: const Offset(0, 8)),
   ];
 
   factory PanchangTheme.fromSettings(AppSettings settings) {
@@ -100,7 +100,7 @@ class PanchangTheme {
           padding: const EdgeInsets.symmetric(horizontal: 42, vertical: 18),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
           elevation: 8,
-          shadowColor: colors.accent.withOpacity(.38),
+          shadowColor: colors.accent.withValues(alpha: .38),
         ),
       ),
       chipTheme: ChipThemeData(

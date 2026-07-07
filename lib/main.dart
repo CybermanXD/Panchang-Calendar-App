@@ -76,13 +76,13 @@ class WelcomeScreen extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          border: Border.all(color: colors.border.withOpacity(.5)),
+                          border: Border.all(color: colors.border.withValues(alpha: .5)),
                         ),
                       ),
                       ...List.generate(8, (index) {
                         return Transform.rotate(
                           angle: index * .785398,
-                          child: Container(width: 1, color: colors.border.withOpacity(.28)),
+                          child: Container(width: 1, color: colors.border.withValues(alpha: .28)),
                         );
                       }),
                       Column(
@@ -121,7 +121,7 @@ class WelcomeScreen extends StatelessWidget {
                 Text(
                   'VIKRAM SAMVAT 2080',
                   style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                        color: colors.textMuted.withOpacity(.5),
+                        color: colors.textMuted.withValues(alpha: .5),
                         letterSpacing: 4,
                       ),
                 ),
@@ -221,7 +221,7 @@ class CalendarTab extends StatelessWidget {
           const SizedBox(height: 32),
           CalendarCard(today: today, monthDays: monthDays),
           const SizedBox(height: 48),
-          SectionHeader(title: 'Spiritual Events', action: 'See All'),
+          const SectionHeader(title: 'Spiritual Events', action: 'See All'),
           const SizedBox(height: 18),
           for (final event in highlighted) EventTile(event: event),
           const SizedBox(height: 28),
@@ -352,7 +352,7 @@ class SettingsTab extends StatelessWidget {
         children: [
           Text('Settings', style: Theme.of(context).textTheme.displaySmall),
           const SizedBox(height: 12),
-          Text('Theme controls are stored locally and update the full app immediately. Language support is reserved for a future Hindi release.'),
+          const Text('Theme controls are stored locally and update the full app immediately. Language support is reserved for a future Hindi release.'),
           const SizedBox(height: 28),
           Text('Text Color', style: Theme.of(context).textTheme.titleMedium),
           ColorChoices(current: appState.settings.textColor, onChanged: appState.setTextColor),
@@ -511,7 +511,7 @@ class TimeQualityTile extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 14),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow, border: Border(left: BorderSide(color: color, width: 4))),
-      child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withOpacity(.12))]),
+      child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withValues(alpha: .12))]),
     );
   }
 }
@@ -525,13 +525,13 @@ class DarshanCard extends StatelessWidget {
 class TempleMistCard extends StatelessWidget {
   const TempleMistCard({super.key});
   @override
-  Widget build(BuildContext context) => Container(height: 190, margin: const EdgeInsets.only(top: 12), decoration: BoxDecoration(borderRadius: BorderRadius.circular(24), gradient: LinearGradient(colors: [Colors.orange.shade50, Colors.white], begin: Alignment.topCenter, end: Alignment.bottomCenter)), child: Icon(Icons.temple_hindu_rounded, size: 110, color: Colors.brown.withOpacity(.16)));
+  Widget build(BuildContext context) => Container(height: 190, margin: const EdgeInsets.only(top: 12), decoration: BoxDecoration(borderRadius: BorderRadius.circular(24), gradient: LinearGradient(colors: [Colors.orange.shade50, Colors.white], begin: Alignment.topCenter, end: Alignment.bottomCenter)), child: Icon(Icons.temple_hindu_rounded, size: 110, color: Colors.brown.withValues(alpha: .16)));
 }
 
 class UpcomingEventCard extends StatelessWidget {
   const UpcomingEventCard({super.key});
   @override
-  Widget build(BuildContext context) => Container(height: 168, margin: const EdgeInsets.only(bottom: 16), padding: const EdgeInsets.all(24), decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), gradient: LinearGradient(colors: [Colors.black.withOpacity(.72), Colors.orange.shade200], begin: Alignment.bottomLeft, end: Alignment.topRight)), child: const Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.end, children: [Text('UPCOMING MAJOR EVENT', style: TextStyle(color: Colors.white70, letterSpacing: 2)), SizedBox(height: 10), Text('Deepawali: Festival\nof Lights', style: TextStyle(color: Colors.white, fontSize: 27, fontWeight: FontWeight.w800)), SizedBox(height: 8), Text('Oct 31, 2024 • Kartik Amavasya', style: TextStyle(color: Colors.white70))]));
+  Widget build(BuildContext context) => Container(height: 168, margin: const EdgeInsets.only(bottom: 16), padding: const EdgeInsets.all(24), decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), gradient: LinearGradient(colors: [Colors.black.withValues(alpha: .72), Colors.orange.shade200], begin: Alignment.bottomLeft, end: Alignment.topRight)), child: const Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.end, children: [Text('UPCOMING MAJOR EVENT', style: TextStyle(color: Colors.white70, letterSpacing: 2)), SizedBox(height: 10), Text('Deepawali: Festival\nof Lights', style: TextStyle(color: Colors.white, fontSize: 27, fontWeight: FontWeight.w800)), SizedBox(height: 8), Text('Oct 31, 2024 • Kartik Amavasya', style: TextStyle(color: Colors.white70))]));
 }
 
 class ColorChoices extends StatelessWidget {
