@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import asdict, dataclass, field
-from datetime import date, datetime, timedelta
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -133,7 +133,7 @@ def main() -> None:
         except Exception:
             html = ""
         days.append(parse_day(current, html, events))
-    payload = {"generatedAt": datetime.utcnow().isoformat() + "Z", "sourceUrls": [MONTH_URL.format(date=formatted), DAY_URL.format(date=formatted), FESTIVAL_URL], "today": asdict(next((item for item in days if item.date == today.isoformat()), days[0])), "monthDays": [asdict(item) for item in days], "events": [asdict(item) for item in events]}
+    payload = {"generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"), "sourceUrls": [MONTH_URL.format(date=formatted), DAY_URL.format(date=formatted), FESTIVAL_URL], "today": asdict(next((item for item in days if item.date == today.isoformat()), days[0])), "monthDays": [asdict(item) for item in days], "events": [asdict(item) for item in events]}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 

@@ -1,38 +1,1318 @@
 {
-  "generatedAt": "2026-07-07T02:27:00.000Z",
-  "sourceUrls": ["https://www.drikpanchang.com/panchang/month-panchang.html?date=08/07/2026", "https://www.drikpanchang.com/panchang/day-panchang.html", "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html"],
+  "generatedAt": "2026-07-07T02:34:43.458701Z",
+  "sourceUrls": [
+    "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+    "https://www.drikpanchang.com/panchang/day-panchang.html?date=07/07/2026",
+    "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html"
+  ],
   "today": {
     "date": "2026-07-07",
-    "sunrise": "05:29 AM",
-    "sunset": "07:42 PM",
-    "moonrise": "12:30 AM, Jul 09",
-    "moonset": "01:11 PM",
+    "sunrise": ",",
+    "sunset": ",",
+    "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+    "moonset": "11:55 AM Panchang",
     "shakaSamvat": "1948 Parabhava",
     "vikramSamvat": "2083 Siddharthi",
     "gujaratiSamvat": "2082 Pingala",
-    "amantaMonth": "Jyeshtha",
-    "purnimantaMonth": "Ashadha",
-    "weekday": "Budhawara",
-    "paksha": "Krishna Paksha",
-    "tithi": {"name": "Ashtami", "detail": "upto 12:21 PM"},
-    "nakshatra": {"name": "Revati", "detail": "upto 04:00 PM"},
-    "yoga": {"name": "Atiganda", "detail": "upto 12:38 PM"},
-    "karana": {"name": "Kaulava", "detail": "upto 12:21 PM"},
+    "amantaMonth": "Ashwin",
+    "purnimantaMonth": "Kartika",
+    "weekday": "Tuesday",
+    "paksha": "Shukla Paksha",
+    "tithi": {
+      "name": "Saptami",
+      "detail": "Upto 01:24 PM"
+    },
+    "nakshatra": {
+      "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+      "detail": ""
+    },
+    "yoga": {
+      "name": ",",
+      "detail": ""
+    },
+    "karana": {
+      "name": "and Var i.e.",
+      "detail": ""
+    },
     "pravishte": "24",
     "sunsign": "Mithuna",
     "moonsign": "Meena upto 04:00 PM",
-    "rahuKalam": "12:36 PM to 02:22 PM",
-    "gulikaiKalam": "10:49 AM to 12:36 PM",
-    "yamaganda": "07:16 AM to 09:02 AM",
-    "abhijit": "None",
-    "durMuhurtam": "12:07 PM to 01:04 PM",
-    "amritKalam": "01:38 PM to 03:13 PM",
+    "rahuKalam": "03:54 PM to 05:39 PM",
+    "gulikaiKalam": "12:26 PM to 02:10 PM 11:26 PM to 12:06 AM , Jul 08 Varjyam 04:12 AM , Jul 08 to",
+    "yamaganda": "08:58 AM to 10:42 AM Aadal",
+    "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+    "durMuhurtam": "12:07 PM - 01:04 PM",
+    "amritKalam": "01:38 PM - 03:13 PM",
     "events": []
   },
-  "monthDays": [],
+  "monthDays": [
+    {
+      "date": "2026-07-01",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "06:12 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Wednesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Pratipada",
+        "detail": "Upto 07:38 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "12:25 PM to 02:09 PM",
+      "gulikaiKalam": "10:40 AM to 12:25 PM",
+      "yamaganda": "07:11 AM to 08:56 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-02",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "07:09 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Thursday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dwitiya",
+        "detail": "Upto 09:37 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "02:10 PM to 03:54 PM",
+      "gulikaiKalam": "08:56 AM to 10:41 AM Vidaal",
+      "yamaganda": "05:27 AM to 07:12 AM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-03",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "08:07 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Friday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Tritiya",
+        "detail": "Upto 11:20 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "10:41 AM to 12:25 PM",
+      "gulikaiKalam": "07:12 AM to 08:56 AM",
+      "yamaganda": "03:54 PM to 05:39 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-04",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "09:04 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Saturday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Chaturthi",
+        "detail": "Upto 12:39 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "08:57 AM to 10:41 AM",
+      "gulikaiKalam": "05:28 AM to 07:12 AM Vidaal",
+      "yamaganda": "02:10 PM to 03:54 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-05",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "10:00 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Sunday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Panchami",
+        "detail": "Upto 01:30 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "05:39 PM to 07:23 PM",
+      "gulikaiKalam": "03:54 PM to 05:39 PM",
+      "yamaganda": "12:26 PM to 02:10 PM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-06",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "10:57 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Monday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Shashthi",
+        "detail": "Upto 01:47 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "07:13 AM to 08:57 AM",
+      "gulikaiKalam": "02:10 PM to 03:54 PM 03:40 PM to 04:36 PM Varjyam 01:50 AM , Jul 07 to 03:27 AM",
+      "yamaganda": "10:42 AM to 12:26 PM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-07",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "11:55 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Tuesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Saptami",
+        "detail": "Upto 01:24 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "03:54 PM to 05:39 PM",
+      "gulikaiKalam": "12:26 PM to 02:10 PM 11:26 PM to 12:06 AM , Jul 08 Varjyam 04:12 AM , Jul 08 to",
+      "yamaganda": "08:58 AM to 10:42 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-08",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "12:56 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Wednesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Ashtami",
+        "detail": "Upto 12:21 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "12:26 PM to 02:10 PM",
+      "gulikaiKalam": "10:42 AM to 12:26 PM Panchaka 05:30 AM to 04:00 PM Ganda Moola Whole Day Baana R",
+      "yamaganda": "07:14 AM to 08:58 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-09",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "02:01 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Thursday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Navami",
+        "detail": "Upto 10:37 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "02:10 PM to 03:54 PM",
+      "gulikaiKalam": "08:58 AM to 10:42 AM",
+      "yamaganda": "05:30 AM to 07:14 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-10",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "03:10 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Friday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dashami",
+        "detail": "Upto 08:16 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "10:42 AM to 12:26 PM",
+      "gulikaiKalam": "07:15 AM to 08:59 AM Vidaal",
+      "yamaganda": "03:54 PM to 05:38 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-11",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "04:21 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Saturday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dwadashi",
+        "detail": "Upto 02:04 AM , Jul 12"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "08:59 AM to 10:43 AM",
+      "gulikaiKalam": "05:31 AM to 07:15 AM",
+      "yamaganda": "02:10 PM to 03:54 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-12",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "05:31 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Sunday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Trayodashi",
+        "detail": "Upto 10:29 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "05:38 PM to 07:22 PM",
+      "gulikaiKalam": "03:54 PM to 05:38 PM Vidaal",
+      "yamaganda": "12:27 PM to 02:10 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-13",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "06:36 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Monday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Chaturdashi",
+        "detail": "Upto 06:49 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "07:16 AM to 08:59 AM",
+      "gulikaiKalam": "02:10 PM to 03:54 PM",
+      "yamaganda": "10:43 AM to 12:27 PM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-14",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "07:32 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Tuesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Amavasya",
+        "detail": "Upto 03:12 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "03:54 PM to 05:38 PM",
+      "gulikaiKalam": "12:27 PM to 02:10 PM 11:26 PM to 12:07 AM , Jul 15 Varjyam 01:30 PM to 02:55 PM",
+      "yamaganda": "09:00 AM to 10:43 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-15",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "08:19 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Wednesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Pratipada",
+        "detail": "Upto 11:50 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "12:27 PM to 02:10 PM",
+      "gulikaiKalam": "10:44 AM to 12:27 PM",
+      "yamaganda": "07:17 AM to 09:00 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-16",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "08:58 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Thursday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dwitiya",
+        "detail": "Upto 08:52 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "02:10 PM to 03:54 PM",
+      "gulikaiKalam": "09:00 AM to 10:44 AM Vidaal",
+      "yamaganda": "05:34 AM to 07:17 AM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-17",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "09:33 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Friday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Tritiya",
+        "detail": "Upto 06:27 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "10:44 AM to 12:27 PM",
+      "gulikaiKalam": "07:17 AM to 09:01 AM",
+      "yamaganda": "03:54 PM to 05:37 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-18",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "10:04 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Saturday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Panchami",
+        "detail": "Upto 03:42 AM , Jul 19"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "09:01 AM to 10:44 AM",
+      "gulikaiKalam": "05:35 AM to 07:18 AM Vidaal",
+      "yamaganda": "02:10 PM to 03:54 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-19",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "10:34 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Sunday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Shashthi",
+        "detail": "Upto 03:29 AM , Jul 20"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "05:36 PM to 07:19 PM",
+      "gulikaiKalam": "03:53 PM to 05:36 PM",
+      "yamaganda": "12:27 PM to 02:10 PM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-20",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "11:04 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Monday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Saptami",
+        "detail": "Upto 04:02 AM , Jul 21"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "07:19 AM to 09:02 AM",
+      "gulikaiKalam": "02:10 PM to 03:53 PM 03:39 PM to 04:34 PM Varjyam 03:42 AM , Jul 21 to 05:25 AM",
+      "yamaganda": "10:44 AM to 12:27 PM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": [
+        {
+          "date": "2026-07-20",
+          "title": "Karwa Chauth",
+          "detail": "Tithi from Hindu calendar",
+          "type": "Vrat"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "11:35 PM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Tuesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Ashtami",
+        "detail": "Upto 05:16 AM , Jul 22"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "03:53 PM to 05:36 PM",
+      "gulikaiKalam": "12:27 PM to 02:10 PM 11:26 PM to 12:07 AM , Jul 22 Varjyam 02:56 AM , Jul 22 to",
+      "yamaganda": "09:02 AM to 10:45 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-22",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "12:09 AM , Jul 23 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Wednesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Navami",
+        "detail": "Upto Full Night"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "12:27 PM to 02:10 PM",
+      "gulikaiKalam": "10:45 AM to 12:27 PM Varjyam 05:16 AM , Jul 23 to 07:03 AM , Jul 23 Anandadi and",
+      "yamaganda": "07:19 AM to 09:02 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-23",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "12:46 AM , Jul 24 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Thursday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Navami",
+        "detail": "Upto 07:03 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "02:10 PM to 03:53 PM",
+      "gulikaiKalam": "09:02 AM to 10:45 AM",
+      "yamaganda": "05:37 AM to 07:20 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-24",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "01:29 AM , Jul 25 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Friday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dashami",
+        "detail": "Upto 09:12 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "10:45 AM to 12:27 PM",
+      "gulikaiKalam": "07:20 AM to 09:03 AM Vidaal",
+      "yamaganda": "03:52 PM to 05:35 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-25",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "02:17 AM , Jul 26 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Saturday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Ekadashi",
+        "detail": "Upto 11:34 AM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "09:03 AM to 10:45 AM",
+      "gulikaiKalam": "05:38 AM to 07:21 AM",
+      "yamaganda": "02:10 PM to 03:52 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-26",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "03:09 AM , Jul 27 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Sunday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dwadashi",
+        "detail": "Upto 01:57 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "05:34 PM to 07:16 PM",
+      "gulikaiKalam": "03:52 PM to 05:34 PM",
+      "yamaganda": "12:28 PM to 02:10 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-27",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "04:05 AM , Jul 28 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Monday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Trayodashi",
+        "detail": "Upto 04:14 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "07:22 AM to 09:04 AM",
+      "gulikaiKalam": "02:09 PM to 03:51 PM Vidaal",
+      "yamaganda": "10:46 AM to 12:27 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-28",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "05:03 AM , Jul 29 Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Tuesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Chaturdashi",
+        "detail": "Upto 06:18 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "03:51 PM to 05:33 PM",
+      "gulikaiKalam": "12:27 PM to 02:09 PM",
+      "yamaganda": "09:04 AM to 10:46 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-29",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "No Moonset Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Wednesday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Purnima",
+        "detail": "Upto 08:05 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "12:27 PM to 02:09 PM",
+      "gulikaiKalam": "10:46 AM to 12:27 PM Varjyam 07:58 PM to 09:42 PM Baana Agni upto 01:22 PM Anand",
+      "yamaganda": "07:22 AM to 09:04 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": [
+        {
+          "date": "2026-07-29",
+          "title": "Dhanteras",
+          "detail": "Tithi from Hindu calendar",
+          "type": "Festival"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "06:01 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Thursday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Pratipada",
+        "detail": "Upto 09:30 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "02:09 PM to 03:50 PM",
+      "gulikaiKalam": "09:04 AM to 10:46 AM",
+      "yamaganda": "05:41 AM to 07:23 AM Aadal",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    },
+    {
+      "date": "2026-07-31",
+      "sunrise": ",",
+      "sunset": ",",
+      "moonrise": ", duration of day and night, zodiac positions of Chandra and Surya, multiple aus",
+      "moonset": "06:59 AM Panchang",
+      "shakaSamvat": "1948 Parabhava",
+      "vikramSamvat": "2083 Siddharthi",
+      "gujaratiSamvat": "2082 Pingala",
+      "amantaMonth": "Ashwin",
+      "purnimantaMonth": "Kartika",
+      "weekday": "Friday",
+      "paksha": "Shukla Paksha",
+      "tithi": {
+        "name": "Dwitiya",
+        "detail": "Upto 10:31 PM"
+      },
+      "nakshatra": {
+        "name": "Calendars Hindu Calendar Indian Calendar Tamil Calendar Malayalam Calendar Sankr",
+        "detail": ""
+      },
+      "yoga": {
+        "name": ",",
+        "detail": ""
+      },
+      "karana": {
+        "name": "and Var i.e.",
+        "detail": ""
+      },
+      "pravishte": "24",
+      "sunsign": "Mithuna",
+      "moonsign": "Meena upto 04:00 PM",
+      "rahuKalam": "10:46 AM to 12:27 PM",
+      "gulikaiKalam": "07:23 AM to 09:05 AM Vidaal",
+      "yamaganda": "03:50 PM to 05:31 PM",
+      "abhijit": "Muhurat Do Ghati Muhurat Shubha Dates Vrat & Upavas Sankashti Chaturthi Ekadashi",
+      "durMuhurtam": "12:07 PM - 01:04 PM",
+      "amritKalam": "01:38 PM - 03:13 PM",
+      "events": []
+    }
+  ],
   "events": [
-    {"date": "2026-07-03", "title": "Sharad Navratri Begins", "detail": "Pratipada Tithi", "type": "Festival"},
-    {"date": "2026-07-11", "title": "Maha Ashtami", "detail": "Ashtami Tithi", "type": "Vrat"},
-    {"date": "2026-07-12", "title": "Dussehra / Vijayadashami", "detail": "Dashami Tithi", "type": "Festival"}
+    {
+      "date": "2026-07-20",
+      "title": "Karwa Chauth",
+      "detail": "Tithi from Hindu calendar",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Dhanteras",
+      "detail": "Tithi from Hindu calendar",
+      "type": "Festival"
+    }
   ]
 }
