@@ -56,9 +56,7 @@ class PanchangRepository {
       return bundled;
     }
 
-    final sample = PanchangDataset.sample();
-    await _saveCache(prefs, sample);
-    return sample;
+    throw const PanchangDataException('Panchang data is unavailable. Connect to internet once to sync data.');
   }
 
   Future<void> _saveCache(SharedPreferences prefs, PanchangDataset dataset) async {
@@ -86,4 +84,13 @@ class PanchangRepository {
       return null;
     }
   }
+}
+
+class PanchangDataException implements Exception {
+  const PanchangDataException(this.message);
+
+  final String message;
+
+  @override
+  String toString() => message;
 }

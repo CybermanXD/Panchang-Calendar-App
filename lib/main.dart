@@ -164,6 +164,13 @@ class _HomeShellState extends State<HomeShell> {
     return FutureBuilder<PanchangDataset>(
       future: _future,
       builder: (context, snapshot) {
+        if (snapshot.hasError && snapshot.data == null) {
+          return AppChrome(
+            currentIndex: _index,
+            onIndexChanged: (value) => setState(() => _index = value),
+            child: DataErrorScreen(onRetry: _refresh),
+          );
+        }
         final data = snapshot.data ?? PanchangDataset.sample();
         final screens = [
           CalendarTab(dataset: data),
@@ -181,19 +188,85 @@ class _HomeShellState extends State<HomeShell> {
   }
 }
 
-class CalendarTab extends StatelessWidget {
+class DataErrorScreen extends StatelessWidget {
+  const DataErrorScreen({required this.onRetry, super.key});
+
+  final VoidCallback onRetry;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).extension<PanchangColors>()!;
+    return AppPage(
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(32),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(Icons.cloud_off_rounded, size: 72, color: colors.primary),
+              const SizedBox(height: 18),
+              Text('Panchang data unavailable', textAlign: TextAlign.center, style: Theme.of(context).textTheme.headlineSmall),
+              const SizedBox(height: 10),
+              Text('No internet data or cached Panchang data was found. Connect once to sync data.', textAlign: TextAlign.center, style: TextStyle(color: colors.textMuted, height: 1.5)),
+              const SizedBox(height: 24),
+              FilledButton.icon(onPressed: onRetry, icon: const Icon(Icons.refresh_rounded), label: const Text('Retry Sync')),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class CalendarTab extends StatefulWidget {
   const CalendarTab({required this.dataset, super.key});
 
   final PanchangDataset dataset;
 
   @override
+  State<CalendarTab> createState() => _CalendarTabState();
+}
+
+class _CalendarTabState extends State<CalendarTab> {
+  late DateTime _visibleMonth;
+  late DateTime _selectedDate;
+
+  @override
+  void initState() {
+    super.initState();
+    final today = DateTime.now();
+    _visibleMonth = DateTime(today.year, today.month);
+    _selectedDate = DateTime(today.year, today.month, today.day);
+  }
+
+  void _moveMonth(int delta) {
+    setState(() {
+      _visibleMonth = DateTime(_visibleMonth.year, _visibleMonth.month + delta);
+      _selectedDate = DateTime(_visibleMonth.year, _visibleMonth.month, 1);
+    });
+  }
+
+  Future<void> _pickMonth() async {
+    final picked = await showDialog<DateTime>(
+      context: context,
+      builder: (context) => MonthPickerDialog(initialMonth: _visibleMonth),
+    );
+    if (picked == null) return;
+    setState(() {
+      _visibleMonth = DateTime(picked.year, picked.month);
+      _selectedDate = DateTime(picked.year, picked.month, 1);
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     final today = DateTime.now();
-    final monthDays = dataset.monthDays;
-    final highlighted = dataset.events.take(2).toList();
+    final monthDays = widget.dataset.monthDays.where((day) => day.date.year == _visibleMonth.year && day.date.month == _visibleMonth.month).toList();
+    final selectedEvents = widget.dataset.events.where((event) => _isSameDate(event.date, _selectedDate)).toList();
+    final monthEvents = widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month).toList();
+    final visibleEvents = selectedEvents.isNotEmpty ? selectedEvents : monthEvents;
     return AppPage(
-      trailing: const Icon(Icons.search_rounded),
       child: ListView(
         padding: const EdgeInsets.fromLTRB(24, 26, 24, 120),
         children: [
@@ -203,7 +276,21 @@ class CalendarTab extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(DateFormat('MMMM yyyy').format(today), style: Theme.of(context).textTheme.headlineSmall),
+                    InkWell(
+                      borderRadius: BorderRadius.circular(12),
+                      onTap: _pickMonth,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 4),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(DateFormat('MMMM yyyy').format(_visibleMonth), style: Theme.of(context).textTheme.headlineSmall),
+                            const SizedBox(width: 8),
+                            Icon(Icons.expand_more_rounded, color: colors.primary),
+                          ],
+                        ),
+                      ),
+                    ),
                     const SizedBox(height: 4),
                     Text('ASHWIN • KARTIKA', style: Theme.of(context).textTheme.labelMedium?.copyWith(letterSpacing: 2)),
                   ],
@@ -212,26 +299,90 @@ class CalendarTab extends StatelessWidget {
               DecoratedBox(
                 decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(28)),
                 child: Padding(
-                  padding: const EdgeInsets.all(8),
-                  child: Row(
-                    children: [
-                      IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_left)),
-                      IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_right)),
-                    ],
-                  ),
+                      padding: const EdgeInsets.all(8),
+                      child: Row(
+                        children: [
+                      IconButton(onPressed: () => _moveMonth(-1), visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_left)),
+                      IconButton(onPressed: () => _moveMonth(1), visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_right)),
+                        ],
+                      ),
                 ),
               ),
             ],
           ),
           const SizedBox(height: 32),
-          CalendarCard(today: today, monthDays: monthDays),
-          const SizedBox(height: 48),
-          SectionHeader(title: 'Spiritual Events', action: 'See All', onActionTap: () {}),
+          CalendarCard(
+            today: today,
+            visibleMonth: _visibleMonth,
+            selectedDate: _selectedDate,
+            monthDays: monthDays,
+            onDateSelected: (date) => setState(() => _selectedDate = date),
+          ),
+          const SizedBox(height: 30),
+          Text(DateFormat('dd MMMM yyyy').format(_selectedDate), style: Theme.of(context).textTheme.titleLarge),
           const SizedBox(height: 18),
-          for (final event in highlighted) EventTile(event: event, onTap: () {}),
-          const SizedBox(height: 28),
-          DarshanCard(onTap: () {}),
+          if (visibleEvents.isEmpty)
+            Container(
+              padding: const EdgeInsets.all(18),
+              decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(24), boxShadow: PanchangTheme.softShadow),
+              child: Text('No events found for the selected date. Showing dynamic calendar data from synced Panchang API.', style: TextStyle(color: colors.textMuted)),
+            )
+          else
+            for (final event in visibleEvents) EventTile(event: event, onTap: () {}),
         ],
+      ),
+    );
+  }
+}
+
+bool _isSameDate(DateTime a, DateTime b) => a.year == b.year && a.month == b.month && a.day == b.day;
+
+class MonthPickerDialog extends StatefulWidget {
+  const MonthPickerDialog({required this.initialMonth, super.key});
+
+  final DateTime initialMonth;
+
+  @override
+  State<MonthPickerDialog> createState() => _MonthPickerDialogState();
+}
+
+class _MonthPickerDialogState extends State<MonthPickerDialog> {
+  late int _year;
+
+  @override
+  void initState() {
+    super.initState();
+    _year = widget.initialMonth.year;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).extension<PanchangColors>()!;
+    return AlertDialog(
+      title: Row(
+        children: [
+          IconButton(onPressed: () => setState(() => _year--), icon: const Icon(Icons.chevron_left_rounded)),
+          Expanded(child: Center(child: Text('$_year'))),
+          IconButton(onPressed: () => setState(() => _year++), icon: const Icon(Icons.chevron_right_rounded)),
+        ],
+      ),
+      content: SizedBox(
+        width: 320,
+        child: GridView.count(
+          crossAxisCount: 3,
+          shrinkWrap: true,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10,
+          childAspectRatio: 2.1,
+          children: [
+            for (var month = 1; month <= 12; month++)
+              OutlinedButton(
+                style: OutlinedButton.styleFrom(foregroundColor: colors.primary),
+                onPressed: () => Navigator.of(context).pop(DateTime(_year, month)),
+                child: Text(DateFormat('MMM').format(DateTime(_year, month))),
+              ),
+          ],
+        ),
       ),
     );
   }
@@ -389,15 +540,18 @@ class SettingsTab extends StatelessWidget {
 }
 
 class CalendarCard extends StatelessWidget {
-  const CalendarCard({required this.today, required this.monthDays, super.key});
+  const CalendarCard({required this.today, required this.visibleMonth, required this.selectedDate, required this.monthDays, required this.onDateSelected, super.key});
   final DateTime today;
+  final DateTime visibleMonth;
+  final DateTime selectedDate;
   final List<PanchangDay> monthDays;
+  final ValueChanged<DateTime> onDateSelected;
 
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
-    final first = DateTime(today.year, today.month, 1);
-    final daysInMonth = DateTime(today.year, today.month + 1, 0).day;
+    final first = DateTime(visibleMonth.year, visibleMonth.month, 1);
+    final daysInMonth = DateTime(visibleMonth.year, visibleMonth.month + 1, 0).day;
     final leading = first.weekday % 7;
     return Container(
       padding: const EdgeInsets.all(22),
@@ -414,9 +568,11 @@ class CalendarCard extends StatelessWidget {
             itemBuilder: (context, index) {
               final dayNumber = index - leading + 1;
               final isCurrentMonth = dayNumber > 0 && dayNumber <= daysInMonth;
-              final isToday = isCurrentMonth && dayNumber == today.day;
+              final date = isCurrentMonth ? DateTime(visibleMonth.year, visibleMonth.month, dayNumber) : null;
+              final isToday = date != null && _isSameDate(date, today);
+              final isSelected = date != null && _isSameDate(date, selectedDate);
               final hasEvent = monthDays.any((day) => day.date.day == dayNumber && day.events.isNotEmpty);
-              return CalendarDayCell(day: isCurrentMonth ? dayNumber : null, isToday: isToday, hasEvent: hasEvent);
+              return CalendarDayCell(day: isCurrentMonth ? dayNumber : null, isToday: isToday, isSelected: isSelected, hasEvent: hasEvent, onTap: date == null ? null : () => onDateSelected(date));
             },
           ),
         ],
@@ -426,22 +582,29 @@ class CalendarCard extends StatelessWidget {
 }
 
 class CalendarDayCell extends StatelessWidget {
-  const CalendarDayCell({required this.day, required this.isToday, required this.hasEvent, super.key});
+  const CalendarDayCell({required this.day, required this.isToday, required this.isSelected, required this.hasEvent, required this.onTap, super.key});
   final int? day;
   final bool isToday;
+  final bool isSelected;
   final bool hasEvent;
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     if (day == null) return const SizedBox.shrink();
-    return Stack(
-      alignment: Alignment.center,
-      children: [
-        if (isToday) Container(decoration: BoxDecoration(shape: BoxShape.circle, color: colors.accent)),
-        Text('$day', style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontWeight: isToday ? FontWeight.w800 : FontWeight.w500)),
-        if (hasEvent) Positioned(bottom: 2, child: Container(width: 4, height: 4, decoration: BoxDecoration(color: colors.primary, shape: BoxShape.circle))),
-      ],
+    return InkWell(
+      borderRadius: BorderRadius.circular(999),
+      onTap: onTap,
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          if (isSelected) Container(decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: colors.primary, width: 2))),
+          if (isToday) Container(margin: const EdgeInsets.all(5), decoration: BoxDecoration(shape: BoxShape.circle, color: colors.accent)),
+          Text('$day', style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontWeight: isToday || isSelected ? FontWeight.w800 : FontWeight.w500)),
+          if (hasEvent) Positioned(bottom: 2, child: Container(width: 4, height: 4, decoration: BoxDecoration(color: colors.primary, shape: BoxShape.circle))),
+        ],
+      ),
     );
   }
 }
