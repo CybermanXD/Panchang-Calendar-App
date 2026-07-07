@@ -40,12 +40,30 @@ jobs:
           with open("api/panchang-data.json", encoding="utf-8") as file:
               data = json.load(file)
 
-          months = Counter(day["date"][:7] for day in data["monthDays"])
-          print(f"Generated days: {len(data['monthDays'])}")
-          print(f"Generated months: {len(months)}")
-          print(f"Generated events: {len(data['events'])}")
+          if "year" not in data:
+              raise SystemExit("Expected root 'year' key")
+          days = data.get("days")
+          if not isinstance(days, dict):
+              raise SystemExit("Expected root 'days' object")
+
+          day_count = len(days)
+          if day_count not in (365, 366):
+              raise SystemExit(f"Expected 365 or 366 generated days, found {day_count}")
+
+          months = Counter(iso_date[:7] for iso_date in days)
           if len(months) != 12:
-              raise SystemExit("Expected full-year data with 12 months")
+              raise SystemExit(f"Expected full-year data with 12 months, found {len(months)}")
+
+          missing_required_keys = [iso_date for iso_date, day in days.items() if not isinstance(day, dict) or "panchang" not in day or "events" not in day]
+          if missing_required_keys:
+              sample = ", ".join(missing_required_keys[:5])
+              raise SystemExit(f"Expected each day to include 'panchang' and 'events' keys; missing for: {sample}")
+
+          total_events = sum(len(day.get("events", [])) for day in days.values())
+          print(f"Generated year: {data['year']}")
+          print(f"Generated days: {day_count}")
+          print(f"Generated months: {len(months)}")
+          print(f"Generated events: {total_events}")
           PY
       - name: Commit updated data if changed
         run: |
