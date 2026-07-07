@@ -1,0 +1,23 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+pubspec.lock
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# OS/generated files
+.DS_Store
+Thumbs.db
+$null
+__pycache__/
+*.py[cod]
+
+# Local reference material; app assets are copied into assets/ for commits.
+Documentation/

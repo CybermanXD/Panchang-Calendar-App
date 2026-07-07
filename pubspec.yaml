@@ -22,4 +22,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - Documentation/app-icon.png
+    - assets/app-icon.png

@@ -7,6 +7,6 @@ class AppIconMark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset('Documentation/app-icon.png', width: size, height: size, fit: BoxFit.contain);
+    return Image.asset('assets/app-icon.png', width: size, height: size, fit: BoxFit.contain);
   }
 }
