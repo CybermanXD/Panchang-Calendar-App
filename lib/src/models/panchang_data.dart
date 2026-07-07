@@ -2,6 +2,7 @@ import 'package:intl/intl.dart';
 
 class PanchangDataset {
   const PanchangDataset({
+    required this.year,
     required this.generatedAt,
     required this.sourceUrls,
     required this.today,
@@ -9,6 +10,7 @@ class PanchangDataset {
     required this.events,
   });
 
+  final int year;
   final DateTime generatedAt;
   final List<String> sourceUrls;
   final PanchangDay today;
@@ -16,21 +18,47 @@ class PanchangDataset {
   final List<PanchangEvent> events;
 
   factory PanchangDataset.fromJson(Map<String, dynamic> json) {
+    if (json['days'] is Map) {
+      final parsedDays = <PanchangDay>[];
+      (json['days'] as Map).forEach((key, value) {
+        if (value is Map<String, dynamic>) {
+          parsedDays.add(PanchangDay.fromNewJson(key.toString(), value));
+        } else if (value is Map) {
+          parsedDays.add(PanchangDay.fromNewJson(key.toString(), Map<String, dynamic>.from(value)));
+        }
+      });
+      parsedDays.sort((a, b) => a.date.compareTo(b.date));
+      final now = DateTime.now();
+      final today = parsedDays.firstWhere(
+        (day) => day.date.year == now.year && day.date.month == now.month && day.date.day == now.day,
+        orElse: () => parsedDays.isNotEmpty ? parsedDays.first : PanchangDay.sample(now),
+      );
+      final allEvents = parsedDays.expand((day) => day.events).toList()..sort((a, b) => a.date.compareTo(b.date));
+      return PanchangDataset(
+        year: int.tryParse(json['year']?.toString() ?? '') ?? today.date.year,
+        generatedAt: DateTime.tryParse(json['generatedAt']?.toString() ?? '') ?? DateTime.now(),
+        sourceUrls: List<String>.from(json['sourceUrls'] ?? const []),
+        today: today,
+        monthDays: parsedDays,
+        events: allEvents,
+      );
+    }
+    final monthDays = (json['monthDays'] as List? ?? const []).map((value) => PanchangDay.fromJson(value as Map<String, dynamic>)).toList();
     return PanchangDataset(
+      year: monthDays.isNotEmpty ? monthDays.first.date.year : DateTime.now().year,
       generatedAt: DateTime.tryParse(json['generatedAt']?.toString() ?? '') ?? DateTime.now(),
       sourceUrls: List<String>.from(json['sourceUrls'] ?? const []),
       today: PanchangDay.fromJson(json['today'] as Map<String, dynamic>),
-      monthDays: (json['monthDays'] as List? ?? const []).map((value) => PanchangDay.fromJson(value as Map<String, dynamic>)).toList(),
+      monthDays: monthDays,
       events: (json['events'] as List? ?? const []).map((value) => PanchangEvent.fromJson(value as Map<String, dynamic>)).toList(),
     );
   }
 
   Map<String, dynamic> toJson() => {
+        'year': year,
         'generatedAt': generatedAt.toIso8601String(),
         'sourceUrls': sourceUrls,
-        'today': today.toJson(),
-        'monthDays': monthDays.map((day) => day.toJson()).toList(),
-        'events': events.map((event) => event.toJson()).toList(),
+        'days': {for (final day in monthDays) DateFormat('yyyy-MM-dd').format(day.date): day.toNewJson()},
       };
 
   factory PanchangDataset.sample() {
@@ -39,18 +67,11 @@ class PanchangDataset {
     final events = [
       PanchangEvent(date: DateTime(now.year, now.month, 3), title: 'Sharad Navratri Begins', detail: 'Pratipada Tithi', type: 'Festival'),
       PanchangEvent(date: DateTime(now.year, now.month, 11), title: 'Maha Ashtami', detail: 'Ashtami Tithi', type: 'Vrat'),
-      PanchangEvent(date: DateTime(now.year, now.month, 12), title: 'Dussehra / Vijayadashami', detail: 'Dashami Tithi', type: 'Festival'),
-      PanchangEvent(date: DateTime(now.year, now.month, 20), title: 'Karwa Chauth', detail: 'Chaturthi Tithi', type: 'Vrat'),
-      PanchangEvent(date: DateTime(now.year, now.month, 29), title: 'Dhanteras', detail: 'Trayodashi Tithi', type: 'Festival'),
-      PanchangEvent(date: DateTime(now.year, now.month, 31), title: 'Naraka Chaturdashi', detail: 'Chaturdashi Tithi', type: 'Festival'),
     ];
     return PanchangDataset(
+      year: now.year,
       generatedAt: DateTime.now(),
-      sourceUrls: const [
-        'https://www.drikpanchang.com/panchang/month-panchang.html',
-        'https://www.drikpanchang.com/panchang/day-panchang.html',
-        'https://www.drikpanchang.com/calendars/hindu/hinducalendar.html',
-      ],
+      sourceUrls: const ['https://www.drikpanchang.com/panchang/month-panchang.html'],
       today: today,
       monthDays: List.generate(DateTime(now.year, now.month + 1, 0).day, (index) {
         final date = DateTime(now.year, now.month, index + 1);
@@ -147,6 +168,45 @@ class PanchangDay {
         events: events ?? this.events,
       );
 
+  factory PanchangDay.fromNewJson(String isoDate, Map<String, dynamic> json) {
+    final date = DateTime.parse(isoDate);
+    final panchang = (json['panchang'] as Map?)?.cast<String, dynamic>() ?? const <String, dynamic>{};
+    final sun = (panchang['sun'] as Map?)?.cast<String, dynamic>() ?? const <String, dynamic>{};
+    final moon = (panchang['moon'] as Map?)?.cast<String, dynamic>() ?? const <String, dynamic>{};
+    final calendar = (panchang['calendar'] as Map?)?.cast<String, dynamic>() ?? const <String, dynamic>{};
+    final zodiac = (panchang['zodiac'] as Map?)?.cast<String, dynamic>() ?? const <String, dynamic>{};
+    final timings = (panchang['timings'] as Map?)?.cast<String, dynamic>() ?? const <String, dynamic>{};
+    final karanas = (panchang['karana'] as List? ?? const []).map(PanchangValue.fromJson).toList();
+    return PanchangDay(
+      date: date,
+      sunrise: sun['sunrise']?.toString() ?? '',
+      sunset: sun['sunset']?.toString() ?? '',
+      moonrise: moon['moonrise']?.toString() ?? '',
+      moonset: moon['moonset']?.toString() ?? '',
+      shakaSamvat: _samvatText(calendar['shakaSamvat']),
+      vikramSamvat: _samvatText(calendar['vikramSamvat']),
+      gujaratiSamvat: _samvatText(calendar['gujaratiSamvat']),
+      amantaMonth: calendar['amantaMonth']?.toString() ?? '',
+      purnimantaMonth: calendar['purnimantaMonth']?.toString() ?? '',
+      weekday: json['weekday']?.toString() ?? DateFormat('EEEE').format(date),
+      paksha: calendar['paksha']?.toString() ?? '',
+      tithi: PanchangValue.fromJson(panchang['tithi']),
+      nakshatra: PanchangValue.fromJson(panchang['nakshatra']),
+      yoga: PanchangValue.fromJson(panchang['yoga']),
+      karana: karanas.isNotEmpty ? karanas.first : const PanchangValue(name: '', detail: ''),
+      pravishte: calendar['pravishte']?.toString() ?? '',
+      sunsign: _zodiacText(zodiac['sunSign']),
+      moonsign: _zodiacText(zodiac['moonSign']),
+      rahuKalam: _rangeText(timings['rahuKalam']),
+      gulikaiKalam: _rangeText(timings['gulikaiKalam']),
+      yamaganda: _rangeText(timings['yamaganda']),
+      abhijit: _rangeText(timings['abhijit'], fallback: 'None'),
+      durMuhurtam: _rangeText(timings['durMuhurtam']),
+      amritKalam: _rangeText(timings['amritKalam']),
+      events: (json['events'] as List? ?? const []).map((value) => PanchangEvent.fromNewJson(date, value as Map<String, dynamic>)).toList(),
+    );
+  }
+
   factory PanchangDay.fromJson(Map<String, dynamic> json) => PanchangDay(
         date: DateTime.parse(json['date'].toString()),
         sunrise: json['sunrise']?.toString() ?? '',
@@ -175,6 +235,32 @@ class PanchangDay {
         amritKalam: json['amritKalam']?.toString() ?? '',
         events: (json['events'] as List? ?? const []).map((value) => PanchangEvent.fromJson(value as Map<String, dynamic>)).toList(),
       );
+
+  Map<String, dynamic> toNewJson() => {
+        'month': date.month,
+        'monthName': DateFormat('MMMM').format(date),
+        'day': date.day,
+        'weekday': weekday,
+        'panchang': {
+          'sun': {'sunrise': sunrise, 'sunset': sunset},
+          'moon': {'moonrise': moonrise, 'moonset': moonset},
+          'calendar': {'amantaMonth': amantaMonth, 'purnimantaMonth': purnimantaMonth, 'paksha': paksha, 'pravishte': pravishte},
+          'tithi': tithi.toJson(),
+          'nakshatra': nakshatra.toJson(),
+          'yoga': yoga.toJson(),
+          'karana': [karana.toJson()],
+          'zodiac': {'sunSign': {'name': sunsign}, 'moonSign': {'name': moonsign}},
+          'timings': {
+            'rahuKalam': _rangeJson(rahuKalam),
+            'gulikaiKalam': _rangeJson(gulikaiKalam),
+            'yamaganda': _rangeJson(yamaganda),
+            'abhijit': _rangeJson(abhijit),
+            'durMuhurtam': _rangeJson(durMuhurtam),
+            'amritKalam': _rangeJson(amritKalam),
+          },
+        },
+        'events': events.map((event) => event.toNewJson()).toList(),
+      };
 
   Map<String, dynamic> toJson() => {
         'date': DateFormat('yyyy-MM-dd').format(date),
@@ -242,12 +328,12 @@ class PanchangValue {
 
   factory PanchangValue.fromJson(dynamic json) {
     if (json is Map<String, dynamic>) {
-      return PanchangValue(name: json['name']?.toString() ?? '', detail: json['detail']?.toString() ?? '');
+      return PanchangValue(name: json['name']?.toString() ?? '', detail: json['detail']?.toString() ?? json['endsAtText']?.toString() ?? '');
     }
     return PanchangValue(name: json?.toString() ?? '', detail: '');
   }
 
-  Map<String, dynamic> toJson() => {'name': name, 'detail': detail};
+  Map<String, dynamic> toJson() => {'name': name, if (detail.isNotEmpty) 'endsAtText': detail};
 }
 
 class PanchangEvent {
@@ -258,17 +344,54 @@ class PanchangEvent {
   final String detail;
   final String type;
 
+  factory PanchangEvent.fromNewJson(DateTime date, Map<String, dynamic> json) => PanchangEvent(
+        date: date,
+        title: json['title']?.toString() ?? '',
+        detail: json['description']?.toString() ?? '',
+        type: json['category']?.toString() ?? 'Festival',
+      );
+
   factory PanchangEvent.fromJson(Map<String, dynamic> json) => PanchangEvent(
         date: DateTime.parse(json['date'].toString()),
         title: json['title']?.toString() ?? '',
-        detail: json['detail']?.toString() ?? '',
-        type: json['type']?.toString() ?? 'Festival',
+        detail: json['detail']?.toString() ?? json['description']?.toString() ?? '',
+        type: json['type']?.toString() ?? json['category']?.toString() ?? 'Festival',
       );
 
-  Map<String, dynamic> toJson() => {
-        'date': DateFormat('yyyy-MM-dd').format(date),
-        'title': title,
-        'detail': detail,
-        'type': type,
-      };
+  Map<String, dynamic> toNewJson() => {'title': title, 'category': type, 'description': detail};
+
+  Map<String, dynamic> toJson() => {'date': DateFormat('yyyy-MM-dd').format(date), 'title': title, 'detail': detail, 'type': type};
+}
+
+String _samvatText(dynamic value) {
+  if (value is Map) {
+    final year = value['year']?.toString() ?? '';
+    final name = value['name']?.toString() ?? '';
+    return [year, name].where((part) => part.isNotEmpty && part != 'null').join(' ');
+  }
+  return value?.toString() ?? '';
+}
+
+String _zodiacText(dynamic value) {
+  if (value is Map) {
+    final name = value['name']?.toString() ?? '';
+    final until = value['untilText']?.toString() ?? '';
+    return [name, until].where((part) => part.isNotEmpty && part != 'null').join(' ');
+  }
+  return value?.toString() ?? '';
+}
+
+String _rangeText(dynamic value, {String fallback = ''}) {
+  if (value == null) return fallback;
+  if (value is Map) {
+    final start = value['start']?.toString() ?? '';
+    final end = value['end']?.toString() ?? '';
+    return start.isNotEmpty && end.isNotEmpty ? '$start - $end' : fallback;
+  }
+  return value.toString();
+}
+
+Map<String, String>? _rangeJson(String value) {
+  final parts = value.split(' - ');
+  return parts.length == 2 ? {'start': parts.first, 'end': parts.last} : null;
 }

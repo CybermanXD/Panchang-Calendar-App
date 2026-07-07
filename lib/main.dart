@@ -255,12 +255,7 @@ class _CalendarTabState extends State<CalendarTab> {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     final today = DateTime.now();
     final monthDays = widget.dataset.monthDays.where((day) => day.date.year == _visibleMonth.year && day.date.month == _visibleMonth.month).toList();
-    final monthDayEvents = monthDays.expand((day) => day.events).toList();
-    final monthEvents = <PanchangEvent>[
-      ...widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month),
-      ...monthDayEvents,
-    ]..sort((a, b) => a.date.compareTo(b.date));
-    final visibleEvents = _dedupeEvents(monthEvents);
+    final visibleEvents = _dedupeEvents(monthDays.expand((day) => day.events).toList()..sort((a, b) => a.date.compareTo(b.date)));
     return AppPage(
       child: ListView(
         padding: const EdgeInsets.fromLTRB(24, 26, 24, 120),
@@ -483,7 +478,7 @@ class _PanchangTabState extends State<PanchangTab> {
   @override
   Widget build(BuildContext context) {
     final filters = ['All', 'Festivals', 'Vrats', 'Jayanti'];
-    final monthEvents = widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month).toList();
+    final monthEvents = widget.dataset.monthDays.where((day) => day.date.year == _visibleMonth.year && day.date.month == _visibleMonth.month).expand((day) => day.events).toList();
     final events = monthEvents.where((event) => _filter == 'All' || event.type.toLowerCase().contains(_filter.toLowerCase().replaceAll('s', ''))).toList();
     return AppPage(
       child: ListView(

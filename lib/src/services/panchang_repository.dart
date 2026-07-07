@@ -16,7 +16,7 @@ class PanchangRepository {
 
   static const _cacheKey = 'panchangDatasetCache';
   static const _cacheVersionKey = 'panchangDatasetCacheVersion';
-  static const _cacheVersion = 5;
+  static const _cacheVersion = 6;
   final http.Client _client;
   final String _apiUrl;
 
