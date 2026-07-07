@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from html import unescape
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, date, datetime, timedelta
@@ -75,7 +76,7 @@ def fetch(url: str) -> str:
 def html_text(html: str) -> str:
     text = re.sub(r"<script[\s\S]*?</script>|<style[\s\S]*?</style>", " ", html, flags=re.I)
     text = re.sub(r"<[^>]+>", " ", text)
-    return re.sub(r"\s+", " ", text.replace("&nbsp;", " ").replace("&amp;", "&")).strip()
+    return re.sub(r"\s+", " ", unescape(text.replace("&nbsp;", " "))).strip()
 
 
 def find_after(text: str, label: str, labels: list[str]) -> str | None:
@@ -139,11 +140,46 @@ def fallback_events_for_year(year: int) -> list[PanchangEvent]:
     ]
 
 
+def event_type_from_title(title: str) -> str:
+    lower = title.lower()
+    if any(word in lower for word in ("ekadashi", "pradosh", "chaturthi", "vrat", "upavas", "ashtami")):
+        return "Vrat"
+    if "jayanti" in lower:
+        return "Jayanti"
+    return "Festival"
+
+
+def parse_event_anchor(anchor_html: str) -> PanchangEvent | None:
+    name_match = re.search(r'<div class="dpEventName[^"]*">([\s\S]*?)</div>', anchor_html, flags=re.I)
+    date_match = re.search(r'<div class="dpEventGregDate">([\s\S]*?)</div>', anchor_html, flags=re.I)
+    if not name_match or not date_match:
+        return None
+    title = html_text(name_match.group(1))
+    date_text = html_text(date_match.group(1))
+    date_part = ",".join(date_text.split(",")[:2]).strip()
+    try:
+        event_date = datetime.strptime(date_part, "%B %d, %Y").date()
+    except ValueError:
+        return None
+    after_date = anchor_html[date_match.end() :]
+    detail = html_text(after_date).strip()
+    return PanchangEvent(date=event_date.isoformat(), title=title, detail=detail, type=event_type_from_title(title))
+
+
 def parse_events_for_year(year: int, html: str) -> list[PanchangEvent]:
-    # Do not stamp a globally found festival name into every month. Until the
-    # Drik yearly table parser is strict enough, keep fallback events as real
-    # one-off date records so months without events stay empty.
-    return fallback_events_for_year(year)
+    events: list[PanchangEvent] = []
+    for anchor_match in re.finditer(r'<a\s+[^>]*class="dpEvent"[\s\S]*?</a>', html, flags=re.I):
+        event = parse_event_anchor(anchor_match.group(0))
+        if event is not None and datetime.fromisoformat(event.date).year == year:
+            events.append(event)
+    unique: dict[tuple[str, str], PanchangEvent] = {}
+    for event in events:
+        unique[(event.date, event.title)] = event
+    return sorted(unique.values(), key=lambda item: (item.date, item.title)) or fallback_events_for_year(year)
+
+
+def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
+    return [event for event in parse_events_for_year(year, html) if datetime.fromisoformat(event.date).month == month]
 
 
 def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
