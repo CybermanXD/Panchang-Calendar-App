@@ -263,13 +263,12 @@ class _CalendarTabState extends State<CalendarTab> {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     final today = DateTime.now();
     final monthDays = widget.dataset.monthDays.where((day) => day.date.year == _visibleMonth.year && day.date.month == _visibleMonth.month).toList();
-    final selectedDayEvents = widget.dataset.monthDays.where((day) => _isSameDate(day.date, _selectedDate)).expand((day) => day.events).toList();
-    final selectedEvents = [
-      ...widget.dataset.events.where((event) => _isSameDate(event.date, _selectedDate)),
-      ...selectedDayEvents,
-    ];
-    final monthEvents = widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month).toList();
-    final visibleEvents = selectedEvents.isNotEmpty ? selectedEvents : monthEvents;
+    final monthDayEvents = monthDays.expand((day) => day.events).toList();
+    final monthEvents = <PanchangEvent>[
+      ...widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month),
+      ...monthDayEvents,
+    ]..sort((a, b) => a.date.compareTo(b.date));
+    final visibleEvents = _dedupeEvents(monthEvents);
     return AppPage(
       child: ListView(
         padding: const EdgeInsets.fromLTRB(24, 26, 24, 120),
@@ -323,13 +322,15 @@ class _CalendarTabState extends State<CalendarTab> {
             onDateSelected: (date) => setState(() => _selectedDate = date),
           ),
           const SizedBox(height: 30),
-          Text(DateFormat('dd MMMM yyyy').format(_selectedDate), style: Theme.of(context).textTheme.titleLarge),
+          Text('${DateFormat('MMMM').format(_visibleMonth)} Events', style: Theme.of(context).textTheme.titleLarge),
+          const SizedBox(height: 6),
+          Text('Selected date: ${DateFormat('dd MMMM yyyy').format(_selectedDate)}', style: TextStyle(color: colors.textMuted)),
           const SizedBox(height: 18),
           if (visibleEvents.isEmpty)
             Container(
               padding: const EdgeInsets.all(18),
               decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(24), boxShadow: PanchangTheme.softShadow),
-              child: Text('No events found for the selected date. Showing dynamic calendar data from synced Panchang API.', style: TextStyle(color: colors.textMuted)),
+              child: Text('No events found for ${DateFormat('MMMM yyyy').format(_visibleMonth)}. Showing dynamic calendar data from synced Panchang API.', style: TextStyle(color: colors.textMuted)),
             )
           else
             for (final event in visibleEvents) EventTile(event: event, onTap: () {}),
@@ -340,6 +341,16 @@ class _CalendarTabState extends State<CalendarTab> {
 }
 
 bool _isSameDate(DateTime a, DateTime b) => a.year == b.year && a.month == b.month && a.day == b.day;
+
+List<PanchangEvent> _dedupeEvents(List<PanchangEvent> events) {
+  final seen = <String>{};
+  final result = <PanchangEvent>[];
+  for (final event in events) {
+    final key = '${DateFormat('yyyy-MM-dd').format(event.date)}|${event.title}|${event.detail}|${event.type}';
+    if (seen.add(key)) result.add(event);
+  }
+  return result;
+}
 
 class MonthPickerDialog extends StatefulWidget {
   const MonthPickerDialog({required this.initialMonth, super.key});
@@ -371,19 +382,26 @@ class _MonthPickerDialogState extends State<MonthPickerDialog> {
         ],
       ),
       content: SizedBox(
-        width: 320,
+        width: 340,
         child: GridView.count(
           crossAxisCount: 3,
           shrinkWrap: true,
           mainAxisSpacing: 10,
           crossAxisSpacing: 10,
-          childAspectRatio: 2.1,
+          childAspectRatio: 1.9,
           children: [
             for (var month = 1; month <= 12; month++)
               OutlinedButton(
-                style: OutlinedButton.styleFrom(foregroundColor: colors.primary),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: colors.primary,
+                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 8),
+                  textStyle: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700),
+                ),
                 onPressed: () => Navigator.of(context).pop(DateTime(_year, month)),
-                child: Text(DateFormat('MMM').format(DateTime(_year, month))),
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(DateFormat('MMMM').format(DateTime(_year, month)), maxLines: 1),
+                ),
               ),
           ],
         ),
