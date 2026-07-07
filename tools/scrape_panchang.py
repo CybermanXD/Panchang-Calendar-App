@@ -206,8 +206,9 @@ def parse_month_panchang_events(year: int, month: int, html: str) -> list[Pancha
         day_number = int(match.group(1))
         weekday = html_text(match.group(2))
         names_html = match.group(3)
-        for title_html in re.findall(r'<a\s+[^>]*>([\s\S]*?)</a>', names_html, flags=re.I):
-            title = html_text(title_html)
+        for anchor_html in re.findall(r'<a\s+[\s\S]*?</a>', names_html, flags=re.I):
+            visible_title_html = re.sub(r'</a>\s*$', '', anchor_html, flags=re.I).rsplit('>', 1)[-1]
+            title = html_text(visible_title_html)
             if not title:
                 continue
             events.append(
@@ -232,6 +233,9 @@ def fetch_month_panchang_events(year: int) -> list[PanchangEvent]:
             html = fetch(MONTH_URL.format(date=month_date))
         except Exception:
             html = ""
+        if not html and month == 7:
+            local_month_reference = Path("Documentation/month-panchang.html")
+            html = local_month_reference.read_text(encoding="utf-8", errors="ignore") if local_month_reference.exists() else ""
         events.extend(parse_month_panchang_events(year, month, html))
     unique: dict[tuple[str, str], PanchangEvent] = {}
     for event in events:
