@@ -6,7 +6,9 @@ keeps safe fallback data so the app and API remain usable if markup changes.
 from __future__ import annotations
 
 import json
+import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
@@ -17,6 +19,7 @@ DAY_URL = f"{BASE}/panchang/day-panchang.html?date={{date}}"
 MONTH_URL = f"{BASE}/panchang/month-panchang.html?date={{date}}"
 FESTIVAL_URL = f"{BASE}/calendars/hindu/hinducalendar.html"
 OUT = Path("api/panchang-data.json")
+MAX_WORKERS = int(os.environ.get("PANCHANG_SCRAPE_WORKERS", "8"))
 
 
 @dataclass
@@ -124,6 +127,13 @@ def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
     return [PanchangEvent(date=date(year, month, min(days[i], last)).isoformat(), title=name, detail="Tithi from Hindu calendar", type="Vrat" if name == "Karwa Chauth" else "Festival") for i, name in enumerate(names) if name.lower() in text or not html]
 
 
+def parse_events_for_year(year: int, html: str) -> list[PanchangEvent]:
+    events: list[PanchangEvent] = []
+    for month in range(1, 13):
+        events.extend(parse_events(year, month, html))
+    return events
+
+
 def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
     labels = ["Sunrise", "Sunset", "Moonrise", "Moonset", "Shaka Samvat", "Vikram Samvat", "Gujarati Samvat", "Amanta Month", "Purnimanta Month", "Weekday", "Paksha", "Tithi", "Nakshatra", "Yoga", "Karana", "Pravishte/Gate", "Sunsign", "Moonsign", "Rahu Kalam", "Gulikai Kalam", "Yamaganda", "Abhijit", "Dur Muhurtam", "Amrit Kalam"]
     parsed = {label: find_after(html_text(html), label, labels) for label in labels}
@@ -161,16 +171,18 @@ def main() -> None:
         festival_html = fetch(FESTIVAL_URL)
     except Exception:
         festival_html = ""
-    events = parse_events(today.year, today.month, festival_html)
-    last = (date(today.year, today.month + 1, 1) - timedelta(days=1)).day if today.month < 12 else 31
-    days = []
-    for number in range(1, last + 1):
-        current = date(today.year, today.month, number)
+    events = parse_events_for_year(today.year, festival_html)
+    year_days = [date(today.year, 1, 1) + timedelta(days=offset) for offset in range(366 if today.year % 4 == 0 else 365) if (date(today.year, 1, 1) + timedelta(days=offset)).year == today.year]
+
+    def fetch_day(current: date) -> PanchangDay:
         try:
             html = fetch(DAY_URL.format(date=current.strftime("%d/%m/%Y")))
         except Exception:
             html = ""
-        days.append(parse_day(current, html, events))
+        return parse_day(current, html, events)
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        days = list(executor.map(fetch_day, year_days))
     payload = {"generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"), "sourceUrls": [MONTH_URL.format(date=formatted), DAY_URL.format(date=formatted), FESTIVAL_URL], "today": asdict(next((item for item in days if item.date == today.isoformat()), days[0])), "monthDays": [asdict(item) for item in days], "events": [asdict(item) for item in events]}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")

@@ -263,7 +263,11 @@ class _CalendarTabState extends State<CalendarTab> {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     final today = DateTime.now();
     final monthDays = widget.dataset.monthDays.where((day) => day.date.year == _visibleMonth.year && day.date.month == _visibleMonth.month).toList();
-    final selectedEvents = widget.dataset.events.where((event) => _isSameDate(event.date, _selectedDate)).toList();
+    final selectedDayEvents = widget.dataset.monthDays.where((day) => _isSameDate(day.date, _selectedDate)).expand((day) => day.events).toList();
+    final selectedEvents = [
+      ...widget.dataset.events.where((event) => _isSameDate(event.date, _selectedDate)),
+      ...selectedDayEvents,
+    ];
     final monthEvents = widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month).toList();
     final visibleEvents = selectedEvents.isNotEmpty ? selectedEvents : monthEvents;
     return AppPage(

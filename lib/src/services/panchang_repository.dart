@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -24,6 +23,7 @@ class PanchangRepository {
   Future<PanchangDataset> loadDataset({bool forceRefresh = false}) async {
     final prefs = await SharedPreferences.getInstance();
     final cacheVersion = prefs.getInt(_cacheVersionKey) ?? 0;
+    final cached = prefs.getString(_cacheKey);
 
     if (_apiUrl.isNotEmpty && forceRefresh) {
       final fresh = await _fetchRemoteOrNull();
@@ -33,7 +33,7 @@ class PanchangRepository {
       }
     }
 
-    if (_apiUrl.isNotEmpty) {
+    if (_apiUrl.isNotEmpty && cached == null) {
       final fresh = await _fetchRemoteOrNull();
       if (fresh != null) {
         await _saveCache(prefs, fresh);
@@ -41,19 +41,12 @@ class PanchangRepository {
       }
     }
 
-    final cached = prefs.getString(_cacheKey);
     if (cached != null && cacheVersion == _cacheVersion) {
       try {
         return PanchangDataset.fromJson(jsonDecode(cached) as Map<String, dynamic>);
       } catch (_) {
         await prefs.remove(_cacheKey);
       }
-    }
-
-    final bundled = await _loadBundledOrNull();
-    if (bundled != null) {
-      await _saveCache(prefs, bundled);
-      return bundled;
     }
 
     throw const PanchangDataException('Panchang data is unavailable. Connect to internet once to sync data.');
@@ -76,14 +69,6 @@ class PanchangRepository {
     return null;
   }
 
-  Future<PanchangDataset?> _loadBundledOrNull() async {
-    try {
-      final text = await rootBundle.loadString('api/panchang-data.json');
-      return PanchangDataset.fromJson(jsonDecode(text) as Map<String, dynamic>);
-    } catch (_) {
-      return null;
-    }
-  }
 }
 
 class PanchangDataException implements Exception {
