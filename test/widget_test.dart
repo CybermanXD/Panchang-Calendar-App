@@ -1,1 +1,13 @@
-import 'package:flutter_test/flutter_test.dart';\n\nimport 'package:panchang_calendar/main.dart';\n\nvoid main() {\n  testWidgets('Panchang Calendar smoke test', (tester) async {\n    await tester.pumpWidget(const PanchangCalendarApp());\n    await tester.pump();\n    expect(find.text('PANCHANG CALENDAR'), findsOneWidget);\n    expect(find.text('Enter Presence'), findsOneWidget);\n  });\n}\n
+import 'package:flutter_test/flutter_test.dart';
+
+import 'package:panchang_calendar/main.dart';
+
+void main() {
+  testWidgets('Panchang Calendar smoke test', (tester) async {
+    await tester.pumpWidget(const PanchangCalendarApp());
+    await tester.pump();
+
+    expect(find.text('PANCHANG CALENDAR'), findsOneWidget);
+    expect(find.text('Enter Presence'), findsOneWidget);
+  });
+}
