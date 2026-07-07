@@ -18,7 +18,7 @@ from urllib.request import Request, urlopen
 BASE = "https://www.drikpanchang.com"
 DAY_URL = f"{BASE}/panchang/day-panchang.html?date={{date}}"
 MONTH_URL = f"{BASE}/panchang/month-panchang.html?date={{date}}"
-FESTIVAL_URL = f"{BASE}/calendars/hindu/hinducalendar.html"
+FESTIVAL_URL = f"{BASE}/calendars/hindu/hinducalendar.html?year={{year}}"
 OUT = Path("api/panchang-data.json")
 MAX_WORKERS = int(os.environ.get("PANCHANG_SCRAPE_WORKERS", "8"))
 
@@ -68,7 +68,15 @@ class PanchangDay:
 
 
 def fetch(url: str) -> str:
-    request = Request(url, headers={"User-Agent": "Mozilla/5.0 PanchangCalendarBot/0.1"})
+    request = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": BASE,
+        },
+    )
     with urlopen(request, timeout=25) as response:
         return response.read().decode("utf-8", errors="ignore")
 
@@ -182,6 +190,29 @@ def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
     return [event for event in parse_events_for_year(year, html) if datetime.fromisoformat(event.date).month == month]
 
 
+def previous_events_for_year(year: int) -> list[PanchangEvent]:
+    if not OUT.exists():
+        return []
+    try:
+        payload = json.loads(OUT.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    events = []
+    for item in payload.get("events", []):
+        try:
+            event = PanchangEvent(
+                date=str(item["date"]),
+                title=str(item["title"]),
+                detail=str(item.get("detail", "")),
+                type=str(item.get("type", "Festival")),
+            )
+            if datetime.fromisoformat(event.date).year == year:
+                events.append(event)
+        except Exception:
+            continue
+    return events
+
+
 def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
     labels = ["Sunrise", "Sunset", "Moonrise", "Moonset", "Shaka Samvat", "Vikram Samvat", "Gujarati Samvat", "Amanta Month", "Purnimanta Month", "Weekday", "Paksha", "Tithi", "Nakshatra", "Yoga", "Karana", "Pravishte/Gate", "Sunsign", "Moonsign", "Rahu Kalam", "Gulikai Kalam", "Yamaganda", "Abhijit", "Dur Muhurtam", "Amrit Kalam"]
     parsed = {label: find_after(html_text(html), label, labels) for label in labels}
@@ -216,10 +247,14 @@ def main() -> None:
     today = date.today()
     formatted = today.strftime("%d/%m/%Y")
     try:
-        festival_html = fetch(FESTIVAL_URL)
+        festival_html = fetch(FESTIVAL_URL.format(year=today.year))
     except Exception:
-        festival_html = ""
+        local_reference = Path("Documentation/hindu-calendar.html")
+        festival_html = local_reference.read_text(encoding="utf-8", errors="ignore") if local_reference.exists() else ""
     events = parse_events_for_year(today.year, festival_html)
+    previous_events = previous_events_for_year(today.year)
+    if len(events) < 50 and len(previous_events) > len(events):
+        events = previous_events
     year_days = [date(today.year, 1, 1) + timedelta(days=offset) for offset in range(366 if today.year % 4 == 0 else 365) if (date(today.year, 1, 1) + timedelta(days=offset)).year == today.year]
 
     def fetch_day(current: date) -> PanchangDay:
@@ -231,7 +266,7 @@ def main() -> None:
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         days = list(executor.map(fetch_day, year_days))
-    payload = {"generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"), "sourceUrls": [MONTH_URL.format(date=formatted), DAY_URL.format(date=formatted), FESTIVAL_URL], "today": asdict(next((item for item in days if item.date == today.isoformat()), days[0])), "monthDays": [asdict(item) for item in days], "events": [asdict(item) for item in events]}
+    payload = {"generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"), "sourceUrls": [MONTH_URL.format(date=formatted), DAY_URL.format(date=formatted), FESTIVAL_URL.format(year=today.year)], "today": asdict(next((item for item in days if item.date == today.isoformat()), days[0])), "monthDays": [asdict(item) for item in days], "events": [asdict(item) for item in events]}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-07T15:38:29.442024Z",
+  "generatedAt": "2026-07-07T15:41:15.902603Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
     "https://www.drikpanchang.com/panchang/day-panchang.html?date=07/07/2026",
-    "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html"
+    "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?year=2026"
   ],
   "today": {
     "date": "2026-07-07",
@@ -164,7 +164,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-03",
+          "title": "Pausha Purnima",
+          "detail": "Pausha, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-01-04",
@@ -284,7 +291,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-06",
+          "title": "Sakat Chauth",
+          "detail": "Magha, Krishna Chaturthi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-01-07",
@@ -604,7 +618,26 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-14",
+          "title": "Makara Sankranti",
+          "detail": "Dhanu to Makara transit of Sun",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-01-14",
+          "title": "Pongal",
+          "detail": "on Makara Sankranti day",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-01-14",
+          "title": "Shattila Ekadashi",
+          "detail": "Magha, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-01-15",
@@ -764,7 +797,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-18",
+          "title": "Mauni Amavas",
+          "detail": "Magha, Krishna Amavasya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-01-19",
@@ -964,7 +1004,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-23",
+          "title": "Vasant Panchami",
+          "detail": "Magha, Shukla Panchami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-01-24",
@@ -1044,7 +1091,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-25",
+          "title": "Ratha Saptami",
+          "detail": "Magha, Shukla Saptami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-01-26",
@@ -1084,7 +1138,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-26",
+          "title": "Bhishma Ashtami",
+          "detail": "Magha, Shukla Ashtami",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-01-27",
@@ -1204,7 +1265,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-01-29",
+          "title": "Jaya Ekadashi",
+          "detail": "Magha, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-01-30",
@@ -1324,7 +1392,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-02-01",
+          "title": "Magha Purnima",
+          "detail": "Magha, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-02-02",
@@ -1804,7 +1879,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-02-13",
+          "title": "Kumbha Sankranti",
+          "detail": "Makara to Kumbha transit of Sun",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-02-13",
+          "title": "Vijaya Ekadashi",
+          "detail": "Phalguna, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-02-14",
@@ -1884,7 +1972,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-02-15",
+          "title": "Maha Shivaratri",
+          "detail": "Phalguna, Krishna Chaturdashi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-02-16",
@@ -1964,7 +2059,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-02-17",
+          "title": "Surya Grahan *Valayakara",
+          "detail": "occurs during Amavasya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-02-18",
@@ -2364,7 +2466,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-02-27",
+          "title": "Amalaki Ekadashi",
+          "detail": "Phalguna, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-02-28",
@@ -2524,7 +2633,32 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-03",
+          "title": "Chandra Grahan *Purna",
+          "detail": "occurs during Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Chhoti Holi",
+          "detail": "Phalguna, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Holika Dahan",
+          "detail": "Phalguna, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Phalguna Purnima",
+          "detail": "Phalguna, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-03-04",
@@ -2564,7 +2698,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-04",
+          "title": "Holi",
+          "detail": "Chaitra, Krishna Pratipada",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-03-05",
@@ -2844,7 +2985,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-11",
+          "title": "Basoda",
+          "detail": "Chaitra, Krishna Ashtami",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Sheetala Ashtami",
+          "detail": "Chaitra, Krishna Ashtami",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-03-12",
@@ -3004,7 +3158,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-15",
+          "title": "Meena Sankranti",
+          "detail": "Kumbha to Meena transit of Sun",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-15",
+          "title": "Papamochani Ekadashi",
+          "detail": "Chaitra, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-03-16",
@@ -3164,7 +3331,32 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-19",
+          "title": "Chaitra Navratri",
+          "detail": "Chaitra, Shukla Pratipada",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "Gudi Padwa",
+          "detail": "Chaitra, Shukla Pratipada",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "Nutan Varsh Prarambha",
+          "detail": "Chaitra, Shukla Pratipada",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "Ugadi",
+          "detail": "Chaitra, Shukla Pratipada",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-03-20",
@@ -3244,7 +3436,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-21",
+          "title": "Gangaur",
+          "detail": "Chaitra, Shukla Tritiya",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-21",
+          "title": "Gauri Puja",
+          "detail": "Chaitra, Shukla Tritiya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-03-22",
@@ -3364,7 +3569,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-24",
+          "title": "Yamuna Chhath",
+          "detail": "Chaitra, Shukla Shashthi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-03-25",
@@ -3444,7 +3656,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-26",
+          "title": "Rama Navami *Smarta",
+          "detail": "Chaitra, Shukla Navami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-03-27",
@@ -3484,7 +3703,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-27",
+          "title": "Rama Navami *ISKCON",
+          "detail": "Chaitra, Shukla Navami",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-03-27",
+          "title": "Swaminarayan Jayanti",
+          "detail": "Chaitra, Shukla Navami",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-03-28",
@@ -3564,7 +3796,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-03-29",
+          "title": "Kamada Ekadashi",
+          "detail": "Chaitra, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-03-30",
@@ -3724,7 +3963,26 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-02",
+          "title": "Chaitra Purnima",
+          "detail": "Chaitra, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Hanuman Janmotsava",
+          "detail": "Chaitra, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Hanuman Jayanti",
+          "detail": "Chaitra, Shukla Purnima",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-04-03",
@@ -4164,7 +4422,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-13",
+          "title": "Varuthini Ekadashi",
+          "detail": "Vaishakha, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-04-14",
@@ -4204,7 +4469,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-14",
+          "title": "Mesha Sankranti",
+          "detail": "Meena to Mesha transit of Sun",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Solar New Year",
+          "detail": "first day of Hindu Solar calendar",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-04-15",
@@ -4404,7 +4682,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-19",
+          "title": "Akshaya Tritiya",
+          "detail": "Vaishakha, Shukla Tritiya",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-04-19",
+          "title": "Parashurama Jayanti",
+          "detail": "Vaishakha, Shukla Tritiya",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-04-20",
@@ -4564,7 +4855,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-23",
+          "title": "Ganga Saptami",
+          "detail": "Vaishakha, Shukla Saptami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-04-24",
@@ -4644,7 +4942,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-25",
+          "title": "Sita Navami",
+          "detail": "Vaishakha, Shukla Navami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-04-26",
@@ -4724,7 +5029,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-27",
+          "title": "Mohini Ekadashi",
+          "detail": "Vaishakha, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-04-28",
@@ -4844,7 +5156,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-04-30",
+          "title": "Narasimha Jayanti",
+          "detail": "Vaishakha, Shukla Chaturdashi",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-05-01",
@@ -4884,7 +5203,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-01",
+          "title": "Buddha Purnima",
+          "detail": "Vaishakha, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Vaishakha Purnima",
+          "detail": "Vaishakha, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-05-02",
@@ -4924,7 +5256,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-02",
+          "title": "Narada Jayanti",
+          "detail": "Jyeshtha, Krishna Pratipada",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-05-03",
@@ -5364,7 +5703,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-13",
+          "title": "Apara Ekadashi",
+          "detail": "Jyeshtha, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-05-14",
@@ -5444,7 +5790,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-15",
+          "title": "Vrishabha Sankranti",
+          "detail": "Mesha to Vrishabha transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-05-16",
@@ -5484,7 +5837,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-16",
+          "title": "Shani Jayanti",
+          "detail": "Jyeshtha, Krishna Amavasya",
+          "type": "Jayanti"
+        },
+        {
+          "date": "2026-05-16",
+          "title": "Vat Savitri Vrat",
+          "detail": "Jyeshtha, Krishna Amavasya",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-05-17",
@@ -5844,7 +6210,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-25",
+          "title": "Ganga Dussehra",
+          "detail": "Jyeshtha, Shukla Dashami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-05-26",
@@ -5924,7 +6297,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-27",
+          "title": "Padmini Ekadashi",
+          "detail": "Jyeshtha Adhika, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-05-28",
@@ -6084,7 +6464,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-05-31",
+          "title": "Jyeshtha Adhika Purnima",
+          "detail": "Jyeshtha Adhika, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-06-01",
@@ -6524,7 +6911,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-06-11",
+          "title": "Parama Ekadashi",
+          "detail": "Jyeshtha Adhika, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-06-12",
@@ -6684,7 +7078,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-06-15",
+          "title": "Mithuna Sankranti",
+          "detail": "Vrishabha to Mithuna transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-06-16",
@@ -7084,7 +7485,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-06-25",
+          "title": "Nirjala Ekadashi",
+          "detail": "Jyeshtha, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-06-26",
@@ -7244,7 +7652,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-06-29",
+          "title": "Jyeshtha Purnima",
+          "detail": "Jyeshtha, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Vat Purnima Vrat",
+          "detail": "Jyeshtha, Shukla Purnima",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-06-30",
@@ -7684,7 +8105,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-10",
+          "title": "Yogini Ekadashi",
+          "detail": "Ashadha, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-11",
@@ -7724,7 +8152,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-11",
+          "title": "Gauna Yogini Ekadashi",
+          "detail": "Ashadha, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-12",
@@ -7924,7 +8359,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-16",
+          "title": "Jagannath Rathyatra",
+          "detail": "Ashadha, Shukla Dwitiya",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Karka Sankranti",
+          "detail": "Mithuna to Karka transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-07-17",
@@ -8284,7 +8732,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-25",
+          "title": "Devshayani Ekadashi",
+          "detail": "Ashadha, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-26",
@@ -8444,7 +8899,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-29",
+          "title": "Ashadha Purnima",
+          "detail": "Ashadha, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Guru Purnima",
+          "detail": "Ashadha, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-07-30",
@@ -8884,7 +9352,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-09",
+          "title": "Kamika Ekadashi",
+          "detail": "Shravana, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-08-10",
@@ -9004,7 +9479,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-12",
+          "title": "Surya Grahan *Purna",
+          "detail": "occurs during Amavasya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-08-13",
@@ -9124,7 +9606,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-15",
+          "title": "Hariyali Teej",
+          "detail": "Shravana, Shukla Tritiya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-08-16",
@@ -9204,7 +9693,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-17",
+          "title": "Nag Panchami",
+          "detail": "Shravana, Shukla Panchami",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-08-17",
+          "title": "Simha Sankranti",
+          "detail": "Karka to Simha transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-08-18",
@@ -9444,7 +9946,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-23",
+          "title": "Shravana Putrada Ekadashi",
+          "detail": "Shravana, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-08-24",
@@ -9564,7 +10073,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-26",
+          "title": "Onam",
+          "detail": "Sun in Simha & Shravana Nakshatra",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-08-27",
@@ -9644,7 +10160,44 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-28",
+          "title": "Chandra Grahan *Anshika",
+          "detail": "occurs during Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Gayatri Jayanti",
+          "detail": "Shravana, Shukla Purnima",
+          "type": "Jayanti"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Rakhi",
+          "detail": "Shravana, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Raksha Bandhan",
+          "detail": "Shravana, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Shravana Purnima",
+          "detail": "Shravana, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Varalakshmi Vrat",
+          "detail": "Friday before Shravana Purnima",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-08-29",
@@ -9764,7 +10317,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-08-31",
+          "title": "Kajari Teej",
+          "detail": "Bhadrapada, Krishna Tritiya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-01",
@@ -9924,7 +10484,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-04",
+          "title": "Krishna Janmashtami",
+          "detail": "Bhadrapada, Krishna Ashtami",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-09-05",
@@ -10044,7 +10611,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-07",
+          "title": "Aja Ekadashi",
+          "detail": "Bhadrapada, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-09-08",
@@ -10324,7 +10898,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-14",
+          "title": "Ganesh Chaturthi",
+          "detail": "Bhadrapada, Shukla Chaturthi",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-09-14",
+          "title": "Hartalika Teej",
+          "detail": "Bhadrapada, Shukla Tritiya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-15",
@@ -10364,7 +10951,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-15",
+          "title": "Rishi Panchami",
+          "detail": "Bhadrapada, Shukla Panchami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-16",
@@ -10404,7 +10998,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-16",
+          "title": "Balarama Jayanti",
+          "detail": "Bhadrapada, Shukla Shashthi",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-09-17",
@@ -10444,7 +11045,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-17",
+          "title": "Kanya Sankranti",
+          "detail": "Simha to Kanya transit of Sun",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-09-17",
+          "title": "Vishwakarma Puja",
+          "detail": "on Kanya Sankranti day",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-18",
@@ -10524,7 +11138,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-19",
+          "title": "Radha Ashtami",
+          "detail": "Bhadrapada, Shukla Ashtami",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-09-20",
@@ -10564,7 +11185,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-20",
+          "title": "Agastya Arghya",
+          "detail": "based on Astronomy calculations",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-21",
@@ -10644,7 +11272,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-22",
+          "title": "Parsva Ekadashi",
+          "detail": "Bhadrapada, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-09-23",
@@ -10764,7 +11399,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-25",
+          "title": "Anant Chaturdashi",
+          "detail": "Bhadrapada, Shukla Chaturdashi",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Ganesh Visarjan",
+          "detail": "Bhadrapada, Shukla Chaturdashi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-26",
@@ -10804,7 +11452,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-26",
+          "title": "Bhadrapada Purnima",
+          "detail": "Bhadrapada, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-27",
@@ -10844,7 +11499,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-09-27",
+          "title": "Pitrupaksha Begins",
+          "detail": "Ashwina, Krishna Pratipada",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-09-28",
@@ -11084,14 +11746,7 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": [
-        {
-          "date": "2026-10-03",
-          "title": "Sharad Navratri Begins",
-          "detail": "Pratipada Tithi",
-          "type": "Festival"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-10-04",
@@ -11211,7 +11866,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-06",
+          "title": "Indira Ekadashi",
+          "detail": "Ashwina, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-10-07",
@@ -11371,7 +12033,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-10",
+          "title": "Sarva Pitru Amavasya",
+          "detail": "Ashwina, Krishna Amavasya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-10-11",
@@ -11414,8 +12083,8 @@
       "events": [
         {
           "date": "2026-10-11",
-          "title": "Maha Ashtami",
-          "detail": "Ashtami Tithi",
+          "title": "Navratri Begins",
+          "detail": "Ashwina, Shukla Pratipada",
           "type": "Vrat"
         }
       ]
@@ -11458,14 +12127,7 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": [
-        {
-          "date": "2026-10-12",
-          "title": "Dussehra / Vijayadashami",
-          "detail": "Dashami Tithi",
-          "type": "Festival"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-10-13",
@@ -11625,7 +12287,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-16",
+          "title": "Saraswati Avahan",
+          "detail": "Ashwina, Mula Nakshatra",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-10-17",
@@ -11665,7 +12334,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-17",
+          "title": "Saraswati Puja",
+          "detail": "Ashwina, Purva Ashadha Nakshatra",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-10-17",
+          "title": "Tula Sankranti",
+          "detail": "Kanya to Tula transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-10-18",
@@ -11745,7 +12427,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-19",
+          "title": "Durga Ashtami",
+          "detail": "Ashwina, Shukla Ashtami",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "Maha Navami",
+          "detail": "Ashwina, Shukla Navami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-10-20",
@@ -11788,9 +12483,15 @@
       "events": [
         {
           "date": "2026-10-20",
-          "title": "Karwa Chauth",
-          "detail": "Chaturthi Tithi",
-          "type": "Vrat"
+          "title": "Dussehra",
+          "detail": "Ashwina, Shukla Dashami",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "Vijayadashami",
+          "detail": "Ashwina, Shukla Dashami",
+          "type": "Festival"
         }
       ]
     },
@@ -11872,7 +12573,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-22",
+          "title": "Papankusha Ekadashi",
+          "detail": "Ashwina, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-10-23",
@@ -11992,7 +12700,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-25",
+          "title": "Kojagara Puja",
+          "detail": "Ashwina, Shukla Purnima",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-10-25",
+          "title": "Sharad Purnima",
+          "detail": "Ashwina, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-10-26",
@@ -12032,7 +12753,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-10-26",
+          "title": "Ashwina Purnima",
+          "detail": "Ashwina, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-10-27",
@@ -12155,8 +12883,8 @@
       "events": [
         {
           "date": "2026-10-29",
-          "title": "Dhanteras",
-          "detail": "Trayodashi Tithi",
+          "title": "Karwa Chauth",
+          "detail": "Kartika, Krishna Chaturthi",
           "type": "Festival"
         }
       ]
@@ -12239,20 +12967,7 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": [
-        {
-          "date": "2026-10-31",
-          "title": "Naraka Chaturdashi",
-          "detail": "Chaturdashi Tithi",
-          "type": "Festival"
-        },
-        {
-          "date": "2026-10-31",
-          "title": "Deepawali",
-          "detail": "Kartik Amavasya",
-          "type": "Festival"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-11-01",
@@ -12292,7 +13007,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-01",
+          "title": "Ahoi Ashtami",
+          "detail": "Kartika, Krishna Ashtami",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-11-02",
@@ -12452,7 +13174,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-05",
+          "title": "Govatsa Dwadashi",
+          "detail": "Kartika, Krishna Dwadashi",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-11-05",
+          "title": "Rama Ekadashi",
+          "detail": "Kartika, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-11-06",
@@ -12492,7 +13227,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-06",
+          "title": "Dhanteras",
+          "detail": "Kartika, Krishna Trayodashi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-07",
@@ -12532,7 +13274,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-07",
+          "title": "Kali Chaudas",
+          "detail": "Kartika, Krishna Chaturdashi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-08",
@@ -12572,7 +13321,26 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-08",
+          "title": "Diwali",
+          "detail": "Kartika, Krishna Amavasya",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Lakshmi Puja",
+          "detail": "Kartika, Krishna Amavasya",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Narak Chaturdashi",
+          "detail": "Kartika, Krishna Chaturdashi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-09",
@@ -12612,7 +13380,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-09",
+          "title": "Govardhan Puja",
+          "detail": "Kartika, Shukla Pratipada",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-10",
@@ -12692,7 +13467,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-11",
+          "title": "Bhaiya Dooj",
+          "detail": "Kartika, Shukla Dwitiya",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-12",
@@ -12852,7 +13634,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-15",
+          "title": "Chhath Puja",
+          "detail": "Kartika, Shukla Shashthi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-16",
@@ -12892,7 +13681,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-16",
+          "title": "Vrishchika Sankranti",
+          "detail": "Tula to Vrishchika transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-17",
@@ -13052,7 +13848,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-20",
+          "title": "Devutthana Ekadashi",
+          "detail": "Kartika, Shukla Ekadashi",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-11-20",
+          "title": "Kansa Vadh",
+          "detail": "Kartika, Shukla Dashami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-21",
@@ -13092,7 +13901,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-21",
+          "title": "Gauna Devutthana Ekadashi",
+          "detail": "Kartika, Shukla Ekadashi",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-11-21",
+          "title": "Tulasi Vivah",
+          "detail": "Kartika, Shukla Dwadashi",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-22",
@@ -13212,7 +14034,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-11-24",
+          "title": "Kartika Purnima",
+          "detail": "Kartika, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-11-25",
@@ -13492,7 +14321,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-01",
+          "title": "Kalabhairav Jayanti",
+          "detail": "Margashirsha, Krishna Ashtami",
+          "type": "Jayanti"
+        }
+      ]
     },
     {
       "date": "2026-12-02",
@@ -13612,7 +14448,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-04",
+          "title": "Utpanna Ekadashi",
+          "detail": "Margashirsha, Krishna Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-12-05",
@@ -14012,7 +14855,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-14",
+          "title": "Vivah Panchami",
+          "detail": "Margashirsha, Shukla Panchami",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-12-15",
@@ -14092,7 +14942,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-16",
+          "title": "Dhanu Sankranti",
+          "detail": "Vrishchika to Dhanu transit of Sun",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-12-17",
@@ -14252,7 +15109,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-20",
+          "title": "Gita Jayanti",
+          "detail": "Margashirsha, Shukla Ekadashi",
+          "type": "Jayanti"
+        },
+        {
+          "date": "2026-12-20",
+          "title": "Mokshada Ekadashi",
+          "detail": "Margashirsha, Shukla Ekadashi",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-12-21",
@@ -14372,7 +15242,20 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-12-23",
+          "title": "Dattatreya Jayanti",
+          "detail": "Margashirsha, Shukla Purnima",
+          "type": "Jayanti"
+        },
+        {
+          "date": "2026-12-23",
+          "title": "Margashirsha Purnima",
+          "detail": "Margashirsha, Shukla Purnima",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-12-24",
@@ -14697,45 +15580,837 @@
   ],
   "events": [
     {
-      "date": "2026-10-03",
-      "title": "Sharad Navratri Begins",
-      "detail": "Pratipada Tithi",
+      "date": "2026-01-03",
+      "title": "Pausha Purnima",
+      "detail": "Pausha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-06",
+      "title": "Sakat Chauth",
+      "detail": "Magha, Krishna Chaturthi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Makara Sankranti",
+      "detail": "Dhanu to Makara transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Pongal",
+      "detail": "on Makara Sankranti day",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Shattila Ekadashi",
+      "detail": "Magha, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-01-18",
+      "title": "Mauni Amavas",
+      "detail": "Magha, Krishna Amavasya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-23",
+      "title": "Vasant Panchami",
+      "detail": "Magha, Shukla Panchami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-25",
+      "title": "Ratha Saptami",
+      "detail": "Magha, Shukla Saptami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-01-26",
+      "title": "Bhishma Ashtami",
+      "detail": "Magha, Shukla Ashtami",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Jaya Ekadashi",
+      "detail": "Magha, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "Magha Purnima",
+      "detail": "Magha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Kumbha Sankranti",
+      "detail": "Makara to Kumbha transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Vijaya Ekadashi",
+      "detail": "Phalguna, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-02-15",
+      "title": "Maha Shivaratri",
+      "detail": "Phalguna, Krishna Chaturdashi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Surya Grahan *Valayakara",
+      "detail": "occurs during Amavasya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "Amalaki Ekadashi",
+      "detail": "Phalguna, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Chandra Grahan *Purna",
+      "detail": "occurs during Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Chhoti Holi",
+      "detail": "Phalguna, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Holika Dahan",
+      "detail": "Phalguna, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Phalguna Purnima",
+      "detail": "Phalguna, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "Holi",
+      "detail": "Chaitra, Krishna Pratipada",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Basoda",
+      "detail": "Chaitra, Krishna Ashtami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Sheetala Ashtami",
+      "detail": "Chaitra, Krishna Ashtami",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Meena Sankranti",
+      "detail": "Kumbha to Meena transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Papamochani Ekadashi",
+      "detail": "Chaitra, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Chaitra Navratri",
+      "detail": "Chaitra, Shukla Pratipada",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Gudi Padwa",
+      "detail": "Chaitra, Shukla Pratipada",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Nutan Varsh Prarambha",
+      "detail": "Chaitra, Shukla Pratipada",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Ugadi",
+      "detail": "Chaitra, Shukla Pratipada",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Gangaur",
+      "detail": "Chaitra, Shukla Tritiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Gauri Puja",
+      "detail": "Chaitra, Shukla Tritiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "Yamuna Chhath",
+      "detail": "Chaitra, Shukla Shashthi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Rama Navami *Smarta",
+      "detail": "Chaitra, Shukla Navami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Rama Navami *ISKCON",
+      "detail": "Chaitra, Shukla Navami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Swaminarayan Jayanti",
+      "detail": "Chaitra, Shukla Navami",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Kamada Ekadashi",
+      "detail": "Chaitra, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Chaitra Purnima",
+      "detail": "Chaitra, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Hanuman Janmotsava",
+      "detail": "Chaitra, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Hanuman Jayanti",
+      "detail": "Chaitra, Shukla Purnima",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Varuthini Ekadashi",
+      "detail": "Vaishakha, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Mesha Sankranti",
+      "detail": "Meena to Mesha transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Solar New Year",
+      "detail": "first day of Hindu Solar calendar",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Akshaya Tritiya",
+      "detail": "Vaishakha, Shukla Tritiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Parashurama Jayanti",
+      "detail": "Vaishakha, Shukla Tritiya",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Ganga Saptami",
+      "detail": "Vaishakha, Shukla Saptami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Sita Navami",
+      "detail": "Vaishakha, Shukla Navami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Mohini Ekadashi",
+      "detail": "Vaishakha, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Narasimha Jayanti",
+      "detail": "Vaishakha, Shukla Chaturdashi",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Buddha Purnima",
+      "detail": "Vaishakha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "Vaishakha Purnima",
+      "detail": "Vaishakha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-05-02",
+      "title": "Narada Jayanti",
+      "detail": "Jyeshtha, Krishna Pratipada",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Apara Ekadashi",
+      "detail": "Jyeshtha, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Vrishabha Sankranti",
+      "detail": "Mesha to Vrishabha transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Shani Jayanti",
+      "detail": "Jyeshtha, Krishna Amavasya",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Vat Savitri Vrat",
+      "detail": "Jyeshtha, Krishna Amavasya",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Ganga Dussehra",
+      "detail": "Jyeshtha, Shukla Dashami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Padmini Ekadashi",
+      "detail": "Jyeshtha Adhika, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Jyeshtha Adhika Purnima",
+      "detail": "Jyeshtha Adhika, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "Parama Ekadashi",
+      "detail": "Jyeshtha Adhika, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Mithuna Sankranti",
+      "detail": "Vrishabha to Mithuna transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Nirjala Ekadashi",
+      "detail": "Jyeshtha, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Jyeshtha Purnima",
+      "detail": "Jyeshtha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "Vat Purnima Vrat",
+      "detail": "Jyeshtha, Shukla Purnima",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Yogini Ekadashi",
+      "detail": "Ashadha, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Gauna Yogini Ekadashi",
+      "detail": "Ashadha, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Jagannath Rathyatra",
+      "detail": "Ashadha, Shukla Dwitiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Karka Sankranti",
+      "detail": "Mithuna to Karka transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Devshayani Ekadashi",
+      "detail": "Ashadha, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Ashadha Purnima",
+      "detail": "Ashadha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Guru Purnima",
+      "detail": "Ashadha, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Kamika Ekadashi",
+      "detail": "Shravana, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Surya Grahan *Purna",
+      "detail": "occurs during Amavasya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Hariyali Teej",
+      "detail": "Shravana, Shukla Tritiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Nag Panchami",
+      "detail": "Shravana, Shukla Panchami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Simha Sankranti",
+      "detail": "Karka to Simha transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Shravana Putrada Ekadashi",
+      "detail": "Shravana, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Onam",
+      "detail": "Sun in Simha & Shravana Nakshatra",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Chandra Grahan *Anshika",
+      "detail": "occurs during Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Gayatri Jayanti",
+      "detail": "Shravana, Shukla Purnima",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Rakhi",
+      "detail": "Shravana, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Raksha Bandhan",
+      "detail": "Shravana, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Shravana Purnima",
+      "detail": "Shravana, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Varalakshmi Vrat",
+      "detail": "Friday before Shravana Purnima",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Kajari Teej",
+      "detail": "Bhadrapada, Krishna Tritiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Krishna Janmashtami",
+      "detail": "Bhadrapada, Krishna Ashtami",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Aja Ekadashi",
+      "detail": "Bhadrapada, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Ganesh Chaturthi",
+      "detail": "Bhadrapada, Shukla Chaturthi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Hartalika Teej",
+      "detail": "Bhadrapada, Shukla Tritiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Rishi Panchami",
+      "detail": "Bhadrapada, Shukla Panchami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Balarama Jayanti",
+      "detail": "Bhadrapada, Shukla Shashthi",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Kanya Sankranti",
+      "detail": "Simha to Kanya transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Vishwakarma Puja",
+      "detail": "on Kanya Sankranti day",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Radha Ashtami",
+      "detail": "Bhadrapada, Shukla Ashtami",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Agastya Arghya",
+      "detail": "based on Astronomy calculations",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Parsva Ekadashi",
+      "detail": "Bhadrapada, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Anant Chaturdashi",
+      "detail": "Bhadrapada, Shukla Chaturdashi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Ganesh Visarjan",
+      "detail": "Bhadrapada, Shukla Chaturdashi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Bhadrapada Purnima",
+      "detail": "Bhadrapada, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Pitrupaksha Begins",
+      "detail": "Ashwina, Krishna Pratipada",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Indira Ekadashi",
+      "detail": "Ashwina, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Sarva Pitru Amavasya",
+      "detail": "Ashwina, Krishna Amavasya",
       "type": "Festival"
     },
     {
       "date": "2026-10-11",
-      "title": "Maha Ashtami",
-      "detail": "Ashtami Tithi",
+      "title": "Navratri Begins",
+      "detail": "Ashwina, Shukla Pratipada",
       "type": "Vrat"
     },
     {
-      "date": "2026-10-12",
-      "title": "Dussehra / Vijayadashami",
-      "detail": "Dashami Tithi",
+      "date": "2026-10-16",
+      "title": "Saraswati Avahan",
+      "detail": "Ashwina, Mula Nakshatra",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Saraswati Puja",
+      "detail": "Ashwina, Purva Ashadha Nakshatra",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Tula Sankranti",
+      "detail": "Kanya to Tula transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Durga Ashtami",
+      "detail": "Ashwina, Shukla Ashtami",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Maha Navami",
+      "detail": "Ashwina, Shukla Navami",
       "type": "Festival"
     },
     {
       "date": "2026-10-20",
-      "title": "Karwa Chauth",
-      "detail": "Chaturthi Tithi",
+      "title": "Dussehra",
+      "detail": "Ashwina, Shukla Dashami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Vijayadashami",
+      "detail": "Ashwina, Shukla Dashami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Papankusha Ekadashi",
+      "detail": "Ashwina, Shukla Ekadashi",
       "type": "Vrat"
     },
     {
+      "date": "2026-10-25",
+      "title": "Kojagara Puja",
+      "detail": "Ashwina, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "Sharad Purnima",
+      "detail": "Ashwina, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Ashwina Purnima",
+      "detail": "Ashwina, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
       "date": "2026-10-29",
+      "title": "Karwa Chauth",
+      "detail": "Kartika, Krishna Chaturthi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Ahoi Ashtami",
+      "detail": "Kartika, Krishna Ashtami",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Govatsa Dwadashi",
+      "detail": "Kartika, Krishna Dwadashi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Rama Ekadashi",
+      "detail": "Kartika, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-11-06",
       "title": "Dhanteras",
-      "detail": "Trayodashi Tithi",
+      "detail": "Kartika, Krishna Trayodashi",
       "type": "Festival"
     },
     {
-      "date": "2026-10-31",
-      "title": "Naraka Chaturdashi",
-      "detail": "Chaturdashi Tithi",
+      "date": "2026-11-07",
+      "title": "Kali Chaudas",
+      "detail": "Kartika, Krishna Chaturdashi",
       "type": "Festival"
     },
     {
-      "date": "2026-10-31",
-      "title": "Deepawali",
-      "detail": "Kartik Amavasya",
+      "date": "2026-11-08",
+      "title": "Diwali",
+      "detail": "Kartika, Krishna Amavasya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Lakshmi Puja",
+      "detail": "Kartika, Krishna Amavasya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Narak Chaturdashi",
+      "detail": "Kartika, Krishna Chaturdashi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Govardhan Puja",
+      "detail": "Kartika, Shukla Pratipada",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Bhaiya Dooj",
+      "detail": "Kartika, Shukla Dwitiya",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Chhath Puja",
+      "detail": "Kartika, Shukla Shashthi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Vrishchika Sankranti",
+      "detail": "Tula to Vrishchika transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Devutthana Ekadashi",
+      "detail": "Kartika, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Kansa Vadh",
+      "detail": "Kartika, Shukla Dashami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Gauna Devutthana Ekadashi",
+      "detail": "Kartika, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Tulasi Vivah",
+      "detail": "Kartika, Shukla Dwadashi",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Kartika Purnima",
+      "detail": "Kartika, Shukla Purnima",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Kalabhairav Jayanti",
+      "detail": "Margashirsha, Krishna Ashtami",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Utpanna Ekadashi",
+      "detail": "Margashirsha, Krishna Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-12-14",
+      "title": "Vivah Panchami",
+      "detail": "Margashirsha, Shukla Panchami",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-12-16",
+      "title": "Dhanu Sankranti",
+      "detail": "Vrishchika to Dhanu transit of Sun",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-12-20",
+      "title": "Gita Jayanti",
+      "detail": "Margashirsha, Shukla Ekadashi",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-12-20",
+      "title": "Mokshada Ekadashi",
+      "detail": "Margashirsha, Shukla Ekadashi",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-12-23",
+      "title": "Dattatreya Jayanti",
+      "detail": "Margashirsha, Shukla Purnima",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-12-23",
+      "title": "Margashirsha Purnima",
+      "detail": "Margashirsha, Shukla Purnima",
       "type": "Festival"
     }
   ]
