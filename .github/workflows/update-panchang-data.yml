@@ -2,7 +2,8 @@ name: Update Panchang JSON API
 
 on:
   schedule:
-    - cron: "30 0 * * *"
+    # GitHub Actions cron schedules use UTC.
+    - cron: "0 1,4 * * *"
   workflow_dispatch:
 
 permissions:
