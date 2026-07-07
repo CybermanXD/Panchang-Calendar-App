@@ -464,19 +464,37 @@ class PanchangTab extends StatefulWidget {
 
 class _PanchangTabState extends State<PanchangTab> {
   String _filter = 'All';
+  late DateTime _visibleMonth;
+
+  @override
+  void initState() {
+    super.initState();
+    final now = DateTime.now();
+    _visibleMonth = DateTime(now.year, now.month);
+  }
+
+  void _moveMonth(int delta) {
+    setState(() => _visibleMonth = DateTime(_visibleMonth.year, _visibleMonth.month + delta));
+  }
+
+  void _goToday() {
+    final now = DateTime.now();
+    setState(() => _visibleMonth = DateTime(now.year, now.month));
+  }
 
   @override
   Widget build(BuildContext context) {
     final filters = ['All', 'Festivals', 'Vrats', 'Jayanti'];
-    final events = widget.dataset.events.where((event) => _filter == 'All' || event.type.toLowerCase().contains(_filter.toLowerCase().replaceAll('s', ''))).toList();
+    final monthEvents = widget.dataset.events.where((event) => event.date.year == _visibleMonth.year && event.date.month == _visibleMonth.month).toList();
+    final events = monthEvents.where((event) => _filter == 'All' || event.type.toLowerCase().contains(_filter.toLowerCase().replaceAll('s', ''))).toList();
     return AppPage(
       child: ListView(
         padding: const EdgeInsets.fromLTRB(24, 26, 24, 120),
         children: [
           Row(
             children: [
-              IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_left_rounded)),
-              Expanded(child: Text(DateFormat('MMMM yyyy').format(DateTime.now()), style: Theme.of(context).textTheme.headlineSmall)),
+              IconButton(onPressed: () => _moveMonth(-1), visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_left_rounded)),
+              Expanded(child: Text(DateFormat('MMMM yyyy').format(_visibleMonth), style: Theme.of(context).textTheme.headlineSmall)),
               FilledButton.tonalIcon(
                 style: FilledButton.styleFrom(
                   minimumSize: const Size(0, 40),
@@ -484,11 +502,11 @@ class _PanchangTabState extends State<PanchangTab> {
                   tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                   visualDensity: VisualDensity.compact,
                 ),
-                onPressed: () {},
+                onPressed: _goToday,
                 icon: const Icon(Icons.calendar_month, size: 18),
                 label: const Text('Today'),
               ),
-              IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_right_rounded)),
+              IconButton(onPressed: () => _moveMonth(1), visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_right_rounded)),
             ],
           ),
           Padding(
@@ -509,10 +527,16 @@ class _PanchangTabState extends State<PanchangTab> {
             ),
           ),
           const SizedBox(height: 24),
-          for (var i = 0; i < events.length; i++) ...[
-            if (i == 3) const UpcomingEventCard(),
-            EventTile(event: events[i], largeDate: true, onTap: () {}),
-          ],
+          if (events.isEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 24),
+              child: Text('No events found for ${DateFormat('MMMM yyyy').format(_visibleMonth)}.', style: Theme.of(context).textTheme.titleMedium),
+            )
+          else
+            for (var i = 0; i < events.length; i++) ...[
+              if (i == 3) const UpcomingEventCard(),
+              EventTile(event: events[i], largeDate: true, onTap: () {}),
+            ],
         ],
       ),
     );

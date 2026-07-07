@@ -119,19 +119,31 @@ def clean_text(value: str | None, fallback: str, max_words: int = 4) -> str:
     return " ".join(words[:max_words]) if words else fallback
 
 
-def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
-    names = ["Sharad Navratri Begins", "Maha Ashtami", "Dussehra / Vijayadashami", "Karwa Chauth", "Dhanteras", "Naraka Chaturdashi", "Deepawali"]
-    days = [3, 11, 12, 20, 29, 31, 31]
-    last = (date(year, month + 1, 1) - timedelta(days=1)).day if month < 12 else 31
-    text = html_text(html).lower()
-    return [PanchangEvent(date=date(year, month, min(days[i], last)).isoformat(), title=name, detail="Tithi from Hindu calendar", type="Vrat" if name == "Karwa Chauth" else "Festival") for i, name in enumerate(names) if name.lower() in text or not html]
+FALLBACK_EVENTS_BY_YEAR = {
+    2026: [
+        (10, 3, "Sharad Navratri Begins", "Pratipada Tithi", "Festival"),
+        (10, 11, "Maha Ashtami", "Ashtami Tithi", "Vrat"),
+        (10, 12, "Dussehra / Vijayadashami", "Dashami Tithi", "Festival"),
+        (10, 20, "Karwa Chauth", "Chaturthi Tithi", "Vrat"),
+        (10, 29, "Dhanteras", "Trayodashi Tithi", "Festival"),
+        (10, 31, "Naraka Chaturdashi", "Chaturdashi Tithi", "Festival"),
+        (10, 31, "Deepawali", "Kartik Amavasya", "Festival"),
+    ],
+}
+
+
+def fallback_events_for_year(year: int) -> list[PanchangEvent]:
+    return [
+        PanchangEvent(date=date(year, month, day).isoformat(), title=title, detail=detail, type=event_type)
+        for month, day, title, detail, event_type in FALLBACK_EVENTS_BY_YEAR.get(year, [])
+    ]
 
 
 def parse_events_for_year(year: int, html: str) -> list[PanchangEvent]:
-    events: list[PanchangEvent] = []
-    for month in range(1, 13):
-        events.extend(parse_events(year, month, html))
-    return events
+    # Do not stamp a globally found festival name into every month. Until the
+    # Drik yearly table parser is strict enough, keep fallback events as real
+    # one-off date records so months without events stay empty.
+    return fallback_events_for_year(year)
 
 
 def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
