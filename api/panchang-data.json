@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T16:04:13.911956Z",
+  "generatedAt": "2026-07-07T16:06:59.517772Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
     "https://www.drikpanchang.com/panchang/day-panchang.html?date=07/07/2026",
@@ -7825,7 +7825,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-03",
+          "title": "Krishnapingala Sankashti",
+          "detail": "Friday",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-07-04",
@@ -8109,7 +8116,7 @@
         {
           "date": "2026-07-10",
           "title": "Yogini Ekadashi",
-          "detail": "Ashadha, Krishna Ekadashi",
+          "detail": "Friday",
           "type": "Vrat"
         }
       ]
@@ -8156,7 +8163,13 @@
         {
           "date": "2026-07-11",
           "title": "Gauna Yogini Ekadashi",
-          "detail": "Ashadha, Krishna Ekadashi",
+          "detail": "Saturday",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-07-11",
+          "title": "Vaishnava Yogini Ekadashi",
+          "detail": "Saturday",
           "type": "Vrat"
         }
       ]
@@ -8199,7 +8212,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-12",
+          "title": "Ravi Pradosh Vrat",
+          "detail": "Sunday",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-13",
@@ -8279,7 +8299,26 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-14",
+          "title": "Anvadhan",
+          "detail": "Tuesday",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "Ashadha Amavasya",
+          "detail": "Tuesday",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "Darsha Amavasya",
+          "detail": "Tuesday",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-07-15",
@@ -8319,7 +8358,26 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-15",
+          "title": "Ashadha Navratri",
+          "detail": "Wednesday",
+          "type": "Vrat"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "Chandra Darshana",
+          "detail": "Wednesday",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "Ishti",
+          "detail": "Wednesday",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-07-16",
@@ -8363,13 +8421,13 @@
         {
           "date": "2026-07-16",
           "title": "Jagannath Rathyatra",
-          "detail": "Ashadha, Shukla Dwitiya",
+          "detail": "Thursday",
           "type": "Festival"
         },
         {
           "date": "2026-07-16",
           "title": "Karka Sankranti",
-          "detail": "Mithuna to Karka transit of Sun",
+          "detail": "Thursday",
           "type": "Festival"
         }
       ]
@@ -8736,7 +8794,7 @@
         {
           "date": "2026-07-25",
           "title": "Devshayani Ekadashi",
-          "detail": "Ashadha, Shukla Ekadashi",
+          "detail": "Saturday",
           "type": "Vrat"
         }
       ]
@@ -8779,7 +8837,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-26",
+          "title": "Ravi Pradosh Vrat",
+          "detail": "Sunday",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-27",
@@ -8819,7 +8884,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-27",
+          "title": "Jayaparvati Vrat Begins",
+          "detail": "Monday",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-28",
@@ -8859,7 +8931,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-28",
+          "title": "Kokila Vrat",
+          "detail": "Tuesday",
+          "type": "Vrat"
+        }
+      ]
     },
     {
       "date": "2026-07-29",
@@ -8902,14 +8981,26 @@
       "events": [
         {
           "date": "2026-07-29",
+          "title": "Anvadhan",
+          "detail": "Wednesday",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-29",
           "title": "Ashadha Purnima",
-          "detail": "Ashadha, Shukla Purnima",
+          "detail": "Wednesday",
           "type": "Festival"
         },
         {
           "date": "2026-07-29",
           "title": "Guru Purnima",
-          "detail": "Ashadha, Shukla Purnima",
+          "detail": "Wednesday",
+          "type": "Festival"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Vyasa Puja",
+          "detail": "Wednesday",
           "type": "Festival"
         }
       ]
@@ -8952,7 +9043,14 @@
       "abhijit": "11:43 AM - 12:28 PM",
       "durMuhurtam": "12:07 PM - 01:04 PM",
       "amritKalam": "01:38 PM - 03:13 PM",
-      "events": []
+      "events": [
+        {
+          "date": "2026-07-30",
+          "title": "Ishti",
+          "detail": "Thursday",
+          "type": "Festival"
+        }
+      ]
     },
     {
       "date": "2026-07-31",
@@ -15958,45 +16056,135 @@
       "type": "Vrat"
     },
     {
+      "date": "2026-07-03",
+      "title": "Krishnapingala Sankashti",
+      "detail": "Friday",
+      "type": "Festival"
+    },
+    {
       "date": "2026-07-10",
       "title": "Yogini Ekadashi",
-      "detail": "Ashadha, Krishna Ekadashi",
+      "detail": "Friday",
       "type": "Vrat"
     },
     {
       "date": "2026-07-11",
       "title": "Gauna Yogini Ekadashi",
-      "detail": "Ashadha, Krishna Ekadashi",
+      "detail": "Saturday",
       "type": "Vrat"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Vaishnava Yogini Ekadashi",
+      "detail": "Saturday",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Ravi Pradosh Vrat",
+      "detail": "Sunday",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Anvadhan",
+      "detail": "Tuesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Ashadha Amavasya",
+      "detail": "Tuesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Darsha Amavasya",
+      "detail": "Tuesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Ashadha Navratri",
+      "detail": "Wednesday",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Chandra Darshana",
+      "detail": "Wednesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "Ishti",
+      "detail": "Wednesday",
+      "type": "Festival"
     },
     {
       "date": "2026-07-16",
       "title": "Jagannath Rathyatra",
-      "detail": "Ashadha, Shukla Dwitiya",
+      "detail": "Thursday",
       "type": "Festival"
     },
     {
       "date": "2026-07-16",
       "title": "Karka Sankranti",
-      "detail": "Mithuna to Karka transit of Sun",
+      "detail": "Thursday",
       "type": "Festival"
     },
     {
       "date": "2026-07-25",
       "title": "Devshayani Ekadashi",
-      "detail": "Ashadha, Shukla Ekadashi",
+      "detail": "Saturday",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-26",
+      "title": "Ravi Pradosh Vrat",
+      "detail": "Sunday",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "Jayaparvati Vrat Begins",
+      "detail": "Monday",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Kokila Vrat",
+      "detail": "Tuesday",
       "type": "Vrat"
     },
     {
       "date": "2026-07-29",
+      "title": "Anvadhan",
+      "detail": "Wednesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-29",
       "title": "Ashadha Purnima",
-      "detail": "Ashadha, Shukla Purnima",
+      "detail": "Wednesday",
       "type": "Festival"
     },
     {
       "date": "2026-07-29",
       "title": "Guru Purnima",
-      "detail": "Ashadha, Shukla Purnima",
+      "detail": "Wednesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Vyasa Puja",
+      "detail": "Wednesday",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Ishti",
+      "detail": "Thursday",
       "type": "Festival"
     },
     {

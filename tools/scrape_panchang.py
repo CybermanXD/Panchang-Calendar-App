@@ -266,6 +266,21 @@ def previous_events_for_year(year: int) -> list[PanchangEvent]:
     return events
 
 
+def fill_missing_month_events(year: int, primary_events: list[PanchangEvent], fallback_events: list[PanchangEvent]) -> list[PanchangEvent]:
+    """Keep month-panchang events authoritative and only fill months that could not be fetched."""
+    primary_months = {datetime.fromisoformat(event.date).month for event in primary_events if datetime.fromisoformat(event.date).year == year}
+    merged = list(primary_events)
+    merged.extend(
+        event
+        for event in fallback_events
+        if datetime.fromisoformat(event.date).year == year and datetime.fromisoformat(event.date).month not in primary_months
+    )
+    unique: dict[tuple[str, str], PanchangEvent] = {}
+    for event in merged:
+        unique[(event.date, event.title)] = event
+    return sorted(unique.values(), key=lambda item: (item.date, item.title))
+
+
 def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
     labels = ["Sunrise", "Sunset", "Moonrise", "Moonset", "Shaka Samvat", "Vikram Samvat", "Gujarati Samvat", "Amanta Month", "Purnimanta Month", "Weekday", "Paksha", "Tithi", "Nakshatra", "Yoga", "Karana", "Pravishte/Gate", "Sunsign", "Moonsign", "Rahu Kalam", "Gulikai Kalam", "Yamaganda", "Abhijit", "Dur Muhurtam", "Amrit Kalam"]
     parsed = {label: find_after(html_text(html), label, labels) for label in labels}
@@ -299,16 +314,16 @@ def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
 def main() -> None:
     today = date.today()
     formatted = today.strftime("%d/%m/%Y")
-    events = fetch_month_panchang_events(today.year)
+    month_events = fetch_month_panchang_events(today.year)
     try:
         festival_html = fetch(FESTIVAL_URL.format(year=today.year))
     except Exception:
         local_reference = Path("Documentation/hindu-calendar.html")
         festival_html = local_reference.read_text(encoding="utf-8", errors="ignore") if local_reference.exists() else ""
-    if len(events) < 50:
-        events = parse_events_for_year(today.year, festival_html)
+    festival_events = parse_events_for_year(today.year, festival_html)
+    events = fill_missing_month_events(today.year, month_events, festival_events) if month_events else festival_events
     previous_events = previous_events_for_year(today.year)
-    if len(events) < 50 and len(previous_events) > len(events):
+    if not month_events and len(events) < 50 and len(previous_events) > len(events):
         events = previous_events
     year_days = [date(today.year, 1, 1) + timedelta(days=offset) for offset in range(366 if today.year % 4 == 0 else 365) if (date(today.year, 1, 1) + timedelta(days=offset)).year == today.year]
 
