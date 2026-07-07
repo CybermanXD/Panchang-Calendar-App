@@ -305,6 +305,7 @@ def load_month_html(year: int, month: int) -> tuple[str, str, bool]:
 
 def day_payload(day: date, panchang: dict[str, object] | None, events: list[dict[str, str]]) -> dict[str, object]:
     return {
+        "date": day.isoformat(),
         "month": day.month,
         "monthName": month_name(day.month),
         "day": day.day,
@@ -361,12 +362,25 @@ def main() -> None:
         )
         for offset in range(days_in_year)
     }
+    month_days = list(days.values())
+    legacy_events = [
+        {
+            "date": iso,
+            "title": event.get("title", ""),
+            "detail": event.get("description", ""),
+            "type": event.get("category", "Festival"),
+        }
+        for iso, day_events in events_by_date.items()
+        for event in day_events
+    ]
     payload = {
         "year": year,
         "generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
         "sourceUrls": source_urls + [FESTIVAL_URL.format(year=year)],
         "fetchStatus": {"monthsWithHtml": sorted(fetched_months), "blockedMonths": [month for month in range(1, 13) if month not in fetched_months]},
         "days": days,
+        "monthDays": month_days,
+        "events": legacy_events,
     }
     text = json.dumps(payload, indent=2, ensure_ascii=False)
     for output_path in (OUT, ROOT_OUT):
