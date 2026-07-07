@@ -20,8 +20,31 @@ jobs:
           python-version: "3.12"
       - name: Generate single-file Panchang API
         run: python tools/scrape_panchang.py
-      - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update Panchang JSON data"
-          file_pattern: api/panchang-data.json
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool api/panchang-data.json > /dev/null
+          python - <<'PY'
+          import json
+          from collections import Counter
+
+          with open("api/panchang-data.json", encoding="utf-8") as file:
+              data = json.load(file)
+
+          months = Counter(day["date"][:7] for day in data["monthDays"])
+          print(f"Generated days: {len(data['monthDays'])}")
+          print(f"Generated months: {len(months)}")
+          print(f"Generated events: {len(data['events'])}")
+          if len(months) != 12:
+              raise SystemExit("Expected full-year data with 12 months")
+          PY
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/panchang-data.json
+          if git diff --cached --quiet; then
+            echo "No Panchang JSON changes to commit."
+          else
+            git commit -m "chore: update Panchang JSON data"
+            git push
+          fi
