@@ -115,15 +115,7 @@ class WelcomeScreen extends StatelessWidget {
                   onPressed: appState.completeWelcome,
                   iconAlignment: IconAlignment.end,
                   icon: const Icon(Icons.chevron_right_rounded),
-                  label: const Text('Enter Presence'),
-                ),
-                const SizedBox(height: 30),
-                Text(
-                  'VIKRAM SAMVAT 2080',
-                  style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                        color: colors.textMuted.withValues(alpha: .5),
-                        letterSpacing: 4,
-                      ),
+                  label: const Text('Enter'),
                 ),
               ],
             ),

@@ -11,7 +11,7 @@ class PanchangRepository {
         _apiUrl = apiUrl ??
             const String.fromEnvironment(
               'PANCHANG_API_URL',
-              defaultValue: 'https://raw.githubusercontent.com/Psykix/Panchang-Calendar-App/main/api/panchang-data.json',
+              defaultValue: 'https://raw.githubusercontent.com/CybermanXD/Panchang-Calendar-App/main/api/panchang-data.json',
             );
 
   static const _cacheKey = 'panchangDatasetCache';
