@@ -475,13 +475,14 @@ class EventTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(26),
-        onTap: onTap,
-        child: Ink(
-          margin: const EdgeInsets.only(bottom: 16),
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 16),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(26),
+          onTap: onTap,
+          child: Ink(
           padding: const EdgeInsets.all(18),
           decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(26), boxShadow: PanchangTheme.softShadow),
           child: Row(
@@ -495,6 +496,7 @@ class EventTile extends StatelessWidget {
               Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(event.title, style: Theme.of(context).textTheme.titleMedium?.copyWith(color: colors.primary)), const SizedBox(height: 4), Text('${DateFormat('MMM dd').format(event.date)} • ${event.detail}')])),
               Icon(Icons.chevron_right_rounded, color: colors.border),
             ],
+          ),
           ),
         ),
       ),
@@ -560,16 +562,18 @@ class TimeQualityTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     final color = quality == 'Auspicious' ? Colors.cyan : quality == 'Inauspicious' ? Colors.red : Colors.brown.shade200;
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(12),
-        onTap: onTap,
-        child: Ink(
-          margin: const EdgeInsets.only(bottom: 14),
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 14),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(12),
+          onTap: onTap,
+          child: Ink(
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow, border: Border(left: BorderSide(color: color, width: 4))),
           child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withValues(alpha: .12))]),
+          ),
         ),
       ),
     );
