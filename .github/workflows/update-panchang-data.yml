@@ -30,6 +30,11 @@ jobs:
           python-version: "3.12"
       - name: Generate single-file Panchang API
         run: python tools/scrape_panchang.py
+      - name: Show checkout and validator schema
+        run: |
+          echo "Checked out commit: $(git rev-parse HEAD)"
+          echo "Validator schema: days"
+          grep -n 'days = data.get("days")\|monthDays' .github/workflows/update-panchang-data.yml || true
       - name: Validate generated JSON
         run: |
           python -m json.tool api/panchang-data.json > /dev/null
