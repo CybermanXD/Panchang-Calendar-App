@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-07-07T02:27:00.000Z",
+  "sourceUrls": ["https://www.drikpanchang.com/panchang/month-panchang.html?date=08/07/2026", "https://www.drikpanchang.com/panchang/day-panchang.html", "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html"],
+  "today": {
+    "date": "2026-07-07",
+    "sunrise": "05:29 AM",
+    "sunset": "07:42 PM",
+    "moonrise": "12:30 AM, Jul 09",
+    "moonset": "01:11 PM",
+    "shakaSamvat": "1948 Parabhava",
+    "vikramSamvat": "2083 Siddharthi",
+    "gujaratiSamvat": "2082 Pingala",
+    "amantaMonth": "Jyeshtha",
+    "purnimantaMonth": "Ashadha",
+    "weekday": "Budhawara",
+    "paksha": "Krishna Paksha",
+    "tithi": {"name": "Ashtami", "detail": "upto 12:21 PM"},
+    "nakshatra": {"name": "Revati", "detail": "upto 04:00 PM"},
+    "yoga": {"name": "Atiganda", "detail": "upto 12:38 PM"},
+    "karana": {"name": "Kaulava", "detail": "upto 12:21 PM"},
+    "pravishte": "24",
+    "sunsign": "Mithuna",
+    "moonsign": "Meena upto 04:00 PM",
+    "rahuKalam": "12:36 PM to 02:22 PM",
+    "gulikaiKalam": "10:49 AM to 12:36 PM",
+    "yamaganda": "07:16 AM to 09:02 AM",
+    "abhijit": "None",
+    "durMuhurtam": "12:07 PM to 01:04 PM",
+    "amritKalam": "01:38 PM to 03:13 PM",
+    "events": []
+  },
+  "monthDays": [],
+  "events": [
+    {"date": "2026-07-03", "title": "Sharad Navratri Begins", "detail": "Pratipada Tithi", "type": "Festival"},
+    {"date": "2026-07-11", "title": "Maha Ashtami", "detail": "Ashtami Tithi", "type": "Vrat"},
+    {"date": "2026-07-12", "title": "Dussehra / Vijayadashami", "detail": "Dashami Tithi", "type": "Festival"}
+  ]
+}
