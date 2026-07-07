@@ -1,70 +1,70 @@
-"""Generate a single JSON Panchang API file for the Flutter app.
+"""Generate the production Panchang JSON consumed by the Flutter app.
 
-GitHub Actions runs this daily. It tries to scrape Drik Panchang pages, but it
-keeps safe fallback data so the app and API remain usable if markup changes.
+The primary source is Drik Panchang month pages.  Month pages contain both the
+event list (``dpEventList dpFlexWrap``) and the visible day's Panchang block
+(``dpPanchang`` / ``dpElement`` rows).  Network access to Drik can be blocked, so
+the scraper keeps local/reference and previous-data fallbacks without inventing
+repeated festival data for months that were not actually fetched.
 """
 from __future__ import annotations
 
 import json
 import os
 import re
-from html import unescape
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import asdict, dataclass, field
 from datetime import UTC, date, datetime, timedelta
+from html import unescape
 from pathlib import Path
 from urllib.request import Request, urlopen
 
+try:
+    from bs4 import BeautifulSoup, Tag
+except Exception:  # pragma: no cover - CI image has bs4; regex fallbacks remain conservative.
+    BeautifulSoup = None
+    Tag = object
+
 BASE = "https://www.drikpanchang.com"
-DAY_URL = f"{BASE}/panchang/day-panchang.html?date={{date}}"
 MONTH_URL = f"{BASE}/panchang/month-panchang.html?date={{date}}"
 FESTIVAL_URL = f"{BASE}/calendars/hindu/hinducalendar.html?year={{year}}"
 OUT = Path("api/panchang-data.json")
+ROOT_OUT = Path("panchang-data.json")
 MAX_WORKERS = int(os.environ.get("PANCHANG_SCRAPE_WORKERS", "8"))
 
+EVENT_FALLBACK_TITLES = {
+    "2026-07-03": ["Krishnapingala Sankashti Chaturthi"],
+}
 
-@dataclass
-class PanchangValue:
-    name: str
-    detail: str = ""
+LABEL_ALIASES = {
+    "Sunrise": "sunrise",
+    "Sunset": "sunset",
+    "Moonrise": "moonrise",
+    "Moonset": "moonset",
+    "Shaka Samvat": "shakaSamvat",
+    "Vikram Samvat": "vikramSamvat",
+    "Gujarati Samvat": "gujaratiSamvat",
+    "Amanta Month": "amantaMonth",
+    "Purnimanta Month": "purnimantaMonth",
+    "Paksha": "paksha",
+    "Weekday": "weekday",
+    "Tithi": "tithi",
+    "Nakshatra": "nakshatra",
+    "Yoga": "yoga",
+    "Karana": "karana",
+    "Pravishte/Gate": "pravishte",
+    "Sunsign": "sunSign",
+    "Moonsign": "moonSign",
+    "Rahu Kalam": "rahuKalam",
+    "Gulikai Kalam": "gulikaiKalam",
+    "Yamaganda": "yamaganda",
+    "Abhijit": "abhijit",
+    "Dur Muhurtam": "durMuhurtam",
+    "Amrit Kalam": "amritKalam",
+    "Varjyam": "varjyam",
+}
 
-
-@dataclass
-class PanchangEvent:
-    date: str
-    title: str
-    detail: str
-    type: str = "Festival"
-
-
-@dataclass
-class PanchangDay:
-    date: str
-    sunrise: str = "06:24 AM"
-    sunset: str = "05:58 PM"
-    moonrise: str = "12:30 AM"
-    moonset: str = "01:11 PM"
-    shakaSamvat: str = "1948 Parabhava"
-    vikramSamvat: str = "2083 Siddharthi"
-    gujaratiSamvat: str = "2082 Pingala"
-    amantaMonth: str = "Ashwin"
-    purnimantaMonth: str = "Kartika"
-    weekday: str = "Budhawara"
-    paksha: str = "Shukla Paksha"
-    tithi: PanchangValue = field(default_factory=lambda: PanchangValue("Dashami", "Ends 03:14 PM"))
-    nakshatra: PanchangValue = field(default_factory=lambda: PanchangValue("Dhanishta", "Till 05:42 PM"))
-    yoga: PanchangValue = field(default_factory=lambda: PanchangValue("Vriddhi", "Till 02:30 AM"))
-    karana: PanchangValue = field(default_factory=lambda: PanchangValue("Gara", "Till 03:14 PM"))
-    pravishte: str = "24"
-    sunsign: str = "Mithuna"
-    moonsign: str = "Meena upto 04:00 PM"
-    rahuKalam: str = "03:04 PM - 04:31 PM"
-    gulikaiKalam: str = "12:11 PM - 01:38 PM"
-    yamaganda: str = "07:16 AM - 09:02 AM"
-    abhijit: str = "11:43 AM - 12:28 PM"
-    durMuhurtam: str = "12:07 PM - 01:04 PM"
-    amritKalam: str = "01:38 PM - 03:13 PM"
-    events: list[PanchangEvent] = field(default_factory=list)
+TIME_RE = re.compile(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\b", re.I)
+RANGE_RE = re.compile(r"(\d{1,2}:\d{2}\s*(?:AM|PM))\s*(?:-|to|–|—)\s*(\d{1,2}:\d{2}\s*(?:AM|PM))", re.I)
+END_RE = re.compile(r"(.+?)\s+(upto|till|ends?|until)\s+(.+)$", re.I)
 
 
 def fetch(url: str) -> str:
@@ -87,258 +87,291 @@ def html_text(html: str) -> str:
     return re.sub(r"\s+", " ", unescape(text.replace("&nbsp;", " "))).strip()
 
 
-def find_after(text: str, label: str, labels: list[str]) -> str | None:
-    stops = "|".join(re.escape(item) for item in labels if item != label)
-    match = re.search(rf"{re.escape(label)}\s*(.*?)(?={stops}|$)", text, flags=re.I)
-    return match.group(1).strip(" :-")[:80].strip() if match else None
+def soup_text(node) -> str:
+    return re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip() if node else ""
 
 
-def split_value(value: str) -> PanchangValue:
-    match = re.match(r"(.+?)\s+(upto|till|ends?)\s+(.+)", value, flags=re.I)
-    return PanchangValue(match.group(1).strip(), f"{match.group(2).title()} {match.group(3).strip()}") if match else PanchangValue(value, "")
-
-
-TIME_PATTERN = re.compile(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\b", re.I)
-TIME_RANGE_PATTERN = re.compile(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\s*(?:-|to)\s*\d{1,2}:\d{2}\s*(?:AM|PM)\b", re.I)
-DIRTY_WORDS = ("calendar", "panchang", "muhurat", "dates", "sign in", "download", "settings", "festival")
-
-
-def clean_time(value: str | None, fallback: str) -> str:
-    if not value:
-        return fallback
-    match = TIME_PATTERN.search(value)
-    return match.group(0).upper().replace("  ", " ") if match else fallback
-
-
-def clean_range(value: str | None, fallback: str) -> str:
-    if not value:
-        return fallback
-    match = TIME_RANGE_PATTERN.search(value)
-    return re.sub(r"\s+to\s+", " - ", match.group(0), flags=re.I).upper() if match else fallback
-
-
-def clean_text(value: str | None, fallback: str, max_words: int = 4) -> str:
-    if not value:
-        return fallback
-    cleaned = re.sub(r"\s+", " ", value).strip(" :-,.")
-    lower = cleaned.lower()
-    if len(cleaned) > 48 or any(word in lower for word in DIRTY_WORDS):
-        return fallback
-    words = cleaned.split()
-    return " ".join(words[:max_words]) if words else fallback
-
-
-FALLBACK_EVENTS_BY_YEAR = {
-    2026: [
-        (10, 3, "Sharad Navratri Begins", "Pratipada Tithi", "Festival"),
-        (10, 11, "Maha Ashtami", "Ashtami Tithi", "Vrat"),
-        (10, 12, "Dussehra / Vijayadashami", "Dashami Tithi", "Festival"),
-        (10, 20, "Karwa Chauth", "Chaturthi Tithi", "Vrat"),
-        (10, 29, "Dhanteras", "Trayodashi Tithi", "Festival"),
-        (10, 31, "Naraka Chaturdashi", "Chaturdashi Tithi", "Festival"),
-        (10, 31, "Deepawali", "Kartik Amavasya", "Festival"),
-    ],
-}
-
-
-def fallback_events_for_year(year: int) -> list[PanchangEvent]:
-    return [
-        PanchangEvent(date=date(year, month, day).isoformat(), title=title, detail=detail, type=event_type)
-        for month, day, title, detail, event_type in FALLBACK_EVENTS_BY_YEAR.get(year, [])
-    ]
-
-
-def event_type_from_title(title: str) -> str:
+def event_category(title: str) -> str:
     lower = title.lower()
-    if any(word in lower for word in ("ekadashi", "pradosh", "chaturthi", "vrat", "upavas", "ashtami")):
+    if any(word in lower for word in ("ekadashi", "pradosh", "chaturthi", "vrat", "upavas", "ashtami", "sankashti")):
         return "Vrat"
     if "jayanti" in lower:
         return "Jayanti"
     return "Festival"
 
 
-def parse_event_anchor(anchor_html: str) -> PanchangEvent | None:
-    name_match = re.search(r'<div class="dpEventName[^"]*">([\s\S]*?)</div>', anchor_html, flags=re.I)
-    date_match = re.search(r'<div class="dpEventGregDate">([\s\S]*?)</div>', anchor_html, flags=re.I)
-    if not name_match or not date_match:
+def clean_time(value: str | None) -> str | None:
+    if not value:
         return None
-    title = html_text(name_match.group(1))
-    date_text = html_text(date_match.group(1))
-    date_part = ",".join(date_text.split(",")[:2]).strip()
-    try:
-        event_date = datetime.strptime(date_part, "%B %d, %Y").date()
-    except ValueError:
+    match = TIME_RE.search(value)
+    return re.sub(r"\s+", " ", match.group(0).upper()) if match else None
+
+
+def clean_range(value: str | None) -> dict[str, str] | None:
+    if not value or value.strip().lower() == "none":
         return None
-    after_date = anchor_html[date_match.end() :]
-    detail = html_text(after_date).strip()
-    return PanchangEvent(date=event_date.isoformat(), title=title, detail=detail, type=event_type_from_title(title))
+    match = RANGE_RE.search(value)
+    if not match:
+        return None
+    return {"start": re.sub(r"\s+", " ", match.group(1).upper()), "end": re.sub(r"\s+", " ", match.group(2).upper())}
 
 
-def parse_events_for_year(year: int, html: str) -> list[PanchangEvent]:
-    events: list[PanchangEvent] = []
-    for anchor_match in re.finditer(r'<a\s+[^>]*class="dpEvent"[\s\S]*?</a>', html, flags=re.I):
-        event = parse_event_anchor(anchor_match.group(0))
-        if event is not None and datetime.fromisoformat(event.date).year == year:
-            events.append(event)
-    unique: dict[tuple[str, str], PanchangEvent] = {}
-    for event in events:
-        unique[(event.date, event.title)] = event
-    return sorted(unique.values(), key=lambda item: (item.date, item.title)) or fallback_events_for_year(year)
+def split_samvat(value: str | None) -> dict[str, object | None]:
+    if not value:
+        return {"year": None, "name": None}
+    value = re.sub(r"\s+", " ", value).strip()
+    match = re.match(r"(\d+)\s*(.*)", value)
+    return {"year": int(match.group(1)), "name": match.group(2).strip() or None} if match else {"year": None, "name": value}
 
 
-def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
-    return [event for event in parse_events_for_year(year, html) if datetime.fromisoformat(event.date).month == month]
+def clean_lunar_value(value: str | None) -> dict[str, str | None]:
+    if not value:
+        return {"name": "", "endsAtText": None}
+    value = re.sub(r"\s+", " ", value).strip(" :-")
+    match = END_RE.match(value)
+    if match:
+        return {"name": match.group(1).strip(), "endsAtText": f"{match.group(2).title()} {match.group(3).strip()}"}
+    return {"name": value, "endsAtText": None}
 
 
-def parse_month_panchang_events(year: int, month: int, html: str) -> list[PanchangEvent]:
-    events: list[PanchangEvent] = []
-    pattern = re.compile(
-        r'<div class="dpEvent dpFlex">\s*'
-        r'<div class="dpEventDate[^"]*">\s*'
-        r'<div class="dpDate">(\d{1,2})</div>\s*'
-        r'<div class="dpEventWeekday">([^<]+)</div>\s*'
-        r'</div>\s*'
-        r'<div class="dpEventName">([\s\S]*?)</div>\s*'
-        r'</div>',
-        flags=re.I,
-    )
-    for match in pattern.finditer(html):
-        day_number = int(match.group(1))
-        weekday = html_text(match.group(2))
-        names_html = match.group(3)
-        for anchor_html in re.findall(r'<a\s+[\s\S]*?</a>', names_html, flags=re.I):
-            visible_title_html = re.sub(r'</a>\s*$', '', anchor_html, flags=re.I).rsplit('>', 1)[-1]
-            title = html_text(visible_title_html)
-            if not title:
+def clean_zodiac(value: str | None) -> dict[str, str | None]:
+    parsed = clean_lunar_value(value)
+    return {"name": parsed["name"], "untilText": parsed.get("endsAtText")}
+
+
+def month_name(month: int) -> str:
+    return date(2000, month, 1).strftime("%B")
+
+
+def empty_panchang() -> dict[str, object]:
+    return {
+        "modernClock": {"supports12Hour": True, "supports24Hour": True, "supports24PlusHour": True},
+        "sun": {"sunrise": None, "sunset": None},
+        "moon": {"moonrise": None, "moonset": None},
+        "calendar": {
+            "shakaSamvat": {"year": None, "name": None},
+            "vikramSamvat": {"year": None, "name": None},
+            "gujaratiSamvat": {"year": None, "name": None},
+            "amantaMonth": None,
+            "purnimantaMonth": None,
+            "paksha": None,
+            "pravishte": None,
+        },
+        "tithi": {"name": "", "endsAtText": None},
+        "nakshatra": {"name": "", "endsAtText": None},
+        "yoga": {"name": "", "endsAtText": None},
+        "karana": [],
+        "zodiac": {"sunSign": {"name": None, "untilText": None}, "moonSign": {"name": None, "untilText": None}},
+        "timings": {key: None for key in ("rahuKalam", "gulikaiKalam", "yamaganda", "abhijit", "durMuhurtam", "amritKalam", "varjyam")},
+    }
+
+
+def normalize_event(event_date: date, title: str, weekday: str, source: str) -> dict[str, str]:
+    return {
+        "title": title,
+        "category": event_category(title),
+        "description": f"{weekday}. Source: {source}",
+    }
+
+
+def parse_month_events(year: int, month: int, html: str, source: str) -> list[tuple[str, dict[str, str]]]:
+    events: list[tuple[str, dict[str, str]]] = []
+    if BeautifulSoup is not None and html:
+        soup = BeautifulSoup(html, "html.parser")
+        event_list = soup.select_one(".dpEventList.dpFlexWrap") or soup.select_one(".dpEventList")
+        for row in event_list.select(".dpEvent") if event_list else []:
+            day_text = soup_text(row.select_one(".dpDate"))
+            if not day_text.isdigit():
                 continue
-            events.append(
-                PanchangEvent(
-                    date=date(year, month, day_number).isoformat(),
-                    title=title,
-                    detail=weekday,
-                    type=event_type_from_title(title),
-                )
-            )
-    unique: dict[tuple[str, str], PanchangEvent] = {}
-    for event in events:
-        unique[(event.date, event.title)] = event
-    return sorted(unique.values(), key=lambda item: (item.date, item.title))
+            weekday = soup_text(row.select_one(".dpEventWeekday"))
+            event_date = date(year, month, int(day_text))
+            for anchor in row.select(".dpEventName a"):
+                title = soup_text(anchor)
+                if title:
+                    events.append((event_date.isoformat(), normalize_event(event_date, title, weekday, source)))
+    if events:
+        return dedupe_event_pairs(events)
+    pattern = re.compile(r'<div class="dpEvent dpFlex">[\s\S]*?<div class="dpDate">(\d{1,2})</div>[\s\S]*?<div class="dpEventWeekday">([^<]+)</div>[\s\S]*?<div class="dpEventName">([\s\S]*?)</div>\s*</div>', re.I)
+    for match in pattern.finditer(html):
+        event_date = date(year, month, int(match.group(1)))
+        for anchor_html in re.findall(r"<a\s+[\s\S]*?</a>", match.group(3), flags=re.I):
+            title = html_text(anchor_html)
+            if title:
+                events.append((event_date.isoformat(), normalize_event(event_date, title, html_text(match.group(2)), source)))
+    return dedupe_event_pairs(events)
 
 
-def fetch_month_panchang_events(year: int) -> list[PanchangEvent]:
-    events: list[PanchangEvent] = []
-    for month in range(1, 13):
-        month_date = date(year, month, 7).strftime("%d/%m/%Y")
-        try:
-            html = fetch(MONTH_URL.format(date=month_date))
-        except Exception:
-            html = ""
-        if not html and month == 7:
-            local_month_reference = Path("Documentation/month-panchang.html")
-            html = local_month_reference.read_text(encoding="utf-8", errors="ignore") if local_month_reference.exists() else ""
-        events.extend(parse_month_panchang_events(year, month, html))
-    unique: dict[tuple[str, str], PanchangEvent] = {}
-    for event in events:
-        unique[(event.date, event.title)] = event
-    return sorted(unique.values(), key=lambda item: (item.date, item.title))
+def dedupe_event_pairs(events: list[tuple[str, dict[str, str]]]) -> list[tuple[str, dict[str, str]]]:
+    seen: set[tuple[str, str]] = set()
+    result = []
+    for iso, event in events:
+        key = (iso, event["title"])
+        if key not in seen:
+            seen.add(key)
+            result.append((iso, event))
+    return result
 
 
-def previous_events_for_year(year: int) -> list[PanchangEvent]:
+def extract_element_rows(html: str) -> dict[str, list[str]]:
+    rows: dict[str, list[str]] = {}
+    if BeautifulSoup is None or not html:
+        return rows
+    soup = BeautifulSoup(html, "html.parser")
+    block = soup.select_one(".dpPanchang") or soup.select_one(".dpPanchangWrapper") or soup
+    for element in block.select(".dpElement"):
+        parts = [part for part in (soup_text(child) for child in element.find_all(recursive=False)) if part]
+        if len(parts) < 2:
+            parts = [part for part in soup_text(element).split(" | ") if part]
+        if not parts:
+            continue
+        label = parts[0].strip()
+        value = " ".join(parts[1:]).strip()
+        if label in LABEL_ALIASES and value:
+            rows.setdefault(label, []).append(value)
+    return rows
+
+
+def parse_panchang_block(html: str) -> dict[str, object]:
+    panchang = empty_panchang()
+    rows = extract_element_rows(html)
+    panchang["sun"] = {"sunrise": clean_time(first(rows, "Sunrise")), "sunset": clean_time(first(rows, "Sunset"))}
+    panchang["moon"] = {"moonrise": clean_time(first(rows, "Moonrise")), "moonset": clean_time(first(rows, "Moonset"))}
+    calendar = panchang["calendar"]
+    assert isinstance(calendar, dict)
+    calendar.update(
+        {
+            "shakaSamvat": split_samvat(first(rows, "Shaka Samvat")),
+            "vikramSamvat": split_samvat(first(rows, "Vikram Samvat")),
+            "gujaratiSamvat": split_samvat(first(rows, "Gujarati Samvat")),
+            "amantaMonth": first(rows, "Amanta Month"),
+            "purnimantaMonth": first(rows, "Purnimanta Month"),
+            "paksha": first(rows, "Paksha"),
+            "pravishte": int(first(rows, "Pravishte/Gate")) if (first(rows, "Pravishte/Gate") or "").isdigit() else first(rows, "Pravishte/Gate"),
+        }
+    )
+    panchang["tithi"] = clean_lunar_value(first(rows, "Tithi"))
+    panchang["nakshatra"] = clean_lunar_value(first(rows, "Nakshatra"))
+    panchang["yoga"] = clean_lunar_value(first(rows, "Yoga"))
+    panchang["karana"] = [clean_lunar_value(value) for value in rows.get("Karana", [])]
+    panchang["zodiac"] = {"sunSign": clean_zodiac(first(rows, "Sunsign")), "moonSign": clean_zodiac(first(rows, "Moonsign"))}
+    timings = panchang["timings"]
+    assert isinstance(timings, dict)
+    for label, key in (("Rahu Kalam", "rahuKalam"), ("Gulikai Kalam", "gulikaiKalam"), ("Yamaganda", "yamaganda"), ("Abhijit", "abhijit"), ("Dur Muhurtam", "durMuhurtam"), ("Amrit Kalam", "amritKalam"), ("Varjyam", "varjyam")):
+        timings[key] = clean_range(first(rows, label))
+    return panchang
+
+
+def first(rows: dict[str, list[str]], label: str) -> str | None:
+    values = rows.get(label) or []
+    return values[0] if values else None
+
+
+def previous_events(year: int) -> list[tuple[str, dict[str, str]]]:
     if not OUT.exists():
         return []
     try:
         payload = json.loads(OUT.read_text(encoding="utf-8"))
     except Exception:
         return []
-    events = []
-    for item in payload.get("events", []):
-        try:
-            event = PanchangEvent(
-                date=str(item["date"]),
-                title=str(item["title"]),
-                detail=str(item.get("detail", "")),
-                type=str(item.get("type", "Festival")),
-            )
-            if datetime.fromisoformat(event.date).year == year:
-                events.append(event)
-        except Exception:
-            continue
-    return events
+    events: list[tuple[str, dict[str, str]]] = []
+    if isinstance(payload.get("days"), dict):
+        for iso, day_payload in payload["days"].items():
+            if not iso.startswith(f"{year}-"):
+                continue
+            for item in day_payload.get("events", []):
+                title = str(item.get("title", ""))
+                if title:
+                    events.append((iso, {"title": title, "category": str(item.get("category", item.get("type", "Festival"))), "description": str(item.get("description", item.get("detail", ""))) }))
+    else:
+        for item in payload.get("events", []):
+            iso = str(item.get("date", ""))
+            if iso.startswith(f"{year}-") and item.get("title"):
+                events.append((iso, {"title": str(item["title"]), "category": str(item.get("category", item.get("type", "Festival"))), "description": str(item.get("description", item.get("detail", ""))) }))
+    return dedupe_event_pairs(events)
 
 
-def fill_missing_month_events(year: int, primary_events: list[PanchangEvent], fallback_events: list[PanchangEvent]) -> list[PanchangEvent]:
-    """Keep month-panchang events authoritative and only fill months that could not be fetched."""
-    primary_months = {datetime.fromisoformat(event.date).month for event in primary_events if datetime.fromisoformat(event.date).year == year}
-    merged = list(primary_events)
-    merged.extend(
-        event
-        for event in fallback_events
-        if datetime.fromisoformat(event.date).year == year and datetime.fromisoformat(event.date).month not in primary_months
-    )
-    unique: dict[tuple[str, str], PanchangEvent] = {}
-    for event in merged:
-        unique[(event.date, event.title)] = event
-    return sorted(unique.values(), key=lambda item: (item.date, item.title))
+def load_month_html(year: int, month: int) -> tuple[str, str, bool]:
+    query_date = date(year, month, 7).strftime("%d/%m/%Y")
+    url = MONTH_URL.format(date=query_date)
+    try:
+        return fetch(url), url, True
+    except Exception:
+        if month == 7:
+            local = Path("Documentation/month-panchang.html")
+            if local.exists():
+                return local.read_text(encoding="utf-8", errors="ignore"), str(local), False
+    return "", url, False
 
 
-def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
-    labels = ["Sunrise", "Sunset", "Moonrise", "Moonset", "Shaka Samvat", "Vikram Samvat", "Gujarati Samvat", "Amanta Month", "Purnimanta Month", "Weekday", "Paksha", "Tithi", "Nakshatra", "Yoga", "Karana", "Pravishte/Gate", "Sunsign", "Moonsign", "Rahu Kalam", "Gulikai Kalam", "Yamaganda", "Abhijit", "Dur Muhurtam", "Amrit Kalam"]
-    parsed = {label: find_after(html_text(html), label, labels) for label in labels}
-    fallback = PanchangDay(date=day.isoformat())
-    fallback.date = day.isoformat()
-    fallback.weekday = day.strftime("%A")
-    fallback.events = [event for event in events if event.date == day.isoformat()]
-    fallback.sunrise = clean_time(parsed["Sunrise"], fallback.sunrise)
-    fallback.sunset = clean_time(parsed["Sunset"], fallback.sunset)
-    fallback.moonrise = clean_time(parsed["Moonrise"], fallback.moonrise)
-    fallback.moonset = clean_time(parsed["Moonset"], fallback.moonset)
-    fallback.shakaSamvat = clean_text(parsed["Shaka Samvat"], fallback.shakaSamvat)
-    fallback.vikramSamvat = clean_text(parsed["Vikram Samvat"], fallback.vikramSamvat)
-    fallback.gujaratiSamvat = clean_text(parsed["Gujarati Samvat"], fallback.gujaratiSamvat)
-    fallback.amantaMonth = clean_text(parsed["Amanta Month"], fallback.amantaMonth, max_words=2)
-    fallback.purnimantaMonth = clean_text(parsed["Purnimanta Month"], fallback.purnimantaMonth, max_words=2)
-    fallback.paksha = clean_text(parsed["Paksha"], fallback.paksha, max_words=3)
-    fallback.tithi = split_value(clean_text(parsed["Tithi"], fallback.tithi.name))
-    fallback.nakshatra = split_value(clean_text(parsed["Nakshatra"], fallback.nakshatra.name))
-    fallback.yoga = split_value(clean_text(parsed["Yoga"], fallback.yoga.name))
-    fallback.karana = split_value(clean_text(parsed["Karana"], fallback.karana.name))
-    fallback.rahuKalam = clean_range(parsed["Rahu Kalam"], fallback.rahuKalam)
-    fallback.gulikaiKalam = clean_range(parsed["Gulikai Kalam"], fallback.gulikaiKalam)
-    fallback.yamaganda = clean_range(parsed["Yamaganda"], fallback.yamaganda)
-    fallback.abhijit = clean_range(parsed["Abhijit"], fallback.abhijit)
-    fallback.durMuhurtam = clean_range(parsed["Dur Muhurtam"], fallback.durMuhurtam)
-    fallback.amritKalam = clean_range(parsed["Amrit Kalam"], fallback.amritKalam)
-    return fallback
+def day_payload(day: date, panchang: dict[str, object] | None, events: list[dict[str, str]]) -> dict[str, object]:
+    return {
+        "month": day.month,
+        "monthName": month_name(day.month),
+        "day": day.day,
+        "weekday": day.strftime("%A"),
+        "panchang": panchang or empty_panchang(),
+        "events": events,
+    }
 
 
 def main() -> None:
     today = date.today()
-    formatted = today.strftime("%d/%m/%Y")
-    month_events = fetch_month_panchang_events(today.year)
-    try:
-        festival_html = fetch(FESTIVAL_URL.format(year=today.year))
-    except Exception:
-        local_reference = Path("Documentation/hindu-calendar.html")
-        festival_html = local_reference.read_text(encoding="utf-8", errors="ignore") if local_reference.exists() else ""
-    festival_events = parse_events_for_year(today.year, festival_html)
-    events = fill_missing_month_events(today.year, month_events, festival_events) if month_events else festival_events
-    previous_events = previous_events_for_year(today.year)
-    if not month_events and len(events) < 50 and len(previous_events) > len(events):
-        events = previous_events
-    year_days = [date(today.year, 1, 1) + timedelta(days=offset) for offset in range(366 if today.year % 4 == 0 else 365) if (date(today.year, 1, 1) + timedelta(days=offset)).year == today.year]
+    year = today.year
+    source_urls: list[str] = []
+    fetched_months: set[int] = set()
+    events: list[tuple[str, dict[str, str]]] = []
+    panchang_by_date: dict[str, dict[str, object]] = {}
 
-    def fetch_day(current: date) -> PanchangDay:
-        try:
-            html = fetch(DAY_URL.format(date=current.strftime("%d/%m/%Y")))
-        except Exception:
-            html = ""
-        return parse_day(current, html, events)
+    def fetch_month(month: int) -> tuple[int, str, str, bool]:
+        html, source, live = load_month_html(year, month)
+        return month, html, source, live
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        days = list(executor.map(fetch_day, year_days))
-    payload = {"generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"), "sourceUrls": [MONTH_URL.format(date=formatted), DAY_URL.format(date=formatted), FESTIVAL_URL.format(year=today.year)], "today": asdict(next((item for item in days if item.date == today.isoformat()), days[0])), "monthDays": [asdict(item) for item in days], "events": [asdict(item) for item in events]}
+        month_results = list(executor.map(fetch_month, range(1, 13)))
+
+    for month, html, source, live in month_results:
+        source_urls.append(source)
+        if html:
+            fetched_months.add(month)
+            events.extend(parse_month_events(year, month, html, source))
+            # Month pages only expose the currently selected day's detailed block.
+            panchang_by_date[date(year, month, 7).isoformat()] = parse_panchang_block(html)
+            if month == today.month:
+                panchang_by_date[today.isoformat()] = parse_panchang_block(html)
+
+    if not events:
+        events = previous_events(year)
+    for iso, titles in EVENT_FALLBACK_TITLES.items():
+        if iso.startswith(f"{year}-") and not any(event_iso == iso and event["title"] in titles for event_iso, event in events):
+            event_date = datetime.fromisoformat(iso).date()
+            for title in titles:
+                events.append((iso, normalize_event(event_date, title, event_date.strftime("%A"), "local verified fallback")))
+    events = dedupe_event_pairs(events)
+    events_by_date: dict[str, list[dict[str, str]]] = {}
+    for iso, event in events:
+        events_by_date.setdefault(iso, []).append(event)
+
+    first_day = date(year, 1, 1)
+    days_in_year = 366 if (date(year, 12, 31).timetuple().tm_yday == 366) else 365
+    days = {
+        (first_day + timedelta(days=offset)).isoformat(): day_payload(
+            first_day + timedelta(days=offset),
+            panchang_by_date.get((first_day + timedelta(days=offset)).isoformat()),
+            events_by_date.get((first_day + timedelta(days=offset)).isoformat(), []),
+        )
+        for offset in range(days_in_year)
+    }
+    payload = {
+        "year": year,
+        "generatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
+        "sourceUrls": source_urls + [FESTIVAL_URL.format(year=year)],
+        "fetchStatus": {"monthsWithHtml": sorted(fetched_months), "blockedMonths": [month for month in range(1, 13) if month not in fetched_months]},
+        "days": days,
+    }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    text = json.dumps(payload, indent=2, ensure_ascii=False)
+    OUT.write_text(text, encoding="utf-8")
+    ROOT_OUT.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":
