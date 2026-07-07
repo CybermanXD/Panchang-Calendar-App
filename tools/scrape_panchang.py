@@ -368,10 +368,10 @@ def main() -> None:
         "fetchStatus": {"monthsWithHtml": sorted(fetched_months), "blockedMonths": [month for month in range(1, 13) if month not in fetched_months]},
         "days": days,
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, indent=2, ensure_ascii=False)
-    OUT.write_text(text, encoding="utf-8")
-    ROOT_OUT.write_text(text, encoding="utf-8")
+    for output_path in (OUT, ROOT_OUT):
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":
