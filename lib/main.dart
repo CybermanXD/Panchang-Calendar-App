@@ -511,7 +511,7 @@ class TimeQualityTile extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 14),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow, border: Border(left: BorderSide(color: color, width: 4))),
-      child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withOpacity(.12)]),
+      child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withOpacity(.12))]),
     );
   }
 }
