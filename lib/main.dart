@@ -211,9 +211,14 @@ class CalendarTab extends StatelessWidget {
               ),
               DecoratedBox(
                 decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(28)),
-                child: const Padding(
-                  padding: EdgeInsets.all(12),
-                  child: Row(children: [Icon(Icons.chevron_left), SizedBox(width: 16), Icon(Icons.chevron_right)]),
+                child: Padding(
+                  padding: const EdgeInsets.all(8),
+                  child: Row(
+                    children: [
+                      IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_left)),
+                      IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_right)),
+                    ],
+                  ),
                 ),
               ),
             ],
@@ -221,11 +226,11 @@ class CalendarTab extends StatelessWidget {
           const SizedBox(height: 32),
           CalendarCard(today: today, monthDays: monthDays),
           const SizedBox(height: 48),
-          const SectionHeader(title: 'Spiritual Events', action: 'See All'),
+          SectionHeader(title: 'Spiritual Events', action: 'See All', onActionTap: () {}),
           const SizedBox(height: 18),
-          for (final event in highlighted) EventTile(event: event),
+          for (final event in highlighted) EventTile(event: event, onTap: () {}),
           const SizedBox(height: 28),
-          const DarshanCard(),
+          DarshanCard(onTap: () {}),
         ],
       ),
     );
@@ -261,20 +266,20 @@ class TodayTab extends StatelessWidget {
               mainAxisSpacing: 20,
               childAspectRatio: .95,
               children: [
-                PanchangMetric(icon: Icons.brightness_5_outlined, title: 'Tithi', value: today.tithi.name, note: today.tithi.detail),
-                PanchangMetric(icon: Icons.auto_awesome, title: 'Nakshatra', value: today.nakshatra.name, note: today.nakshatra.detail),
-                PanchangMetric(icon: Icons.self_improvement, title: 'Yoga', value: today.yoga.name, note: today.yoga.detail),
-                PanchangMetric(icon: Icons.waves_rounded, title: 'Karana', value: today.karana.name, note: today.karana.detail),
+                PanchangMetric(icon: Icons.brightness_5_outlined, title: 'Tithi', value: today.tithi.name, note: today.tithi.detail, onTap: () {}),
+                PanchangMetric(icon: Icons.auto_awesome, title: 'Nakshatra', value: today.nakshatra.name, note: today.nakshatra.detail, onTap: () {}),
+                PanchangMetric(icon: Icons.self_improvement, title: 'Yoga', value: today.yoga.name, note: today.yoga.detail, onTap: () {}),
+                PanchangMetric(icon: Icons.waves_rounded, title: 'Karana', value: today.karana.name, note: today.karana.detail, onTap: () {}),
               ],
             ),
             const SizedBox(height: 34),
-            SunMoonCard(day: today),
+            SunMoonCard(day: today, onTap: () {}),
             const SizedBox(height: 28),
             Text('Auspicious & Inauspicious Times', style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: 16),
-            TimeQualityTile(icon: Icons.verified_outlined, title: 'Abhijit Muhurta', time: today.abhijit, quality: 'Auspicious'),
-            TimeQualityTile(icon: Icons.error_outline, title: 'Rahu Kalam', time: today.rahuKalam, quality: 'Inauspicious'),
-            TimeQualityTile(icon: Icons.schedule, title: 'Gulika Kalam', time: today.gulikaiKalam, quality: 'Neutral'),
+            TimeQualityTile(icon: Icons.verified_outlined, title: 'Abhijit Muhurta', time: today.abhijit, quality: 'Auspicious', onTap: () {}),
+            TimeQualityTile(icon: Icons.error_outline, title: 'Rahu Kalam', time: today.rahuKalam, quality: 'Inauspicious', onTap: () {}),
+            TimeQualityTile(icon: Icons.schedule, title: 'Gulika Kalam', time: today.gulikaiKalam, quality: 'Neutral', onTap: () {}),
             const TempleMistCard(),
           ],
         ),
@@ -305,10 +310,20 @@ class _PanchangTabState extends State<PanchangTab> {
         children: [
           Row(
             children: [
-              const Icon(Icons.chevron_left_rounded),
-              const SizedBox(width: 8),
+              IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_left_rounded)),
               Expanded(child: Text(DateFormat('MMMM yyyy').format(DateTime.now()), style: Theme.of(context).textTheme.headlineSmall)),
-              FilledButton.tonalIcon(onPressed: () {}, icon: const Icon(Icons.calendar_month), label: const Text('Today')),
+              FilledButton.tonalIcon(
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size(0, 40),
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  visualDensity: VisualDensity.compact,
+                ),
+                onPressed: () {},
+                icon: const Icon(Icons.calendar_month, size: 18),
+                label: const Text('Today'),
+              ),
+              IconButton(onPressed: () {}, visualDensity: VisualDensity.compact, icon: const Icon(Icons.chevron_right_rounded)),
             ],
           ),
           Padding(
@@ -331,7 +346,7 @@ class _PanchangTabState extends State<PanchangTab> {
           const SizedBox(height: 24),
           for (var i = 0; i < events.length; i++) ...[
             if (i == 3) const UpcomingEventCard(),
-            EventTile(event: events[i], largeDate: true),
+            EventTile(event: events[i], largeDate: true, onTap: () {}),
           ],
         ],
       ),
@@ -432,94 +447,147 @@ class CalendarDayCell extends StatelessWidget {
 }
 
 class SectionHeader extends StatelessWidget {
-  const SectionHeader({required this.title, required this.action, super.key});
+  const SectionHeader({required this.title, required this.action, this.onActionTap, super.key});
   final String title;
   final String action;
+  final VoidCallback? onActionTap;
   @override
-  Widget build(BuildContext context) => Row(children: [Expanded(child: Text(title, style: Theme.of(context).textTheme.titleLarge)), Text(action, style: TextStyle(color: Theme.of(context).extension<PanchangColors>()!.primary, fontWeight: FontWeight.w700))]);
+  Widget build(BuildContext context) => Row(
+        children: [
+          Expanded(child: Text(title, style: Theme.of(context).textTheme.titleLarge)),
+          InkWell(
+            borderRadius: BorderRadius.circular(18),
+            onTap: onActionTap,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+              child: Text(action, style: TextStyle(color: Theme.of(context).extension<PanchangColors>()!.primary, fontWeight: FontWeight.w700)),
+            ),
+          ),
+        ],
+      );
 }
 
 class EventTile extends StatelessWidget {
-  const EventTile({required this.event, this.largeDate = false, super.key});
+  const EventTile({required this.event, this.largeDate = false, this.onTap, super.key});
   final PanchangEvent event;
   final bool largeDate;
+  final VoidCallback? onTap;
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
-    return Container(
-      margin: const EdgeInsets.only(bottom: 16),
-      padding: const EdgeInsets.all(18),
-      decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(26), boxShadow: PanchangTheme.softShadow),
-      child: Row(
-        children: [
-          CircleAvatar(
-            radius: largeDate ? 32 : 28,
-            backgroundColor: Colors.white,
-            child: largeDate ? Text(DateFormat('dd\nEEE').format(event.date).toUpperCase(), textAlign: TextAlign.center, style: TextStyle(color: colors.primary, fontWeight: FontWeight.w800)) : Icon(Icons.local_florist, color: colors.primary),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(26),
+        onTap: onTap,
+        child: Ink(
+          margin: const EdgeInsets.only(bottom: 16),
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(26), boxShadow: PanchangTheme.softShadow),
+          child: Row(
+            children: [
+              CircleAvatar(
+                radius: largeDate ? 32 : 28,
+                backgroundColor: Colors.white,
+                child: largeDate ? Text(DateFormat('dd\nEEE').format(event.date).toUpperCase(), textAlign: TextAlign.center, style: TextStyle(color: colors.primary, fontWeight: FontWeight.w800)) : Icon(Icons.local_florist, color: colors.primary),
+              ),
+              const SizedBox(width: 18),
+              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(event.title, style: Theme.of(context).textTheme.titleMedium?.copyWith(color: colors.primary)), const SizedBox(height: 4), Text('${DateFormat('MMM dd').format(event.date)} • ${event.detail}')])),
+              Icon(Icons.chevron_right_rounded, color: colors.border),
+            ],
           ),
-          const SizedBox(width: 18),
-          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(event.title, style: Theme.of(context).textTheme.titleMedium?.copyWith(color: colors.primary)), const SizedBox(height: 4), Text('${DateFormat('MMM dd').format(event.date)} • ${event.detail}') ])),
-          Icon(Icons.chevron_right_rounded, color: colors.border),
-        ],
+        ),
       ),
     );
   }
 }
 
 class PanchangMetric extends StatelessWidget {
-  const PanchangMetric({required this.icon, required this.title, required this.value, required this.note, super.key});
+  const PanchangMetric({required this.icon, required this.title, required this.value, required this.note, this.onTap, super.key});
   final IconData icon;
   final String title;
   final String value;
   final String note;
+  final VoidCallback? onTap;
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
-    return Container(
-      padding: const EdgeInsets.all(18),
-      decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow),
-      child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(icon, color: colors.primary), const SizedBox(height: 18), Text(title), const SizedBox(height: 8), Text(value, style: Theme.of(context).textTheme.titleLarge), const SizedBox(height: 6), Text(note, textAlign: TextAlign.center, style: TextStyle(color: colors.textMuted))]),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(12),
+        onTap: onTap,
+        child: Ink(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow),
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [Icon(icon, color: colors.primary), const SizedBox(height: 18), Text(title), const SizedBox(height: 8), Text(value, style: Theme.of(context).textTheme.titleLarge), const SizedBox(height: 6), Text(note, textAlign: TextAlign.center, style: TextStyle(color: colors.textMuted))]),
+        ),
+      ),
     );
   }
 }
 
 class SunMoonCard extends StatelessWidget {
-  const SunMoonCard({required this.day, super.key});
+  const SunMoonCard({required this.day, this.onTap, super.key});
   final PanchangDay day;
+  final VoidCallback? onTap;
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
-    return Container(
-      padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(14), boxShadow: PanchangTheme.softShadow),
-      child: Row(children: [Icon(Icons.wb_twilight_rounded, color: colors.primary), const SizedBox(width: 18), Expanded(child: Text('Sunrise\n${day.sunrise}', style: Theme.of(context).textTheme.titleLarge)), Expanded(child: Text('Sunset\n${day.sunset}', textAlign: TextAlign.end, style: Theme.of(context).textTheme.titleLarge)), const SizedBox(width: 18), Icon(Icons.nightlight_round, color: colors.primary)]),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(14),
+        onTap: onTap,
+        child: Ink(
+          padding: const EdgeInsets.all(24),
+          decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(14), boxShadow: PanchangTheme.softShadow),
+          child: Row(children: [Icon(Icons.wb_twilight_rounded, color: colors.primary), const SizedBox(width: 18), Expanded(child: Text('Sunrise\n${day.sunrise}', style: Theme.of(context).textTheme.titleLarge)), Expanded(child: Text('Sunset\n${day.sunset}', textAlign: TextAlign.end, style: Theme.of(context).textTheme.titleLarge)), const SizedBox(width: 18), Icon(Icons.nightlight_round, color: colors.primary)]),
+        ),
+      ),
     );
   }
 }
 
 class TimeQualityTile extends StatelessWidget {
-  const TimeQualityTile({required this.icon, required this.title, required this.time, required this.quality, super.key});
+  const TimeQualityTile({required this.icon, required this.title, required this.time, required this.quality, this.onTap, super.key});
   final IconData icon;
   final String title;
   final String time;
   final String quality;
+  final VoidCallback? onTap;
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).extension<PanchangColors>()!;
     final color = quality == 'Auspicious' ? Colors.cyan : quality == 'Inauspicious' ? Colors.red : Colors.brown.shade200;
-    return Container(
-      margin: const EdgeInsets.only(bottom: 14),
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow, border: Border(left: BorderSide(color: color, width: 4))),
-      child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withValues(alpha: .12))]),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(12),
+        onTap: onTap,
+        child: Ink(
+          margin: const EdgeInsets.only(bottom: 14),
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(color: colors.surface, borderRadius: BorderRadius.circular(12), boxShadow: PanchangTheme.softShadow, border: Border(left: BorderSide(color: color, width: 4))),
+          child: Row(children: [Icon(icon, color: color), const SizedBox(width: 16), Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text(title, style: Theme.of(context).textTheme.titleMedium), Text(time)])), Chip(label: Text(quality), backgroundColor: color.withValues(alpha: .12))]),
+        ),
+      ),
     );
   }
 }
 
 class DarshanCard extends StatelessWidget {
-  const DarshanCard({super.key});
+  const DarshanCard({this.onTap, super.key});
+  final VoidCallback? onTap;
   @override
-  Widget build(BuildContext context) => Container(height: 210, decoration: BoxDecoration(borderRadius: BorderRadius.circular(18), gradient: LinearGradient(colors: [Colors.orange.shade100, Colors.brown.shade700], begin: Alignment.topLeft, end: Alignment.bottomRight)), alignment: Alignment.bottomLeft, padding: const EdgeInsets.all(20), child: const Text('Darshan', style: TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w800)));
+  Widget build(BuildContext context) => Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(18),
+          onTap: onTap,
+          child: Ink(height: 210, decoration: BoxDecoration(borderRadius: BorderRadius.circular(18), gradient: LinearGradient(colors: [Colors.orange.shade100, Colors.brown.shade700], begin: Alignment.topLeft, end: Alignment.bottomRight)), padding: const EdgeInsets.all(20), child: const Align(alignment: Alignment.bottomLeft, child: Text('Darshan', style: TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w800)))),
+        ),
+      );
 }
 
 class TempleMistCard extends StatelessWidget {

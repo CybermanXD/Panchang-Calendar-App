@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -8,19 +9,26 @@ import '../models/panchang_data.dart';
 class PanchangRepository {
   PanchangRepository({http.Client? client, String? apiUrl})
       : _client = client ?? http.Client(),
-        _apiUrl = apiUrl ?? const String.fromEnvironment('PANCHANG_API_URL', defaultValue: '');
+        _apiUrl = apiUrl ??
+            const String.fromEnvironment(
+              'PANCHANG_API_URL',
+              defaultValue: 'https://raw.githubusercontent.com/Psykix/Panchang-Calendar-App/main/api/panchang-data.json',
+            );
 
   static const _cacheKey = 'panchangDatasetCache';
+  static const _cacheVersionKey = 'panchangDatasetCacheVersion';
+  static const _cacheVersion = 2;
   final http.Client _client;
   final String _apiUrl;
 
   Future<PanchangDataset> loadDataset({bool forceRefresh = false}) async {
     final prefs = await SharedPreferences.getInstance();
+    final cacheVersion = prefs.getInt(_cacheVersionKey) ?? 0;
 
     if (_apiUrl.isNotEmpty && forceRefresh) {
       final fresh = await _fetchRemoteOrNull();
       if (fresh != null) {
-        await prefs.setString(_cacheKey, jsonEncode(fresh.toJson()));
+        await _saveCache(prefs, fresh);
         return fresh;
       }
     }
@@ -28,13 +36,13 @@ class PanchangRepository {
     if (_apiUrl.isNotEmpty) {
       final fresh = await _fetchRemoteOrNull();
       if (fresh != null) {
-        await prefs.setString(_cacheKey, jsonEncode(fresh.toJson()));
+        await _saveCache(prefs, fresh);
         return fresh;
       }
     }
 
     final cached = prefs.getString(_cacheKey);
-    if (cached != null) {
+    if (cached != null && cacheVersion == _cacheVersion) {
       try {
         return PanchangDataset.fromJson(jsonDecode(cached) as Map<String, dynamic>);
       } catch (_) {
@@ -42,9 +50,20 @@ class PanchangRepository {
       }
     }
 
+    final bundled = await _loadBundledOrNull();
+    if (bundled != null) {
+      await _saveCache(prefs, bundled);
+      return bundled;
+    }
+
     final sample = PanchangDataset.sample();
-    await prefs.setString(_cacheKey, jsonEncode(sample.toJson()));
+    await _saveCache(prefs, sample);
     return sample;
+  }
+
+  Future<void> _saveCache(SharedPreferences prefs, PanchangDataset dataset) async {
+    await prefs.setInt(_cacheVersionKey, _cacheVersion);
+    await prefs.setString(_cacheKey, jsonEncode(dataset.toJson()));
   }
 
   Future<PanchangDataset?> _fetchRemoteOrNull() async {
@@ -57,5 +76,14 @@ class PanchangRepository {
       return null;
     }
     return null;
+  }
+
+  Future<PanchangDataset?> _loadBundledOrNull() async {
+    try {
+      final text = await rootBundle.loadString('api/panchang-data.json');
+      return PanchangDataset.fromJson(jsonDecode(text) as Map<String, dynamic>);
+    } catch (_) {
+      return null;
+    }
   }
 }

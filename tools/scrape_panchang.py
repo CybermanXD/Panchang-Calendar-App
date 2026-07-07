@@ -86,6 +86,36 @@ def split_value(value: str) -> PanchangValue:
     return PanchangValue(match.group(1).strip(), f"{match.group(2).title()} {match.group(3).strip()}") if match else PanchangValue(value, "")
 
 
+TIME_PATTERN = re.compile(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\b", re.I)
+TIME_RANGE_PATTERN = re.compile(r"\b\d{1,2}:\d{2}\s*(?:AM|PM)\s*(?:-|to)\s*\d{1,2}:\d{2}\s*(?:AM|PM)\b", re.I)
+DIRTY_WORDS = ("calendar", "panchang", "muhurat", "dates", "sign in", "download", "settings", "festival")
+
+
+def clean_time(value: str | None, fallback: str) -> str:
+    if not value:
+        return fallback
+    match = TIME_PATTERN.search(value)
+    return match.group(0).upper().replace("  ", " ") if match else fallback
+
+
+def clean_range(value: str | None, fallback: str) -> str:
+    if not value:
+        return fallback
+    match = TIME_RANGE_PATTERN.search(value)
+    return re.sub(r"\s+to\s+", " - ", match.group(0), flags=re.I).upper() if match else fallback
+
+
+def clean_text(value: str | None, fallback: str, max_words: int = 4) -> str:
+    if not value:
+        return fallback
+    cleaned = re.sub(r"\s+", " ", value).strip(" :-,.")
+    lower = cleaned.lower()
+    if len(cleaned) > 48 or any(word in lower for word in DIRTY_WORDS):
+        return fallback
+    words = cleaned.split()
+    return " ".join(words[:max_words]) if words else fallback
+
+
 def parse_events(year: int, month: int, html: str) -> list[PanchangEvent]:
     names = ["Sharad Navratri Begins", "Maha Ashtami", "Dussehra / Vijayadashami", "Karwa Chauth", "Dhanteras", "Naraka Chaturdashi", "Deepawali"]
     days = [3, 11, 12, 20, 29, 31, 31]
@@ -101,18 +131,26 @@ def parse_day(day: date, html: str, events: list[PanchangEvent]) -> PanchangDay:
     fallback.date = day.isoformat()
     fallback.weekday = day.strftime("%A")
     fallback.events = [event for event in events if event.date == day.isoformat()]
-    fallback.sunrise = parsed["Sunrise"] or fallback.sunrise
-    fallback.sunset = parsed["Sunset"] or fallback.sunset
-    fallback.moonrise = parsed["Moonrise"] or fallback.moonrise
-    fallback.moonset = parsed["Moonset"] or fallback.moonset
-    fallback.tithi = split_value(parsed["Tithi"] or fallback.tithi.name)
-    fallback.nakshatra = split_value(parsed["Nakshatra"] or fallback.nakshatra.name)
-    fallback.yoga = split_value(parsed["Yoga"] or fallback.yoga.name)
-    fallback.karana = split_value(parsed["Karana"] or fallback.karana.name)
-    fallback.rahuKalam = parsed["Rahu Kalam"] or fallback.rahuKalam
-    fallback.gulikaiKalam = parsed["Gulikai Kalam"] or fallback.gulikaiKalam
-    fallback.yamaganda = parsed["Yamaganda"] or fallback.yamaganda
-    fallback.abhijit = parsed["Abhijit"] or fallback.abhijit
+    fallback.sunrise = clean_time(parsed["Sunrise"], fallback.sunrise)
+    fallback.sunset = clean_time(parsed["Sunset"], fallback.sunset)
+    fallback.moonrise = clean_time(parsed["Moonrise"], fallback.moonrise)
+    fallback.moonset = clean_time(parsed["Moonset"], fallback.moonset)
+    fallback.shakaSamvat = clean_text(parsed["Shaka Samvat"], fallback.shakaSamvat)
+    fallback.vikramSamvat = clean_text(parsed["Vikram Samvat"], fallback.vikramSamvat)
+    fallback.gujaratiSamvat = clean_text(parsed["Gujarati Samvat"], fallback.gujaratiSamvat)
+    fallback.amantaMonth = clean_text(parsed["Amanta Month"], fallback.amantaMonth, max_words=2)
+    fallback.purnimantaMonth = clean_text(parsed["Purnimanta Month"], fallback.purnimantaMonth, max_words=2)
+    fallback.paksha = clean_text(parsed["Paksha"], fallback.paksha, max_words=3)
+    fallback.tithi = split_value(clean_text(parsed["Tithi"], fallback.tithi.name))
+    fallback.nakshatra = split_value(clean_text(parsed["Nakshatra"], fallback.nakshatra.name))
+    fallback.yoga = split_value(clean_text(parsed["Yoga"], fallback.yoga.name))
+    fallback.karana = split_value(clean_text(parsed["Karana"], fallback.karana.name))
+    fallback.rahuKalam = clean_range(parsed["Rahu Kalam"], fallback.rahuKalam)
+    fallback.gulikaiKalam = clean_range(parsed["Gulikai Kalam"], fallback.gulikaiKalam)
+    fallback.yamaganda = clean_range(parsed["Yamaganda"], fallback.yamaganda)
+    fallback.abhijit = clean_range(parsed["Abhijit"], fallback.abhijit)
+    fallback.durMuhurtam = clean_range(parsed["Dur Muhurtam"], fallback.durMuhurtam)
+    fallback.amritKalam = clean_range(parsed["Amrit Kalam"], fallback.amritKalam)
     return fallback
 
 

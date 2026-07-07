@@ -23,3 +23,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/app-icon.png
+    - api/panchang-data.json
