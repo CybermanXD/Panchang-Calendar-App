@@ -1,5 +1,5 @@
 name: panchang_calendar
-description: A Flutter Panchang calendar app with offline cache and GitHub-hosted daily data.
+description: A Psykix Flutter Panchang calendar app with offline cache and GitHub-hosted daily data.
 publish_to: "none"
 version: 0.1.0+1
 

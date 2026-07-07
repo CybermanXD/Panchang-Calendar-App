@@ -19,5 +19,8 @@ $null
 __pycache__/
 *.py[cod]
 
+# Local helper scripts with machine-specific paths/settings
+build_apk_local.bat
+
 # Local reference material; app assets are copied into assets/ for commits.
 Documentation/
