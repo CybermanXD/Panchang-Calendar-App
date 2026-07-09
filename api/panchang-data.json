@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-07-08T23:34:04.091584Z",
+  "generatedAt": "2026-07-09T20:59:50.135045Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -14594,11 +14594,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -14667,11 +14667,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -14838,11 +14838,6 @@
         }
       },
       "events": [
-        {
-          "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
         {
           "title": "Shani Pradosh Vrat on July 11th (Saturday)\">Shani Pradosh Vrat",
           "category": "Vrat",
@@ -42918,11 +42913,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -42991,11 +42986,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -43162,11 +43157,6 @@
         }
       },
       "events": [
-        {
-          "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
         {
           "title": "Shani Pradosh Vrat on July 11th (Saturday)\">Shani Pradosh Vrat",
           "category": "Vrat",
@@ -57526,12 +57516,6 @@
       "date": "2026-07-10",
       "title": "Yogini Ekadashi on July 10th (Friday)\">Yogini Ekadashi",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-07-11",
-      "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Vrat"
     },
     {
