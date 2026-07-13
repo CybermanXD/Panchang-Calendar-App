@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-07-12T23:14:06.840834Z",
+  "generatedAt": "2026-07-13T20:36:40.482055Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -184,7 +184,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Anvadhan on January 2nd (Friday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        }
+      ]
     },
     "2026-01-03": {
       "date": "2026-01-03",
@@ -269,7 +275,7 @@
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
         },
         {
-          "title": "Anvadhan on January 3rd (Saturday)\">Anvadhan",
+          "title": "Ishti on January 3rd (Saturday)\">Ishti",
           "category": "Festival",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
         }
@@ -346,13 +352,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Ishti on January 4th (Sunday)\">Ishti",
-          "category": "Festival",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
-        }
-      ]
+      "events": []
     },
     "2026-01-05": {
       "date": "2026-01-05",
@@ -1182,7 +1182,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Guru Pradosh Vrat on January 15th (Thursday)\">Guru Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        }
+      ]
     },
     "2026-01-16": {
       "date": "2026-01-16",
@@ -1255,13 +1261,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Shukra Pradosh Vrat on January 16th (Friday)\">Shukra Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
-        }
-      ]
+      "events": []
     },
     "2026-01-17": {
       "date": "2026-01-17",
@@ -2187,7 +2187,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Jaya Ekadashi on January 28th (Wednesday)\">Jaya Ekadashi",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        }
+      ]
     },
     "2026-01-29": {
       "date": "2026-01-29",
@@ -2262,7 +2268,12 @@
       },
       "events": [
         {
-          "title": "Jaya Ekadashi on January 29th (Thursday)\">Jaya Ekadashi",
+          "title": "Gauna Jaya Ekadashi on January 29th (Thursday)\">Gauna Jaya Ekadashi",
+          "category": "Vrat",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        },
+        {
+          "title": "Vaishnava Jaya Ekadashi on January 29th (Thursday)\">Vaishnava Jaya Ekadashi",
           "category": "Vrat",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
         }
@@ -2727,7 +2738,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Dwijapriya Sankashti on February 4th (Wednesday)\">Dwijapriya Sankashti",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     "2026-02-05": {
       "date": "2026-02-05",
@@ -2800,13 +2817,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Dwijapriya Sankashti on February 5th (Thursday)\">Dwijapriya Sankashti",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        }
-      ]
+      "events": []
     },
     "2026-02-06": {
       "date": "2026-02-06",
@@ -3317,7 +3328,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kumbha Sankranti on February 12th (Thursday)\">Kumbha Sankranti",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     "2026-02-13": {
       "date": "2026-02-13",
@@ -3391,11 +3408,6 @@
         }
       },
       "events": [
-        {
-          "title": "Kumbha Sankranti on February 13th (Friday)\">Kumbha Sankranti",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
         {
           "title": "Vijaya Ekadashi on February 13th (Friday)\">Vijaya Ekadashi",
           "category": "Vrat",
@@ -3632,7 +3644,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
+          "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     "2026-02-17": {
       "date": "2026-02-17",
@@ -3712,12 +3735,7 @@
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
         {
-          "title": "Darsha Amavasya on February 17th (Tuesday)\">Darsha Amavasya",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
-        {
-          "title": "Anvadhan on February 17th (Tuesday)\">Anvadhan",
+          "title": "Ishti on February 17th (Tuesday)\">Ishti",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
@@ -3800,11 +3818,6 @@
         }
       },
       "events": [
-        {
-          "title": "Ishti on February 18th (Wednesday)\">Ishti",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
         {
           "title": "Chandra Darshana on February 18th (Wednesday)\">Chandra Darshana",
           "category": "Festival",
@@ -4552,7 +4565,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Shani Pradosh Vrat on February 28th (Saturday)\">Shani Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     "2026-03-01": {
       "date": "2026-03-01",
@@ -4625,13 +4644,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Ravi Pradosh Vrat on March 1st (Sunday)\">Ravi Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     "2026-03-02": {
       "date": "2026-03-02",
@@ -4704,7 +4717,23 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Chhoti Holi on March 2nd (Monday)\">Chhoti Holi",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Holika Dahan on March 2nd (Monday)\">Holika Dahan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Anvadhan on March 2nd (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-03": {
       "date": "2026-03-03",
@@ -4779,17 +4808,12 @@
       },
       "events": [
         {
-          "title": "Chhoti Holi on March 3rd (Tuesday)\">Chhoti Holi",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Holika Dahan on March 3rd (Tuesday)\">Holika Dahan",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
           "title": "Vasanta Purnima on March 3rd (Tuesday)\">Vasanta Purnima",
+          "category": "Festival",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Holi on March 3rd (Tuesday)\">Holi",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         },
@@ -4804,7 +4828,7 @@
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         },
         {
-          "title": "Anvadhan on March 3rd (Tuesday)\">Anvadhan",
+          "title": "Ishti on March 3rd (Tuesday)\">Ishti",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         }
@@ -4881,18 +4905,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Holi on March 4th (Wednesday)\">Holi",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Ishti on March 4th (Wednesday)\">Ishti",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     "2026-03-05": {
       "date": "2026-03-05",
@@ -5662,7 +5675,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Meena Sankranti on March 14th (Saturday)\">Meena Sankranti",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Papamochani Ekadashi on March 14th (Saturday)\">Papamochani Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-15": {
       "date": "2026-03-15",
@@ -5735,18 +5759,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Meena Sankranti on March 15th (Sunday)\">Meena Sankranti",
-          "category": "Festival",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Papamochani Ekadashi on March 15th (Sunday)\">Papamochani Ekadashi",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     "2026-03-16": {
       "date": "2026-03-16",
@@ -5973,6 +5986,11 @@
       },
       "events": [
         {
+          "title": "Chaitra Amavasya on March 18th (Wednesday)\">Chaitra Amavasya",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
           "title": "Darsha Amavasya on March 18th (Wednesday)\">Darsha Amavasya",
           "category": "Festival",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
@@ -6074,11 +6092,6 @@
         {
           "title": "Chaitra Navratri on March 19th (Thursday)\">Chaitra Navratri",
           "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Chaitra Amavasya on March 19th (Thursday)\">Chaitra Amavasya",
-          "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         },
         {
@@ -6327,7 +6340,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Lakshmi Panchami on March 22nd (Sunday)\">Lakshmi Panchami",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-23": {
       "date": "2026-03-23",
@@ -6400,13 +6419,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Lakshmi Panchami on March 23rd (Monday)\">Lakshmi Panchami",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     "2026-03-24": {
       "date": "2026-03-24",
@@ -6633,8 +6646,13 @@
       },
       "events": [
         {
-          "title": "Rama Navami *Smarta on March 26th (Thursday)\">Rama Navami *Smarta",
+          "title": "Rama Navami on March 26th (Thursday)\">Rama Navami",
           "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Swaminarayan Jayanti on March 26th (Thursday)\">Swaminarayan Jayanti",
+          "category": "Jayanti",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         }
       ]
@@ -6710,18 +6728,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Rama Navami *ISKCON on March 27th (Friday)\">Rama Navami *ISKCON",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Swaminarayan Jayanti on March 27th (Friday)\">Swaminarayan Jayanti",
-          "category": "Jayanti",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     "2026-03-28": {
       "date": "2026-03-28",
@@ -6794,7 +6801,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kamada Ekadashi on March 28th (Saturday)\">Kamada Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-29": {
       "date": "2026-03-29",
@@ -6867,13 +6880,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kamada Ekadashi on March 29th (Sunday)\">Kamada Ekadashi",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     "2026-03-30": {
       "date": "2026-03-30",
@@ -7100,6 +7107,21 @@
       },
       "events": [
         {
+          "title": "Hanuman Jayanti on April 1st (Wednesday)\">Hanuman Jayanti",
+          "category": "Jayanti",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Hanuman Janmotsava on April 1st (Wednesday)\">Hanuman Janmotsava",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Chaitra Purnima on April 1st (Wednesday)\">Chaitra Purnima",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
           "title": "Anvadhan on April 1st (Wednesday)\">Anvadhan",
           "category": "Festival",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
@@ -7178,21 +7200,6 @@
         }
       },
       "events": [
-        {
-          "title": "Hanuman Jayanti on April 2nd (Thursday)\">Hanuman Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
-        {
-          "title": "Hanuman Janmotsava on April 2nd (Thursday)\">Hanuman Janmotsava",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
-        {
-          "title": "Chaitra Purnima on April 2nd (Thursday)\">Chaitra Purnima",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
         {
           "title": "Ishti on April 2nd (Thursday)\">Ishti",
           "category": "Festival",
@@ -8096,6 +8103,11 @@
           "title": "Solar New Year on April 14th (Tuesday)\">Solar New Year",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Bhauma Pradosh Vrat on April 14th (Tuesday)\">Bhauma Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
         }
       ]
     },
@@ -8170,13 +8182,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Budha Pradosh Vrat on April 15th (Wednesday)\">Budha Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        }
-      ]
+      "events": []
     },
     "2026-04-16": {
       "date": "2026-04-16",
@@ -8249,7 +8255,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Darsha Amavasya on April 16th (Thursday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Anvadhan on April 16th (Thursday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        }
+      ]
     },
     "2026-04-17": {
       "date": "2026-04-17",
@@ -8324,12 +8341,7 @@
       },
       "events": [
         {
-          "title": "Darsha Amavasya on April 17th (Friday)\">Darsha Amavasya",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
-        {
-          "title": "Anvadhan on April 17th (Friday)\">Anvadhan",
+          "title": "Ishti on April 17th (Friday)\">Ishti",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
         },
@@ -8412,11 +8424,6 @@
         }
       },
       "events": [
-        {
-          "title": "Ishti on April 18th (Saturday)\">Ishti",
-          "category": "Festival",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
         {
           "title": "Chandra Darshana on April 18th (Saturday)\">Chandra Darshana",
           "category": "Festival",
@@ -9260,7 +9267,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Narasimha Jayanti on April 29th (Wednesday)\">Narasimha Jayanti",
+          "category": "Jayanti",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        }
+      ]
     },
     "2026-04-30": {
       "date": "2026-04-30",
@@ -9333,13 +9346,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Narasimha Jayanti on April 30th (Thursday)\">Narasimha Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        }
-      ]
+      "events": []
     },
     "2026-05-01": {
       "date": "2026-05-01",
@@ -11336,7 +11343,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Padmini Ekadashi on May 26th (Tuesday)\">Padmini Ekadashi",
+          "category": "Vrat",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
+        }
+      ]
     },
     "2026-05-27": {
       "date": "2026-05-27",
@@ -11409,13 +11422,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Padmini Ekadashi on May 27th (Wednesday)\">Padmini Ekadashi",
-          "category": "Vrat",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
-        }
-      ]
+      "events": []
     },
     "2026-05-28": {
       "date": "2026-05-28",
@@ -11640,7 +11647,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Anvadhan on May 30th (Saturday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
+        }
+      ]
     },
     "2026-05-31": {
       "date": "2026-05-31",
@@ -11720,7 +11733,7 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
         },
         {
-          "title": "Anvadhan on May 31st (Sunday)\">Anvadhan",
+          "title": "Ishti on May 31st (Sunday)\">Ishti",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
         }
@@ -11797,13 +11810,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Ishti on June 1st (Monday)\">Ishti",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        }
-      ]
+      "events": []
     },
     "2026-06-02": {
       "date": "2026-06-02",
@@ -12777,6 +12784,11 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
         },
         {
+          "title": "Jyeshtha Adhika Amavasya on June 14th (Sunday)\">Jyeshtha Adhika Amavasya",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
+        },
+        {
           "title": "Anvadhan on June 14th (Sunday)\">Anvadhan",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
@@ -12857,11 +12869,6 @@
       "events": [
         {
           "title": "Mithuna Sankranti on June 15th (Monday)\">Mithuna Sankranti",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        },
-        {
-          "title": "Jyeshtha Adhika Amavasya on June 15th (Monday)\">Jyeshtha Adhika Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
         },
@@ -13690,7 +13697,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Shukra Pradosh Vrat on June 26th (Friday)\">Shukra Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
+        }
+      ]
     },
     "2026-06-27": {
       "date": "2026-06-27",
@@ -13763,13 +13776,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Shani Pradosh Vrat on June 27th (Saturday)\">Shani Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        }
-      ]
+      "events": []
     },
     "2026-06-28": {
       "date": "2026-06-28",
@@ -14832,12 +14839,7 @@
       },
       "events": [
         {
-          "title": "Gauna Yogini Ekadashi on July 11th (Saturday)\">Gauna Yogini Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
+          "title": "Shani Pradosh Vrat on July 11th (Saturday)\">Shani Pradosh Vrat",
           "category": "Vrat",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
@@ -14849,6 +14851,79 @@
       "monthName": "July",
       "day": 12,
       "weekday": "Sunday",
+      "panchang": {
+        "modernClock": {
+          "supports12Hour": true,
+          "supports24Hour": true,
+          "supports24PlusHour": true
+        },
+        "sun": {
+          "sunrise": null,
+          "sunset": null
+        },
+        "moon": {
+          "moonrise": null,
+          "moonset": null
+        },
+        "calendar": {
+          "shakaSamvat": {
+            "year": null,
+            "name": null
+          },
+          "vikramSamvat": {
+            "year": null,
+            "name": null
+          },
+          "gujaratiSamvat": {
+            "year": null,
+            "name": null
+          },
+          "amantaMonth": null,
+          "purnimantaMonth": null,
+          "paksha": null,
+          "pravishte": null
+        },
+        "tithi": {
+          "name": "",
+          "endsAtText": null
+        },
+        "nakshatra": {
+          "name": "",
+          "endsAtText": null
+        },
+        "yoga": {
+          "name": "",
+          "endsAtText": null
+        },
+        "karana": [],
+        "zodiac": {
+          "sunSign": {
+            "name": null,
+            "untilText": null
+          },
+          "moonSign": {
+            "name": null,
+            "untilText": null
+          }
+        },
+        "timings": {
+          "rahuKalam": null,
+          "gulikaiKalam": null,
+          "yamaganda": null,
+          "abhijit": null,
+          "durMuhurtam": null,
+          "amritKalam": null,
+          "varjyam": null
+        }
+      },
+      "events": []
+    },
+    "2026-07-13": {
+      "date": "2026-07-13",
+      "month": 7,
+      "monthName": "July",
+      "day": 13,
+      "weekday": "Monday",
       "panchang": {
         "modernClock": {
           "supports12Hour": true,
@@ -14916,84 +14991,16 @@
       },
       "events": [
         {
-          "title": "Ravi Pradosh Vrat on July 12th (Sunday)\">Ravi Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+          "title": "Darsha Amavasya on July 13th (Monday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
+          "title": "Anvadhan on July 13th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
       ]
-    },
-    "2026-07-13": {
-      "date": "2026-07-13",
-      "month": 7,
-      "monthName": "July",
-      "day": 13,
-      "weekday": "Monday",
-      "panchang": {
-        "modernClock": {
-          "supports12Hour": true,
-          "supports24Hour": true,
-          "supports24PlusHour": true
-        },
-        "sun": {
-          "sunrise": null,
-          "sunset": null
-        },
-        "moon": {
-          "moonrise": null,
-          "moonset": null
-        },
-        "calendar": {
-          "shakaSamvat": {
-            "year": null,
-            "name": null
-          },
-          "vikramSamvat": {
-            "year": null,
-            "name": null
-          },
-          "gujaratiSamvat": {
-            "year": null,
-            "name": null
-          },
-          "amantaMonth": null,
-          "purnimantaMonth": null,
-          "paksha": null,
-          "pravishte": null
-        },
-        "tithi": {
-          "name": "",
-          "endsAtText": null
-        },
-        "nakshatra": {
-          "name": "",
-          "endsAtText": null
-        },
-        "yoga": {
-          "name": "",
-          "endsAtText": null
-        },
-        "karana": [],
-        "zodiac": {
-          "sunSign": {
-            "name": null,
-            "untilText": null
-          },
-          "moonSign": {
-            "name": null,
-            "untilText": null
-          }
-        },
-        "timings": {
-          "rahuKalam": null,
-          "gulikaiKalam": null,
-          "yamaganda": null,
-          "abhijit": null,
-          "durMuhurtam": null,
-          "amritKalam": null,
-          "varjyam": null
-        }
-      },
-      "events": []
     },
     "2026-07-14": {
       "date": "2026-07-14",
@@ -15068,12 +15075,7 @@
       },
       "events": [
         {
-          "title": "Darsha Amavasya on July 14th (Tuesday)\">Darsha Amavasya",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Anvadhan on July 14th (Tuesday)\">Anvadhan",
+          "title": "Ishti on July 14th (Tuesday)\">Ishti",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
@@ -15162,12 +15164,7 @@
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
         {
-          "title": "Ishti on July 15th (Wednesday)\">Ishti",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Chandra Darshana on July 15th (Wednesday)\">Chandra Darshana",
+          "title": "Jagannath Rathyatra on July 15th (Wednesday)\">Jagannath Rathyatra",
           "category": "Festival",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
@@ -15246,12 +15243,12 @@
       },
       "events": [
         {
-          "title": "Jagannath Rathyatra on July 16th (Thursday)\">Jagannath Rathyatra",
+          "title": "Karka Sankranti on July 16th (Thursday)\">Karka Sankranti",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
         {
-          "title": "Karka Sankranti on July 16th (Thursday)\">Karka Sankranti",
+          "title": "Chandra Darshana on July 16th (Thursday)\">Chandra Darshana",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
@@ -16479,6 +16476,11 @@
           "title": "Jayaparvati Vrat Ends on August 1st (Saturday)\">Jayaparvati Vrat Ends",
           "category": "Vrat",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Gajanana Sankashti on August 1st (Saturday)\">Gajanana Sankashti",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         }
       ]
     },
@@ -16553,13 +16555,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Gajanana Sankashti on August 2nd (Sunday)\">Gajanana Sankashti",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     "2026-08-03": {
       "date": "2026-08-03",
@@ -16997,7 +16993,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kamika Ekadashi on August 8th (Saturday)\">Kamika Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     "2026-08-09": {
       "date": "2026-08-09",
@@ -17072,7 +17074,12 @@
       },
       "events": [
         {
-          "title": "Kamika Ekadashi on August 9th (Sunday)\">Kamika Ekadashi",
+          "title": "Gauna Kamika Ekadashi on August 9th (Sunday)\">Gauna Kamika Ekadashi",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Vaishnava Kamika Ekadashi on August 9th (Sunday)\">Vaishnava Kamika Ekadashi",
           "category": "Vrat",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         }
@@ -17712,6 +17719,11 @@
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
         {
+          "title": "Kalki Jayanti on August 17th (Monday)\">Kalki Jayanti",
+          "category": "Jayanti",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
           "title": "Simha Sankranti on August 17th (Monday)\">Simha Sankranti",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
@@ -17789,13 +17801,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kalki Jayanti on August 18th (Tuesday)\">Kalki Jayanti",
-          "category": "Jayanti",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     "2026-08-19": {
       "date": "2026-08-19",
@@ -18014,7 +18020,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Varalakshmi Vrat on August 21st (Friday)\">Varalakshmi Vrat",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     "2026-08-22": {
       "date": "2026-08-22",
@@ -18239,13 +18251,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vaishnava Shravana Putrada Ekadashi on August 24th (Monday)\">Vaishnava Shravana Putrada Ekadashi",
-          "category": "Vrat",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     "2026-08-25": {
       "date": "2026-08-25",
@@ -18472,6 +18478,26 @@
       },
       "events": [
         {
+          "title": "Raksha Bandhan on August 27th (Thursday)\">Raksha Bandhan",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Rakhi on August 27th (Thursday)\">Rakhi",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Gayatri Jayanti on August 27th (Thursday)\">Gayatri Jayanti",
+          "category": "Jayanti",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Shravana Purnima on August 27th (Thursday)\">Shravana Purnima",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
           "title": "Anvadhan on August 27th (Thursday)\">Anvadhan",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
@@ -18551,32 +18577,7 @@
       },
       "events": [
         {
-          "title": "Varalakshmi Vrat on August 28th (Friday)\">Varalakshmi Vrat",
-          "category": "Vrat",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Raksha Bandhan on August 28th (Friday)\">Raksha Bandhan",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Rakhi on August 28th (Friday)\">Rakhi",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Gayatri Jayanti on August 28th (Friday)\">Gayatri Jayanti",
-          "category": "Jayanti",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
           "title": "Chandra Grahan *Anshika on August 28th (Friday)\">Chandra Grahan *Anshika",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Shravana Purnima on August 28th (Friday)\">Shravana Purnima",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
@@ -18731,7 +18732,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kajari Teej on August 30th (Sunday)\">Kajari Teej",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     "2026-08-31": {
       "date": "2026-08-31",
@@ -18805,11 +18812,6 @@
         }
       },
       "events": [
-        {
-          "title": "Kajari Teej on August 31st (Monday)\">Kajari Teej",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
         {
           "title": "Bahula Chaturthi on August 31st (Monday)\">Bahula Chaturthi",
           "category": "Vrat",
@@ -19045,7 +19047,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Janmashtami *Smarta on September 3rd (Thursday)\">Janmashtami *Smarta",
+          "category": "Vrat",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        }
+      ]
     },
     "2026-09-04": {
       "date": "2026-09-04",
@@ -19120,12 +19128,12 @@
       },
       "events": [
         {
-          "title": "Krishna Janmashtami on September 4th (Friday)\">Krishna Janmashtami",
+          "title": "Janmashtami *ISKCON on September 4th (Friday)\">Janmashtami *ISKCON",
           "category": "Vrat",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         },
         {
-          "title": "Agastya Arghya on September 4th (Friday)\">Agastya Arghya",
+          "title": "Dahi Handi on September 4th (Friday)\">Dahi Handi",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
@@ -19202,13 +19210,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Dahi Handi on September 5th (Saturday)\">Dahi Handi",
-          "category": "Festival",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        }
-      ]
+      "events": []
     },
     "2026-09-06": {
       "date": "2026-09-06",
@@ -19605,6 +19607,11 @@
           "title": "Anvadhan on September 10th (Thursday)\">Anvadhan",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
+        {
+          "title": "Bhadrapada Amavasya on September 10th (Thursday)\">Bhadrapada Amavasya",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
       ]
     },
@@ -19684,11 +19691,6 @@
           "title": "Ishti on September 11th (Friday)\">Ishti",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
-        {
-          "title": "Bhadrapada Amavasya on September 11th (Friday)\">Bhadrapada Amavasya",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
       ]
     },
@@ -19763,7 +19765,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Chandra Darshana on September 12th (Saturday)\">Chandra Darshana",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        }
+      ]
     },
     "2026-09-13": {
       "date": "2026-09-13",
@@ -19843,7 +19851,7 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         },
         {
-          "title": "Chandra Darshana on September 13th (Sunday)\">Chandra Darshana",
+          "title": "Hartalika Teej on September 13th (Sunday)\">Hartalika Teej",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
@@ -19921,11 +19929,6 @@
         }
       },
       "events": [
-        {
-          "title": "Hartalika Teej on September 14th (Monday)\">Hartalika Teej",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
         {
           "title": "Ganesh Chaturthi on September 14th (Monday)\">Ganesh Chaturthi",
           "category": "Vrat",
@@ -20162,18 +20165,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vishwakarma Puja on September 17th (Thursday)\">Vishwakarma Puja",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
-        {
-          "title": "Kanya Sankranti on September 17th (Thursday)\">Kanya Sankranti",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        }
-      ]
+      "events": []
     },
     "2026-09-18": {
       "date": "2026-09-18",
@@ -20246,7 +20238,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Radha Ashtami on September 18th (Friday)\">Radha Ashtami",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
+        {
+          "title": "Durva Ashtami on September 18th (Friday)\">Durva Ashtami",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        }
+      ]
     },
     "2026-09-19": {
       "date": "2026-09-19",
@@ -20320,11 +20323,6 @@
         }
       },
       "events": [
-        {
-          "title": "Radha Ashtami on September 19th (Saturday)\">Radha Ashtami",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
         {
           "title": "Mahalakshmi Vrat Begins on September 19th (Saturday)\">Mahalakshmi Vrat Begins",
           "category": "Vrat",
@@ -20551,6 +20549,11 @@
       },
       "events": [
         {
+          "title": "Vamana Jayanti on September 22nd (Tuesday)\">Vamana Jayanti",
+          "category": "Jayanti",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
+        {
           "title": "Parsva Ekadashi on September 22nd (Tuesday)\">Parsva Ekadashi",
           "category": "Vrat",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
@@ -20630,8 +20633,8 @@
       },
       "events": [
         {
-          "title": "Vamana Jayanti on September 23rd (Wednesday)\">Vamana Jayanti",
-          "category": "Jayanti",
+          "title": "Budha Pradosh Vrat on September 23rd (Wednesday)\">Budha Pradosh Vrat",
+          "category": "Vrat",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
       ]
@@ -20707,13 +20710,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Guru Pradosh Vrat on September 24th (Thursday)\">Guru Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        }
-      ]
+      "events": []
     },
     "2026-09-25": {
       "date": "2026-09-25",
@@ -21723,7 +21720,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Budha Pradosh Vrat on October 7th (Wednesday)\">Budha Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        }
+      ]
     },
     "2026-10-08": {
       "date": "2026-10-08",
@@ -21796,13 +21799,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Guru Pradosh Vrat on October 8th (Thursday)\">Guru Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        }
-      ]
+      "events": []
     },
     "2026-10-09": {
       "date": "2026-10-09",
@@ -22598,7 +22595,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Durga Ashtami on October 18th (Sunday)\">Durga Ashtami",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        }
+      ]
     },
     "2026-10-19": {
       "date": "2026-10-19",
@@ -22672,11 +22675,6 @@
         }
       },
       "events": [
-        {
-          "title": "Durga Ashtami on October 19th (Monday)\">Durga Ashtami",
-          "category": "Vrat",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        },
         {
           "title": "Maha Navami on October 19th (Monday)\">Maha Navami",
           "category": "Festival",
@@ -22762,11 +22760,6 @@
       },
       "events": [
         {
-          "title": "Durga Visarjan on October 20th (Tuesday)\">Durga Visarjan",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        },
-        {
           "title": "Dussehra on October 20th (Tuesday)\">Dussehra",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
@@ -22844,7 +22837,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Durga Visarjan on October 21st (Wednesday)\">Durga Visarjan",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        }
+      ]
     },
     "2026-10-22": {
       "date": "2026-10-22",
@@ -23160,6 +23159,11 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
         },
         {
+          "title": "Ashwina Purnima on October 25th (Sunday)\">Ashwina Purnima",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        },
+        {
           "title": "Anvadhan on October 25th (Sunday)\">Anvadhan",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
@@ -23238,11 +23242,6 @@
         }
       },
       "events": [
-        {
-          "title": "Ashwina Purnima on October 26th (Monday)\">Ashwina Purnima",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        },
         {
           "title": "Ishti on October 26th (Monday)\">Ishti",
           "category": "Festival",
@@ -23916,7 +23915,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Rama Ekadashi on November 4th (Wednesday)\">Rama Ekadashi",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     "2026-11-05": {
       "date": "2026-11-05",
@@ -23996,7 +24001,7 @@
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Rama Ekadashi on November 5th (Thursday)\">Rama Ekadashi",
+          "title": "Vaishnava Rama Ekadashi on November 5th (Thursday)\">Vaishnava Rama Ekadashi",
           "category": "Vrat",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -24162,6 +24167,11 @@
           "title": "Kali Chaudas on November 7th (Saturday)\">Kali Chaudas",
           "category": "Festival",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        },
+        {
+          "title": "Narak Chaturdashi on November 7th (Saturday)\">Narak Chaturdashi",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
       ]
     },
@@ -24243,17 +24253,22 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Narak Chaturdashi on November 8th (Sunday)\">Narak Chaturdashi",
-          "category": "Festival",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
           "title": "Diwali on November 8th (Sunday)\">Diwali",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
           "title": "Darsha Amavasya on November 8th (Sunday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        },
+        {
+          "title": "Anvadhan on November 8th (Sunday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        },
+        {
+          "title": "Kartika Amavasya on November 8th (Sunday)\">Kartika Amavasya",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -24332,12 +24347,12 @@
       },
       "events": [
         {
-          "title": "Anvadhan on November 9th (Monday)\">Anvadhan",
+          "title": "Govardhan Puja on November 9th (Monday)\">Govardhan Puja",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Kartika Amavasya on November 9th (Monday)\">Kartika Amavasya",
+          "title": "Ishti on November 9th (Monday)\">Ishti",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -24416,17 +24431,12 @@
       },
       "events": [
         {
-          "title": "Govardhan Puja on November 10th (Tuesday)\">Govardhan Puja",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
           "title": "Dyuta Krida on November 10th (Tuesday)\">Dyuta Krida",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Ishti on November 10th (Tuesday)\">Ishti",
+          "title": "Bhaiya Dooj on November 10th (Tuesday)\">Bhaiya Dooj",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -24504,11 +24514,6 @@
         }
       },
       "events": [
-        {
-          "title": "Bhaiya Dooj on November 11th (Wednesday)\">Bhaiya Dooj",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
         {
           "title": "Chandra Darshana on November 11th (Wednesday)\">Chandra Darshana",
           "category": "Festival",
@@ -25128,7 +25133,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kansa Vadh on November 19th (Thursday)\">Kansa Vadh",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     "2026-11-20": {
       "date": "2026-11-20",
@@ -25201,13 +25212,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kansa Vadh on November 20th (Friday)\">Kansa Vadh",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        }
-      ]
+      "events": []
     },
     "2026-11-21": {
       "date": "2026-11-21",
@@ -25285,16 +25290,6 @@
           "title": "Tulasi Vivah on November 21st (Saturday)\">Tulasi Vivah",
           "category": "Festival",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
-          "title": "Gauna Devutthana Ekadashi on November 21st (Saturday)\">Gauna Devutthana Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
-          "title": "Vaishnava Devutthana Ekadashi on November 21st (Saturday)\">Vaishnava Devutthana Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
       ]
     },
@@ -25369,7 +25364,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Vaikuntha Chaturdashi on November 22nd (Sunday)\">Vaikuntha Chaturdashi",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     "2026-11-23": {
       "date": "2026-11-23",
@@ -25442,13 +25443,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vaikuntha Chaturdashi on November 23rd (Monday)\">Vaikuntha Chaturdashi",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        }
-      ]
+      "events": []
     },
     "2026-11-24": {
       "date": "2026-11-24",
@@ -25522,11 +25517,6 @@
         }
       },
       "events": [
-        {
-          "title": "Dev Diwali on November 24th (Tuesday)\">Dev Diwali",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
         {
           "title": "Kartika Purnima on November 24th (Tuesday)\">Kartika Purnima",
           "category": "Festival",
@@ -25987,7 +25977,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kalabhairav Jayanti on November 30th (Monday)\">Kalabhairav Jayanti",
+          "category": "Jayanti",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     "2026-12-01": {
       "date": "2026-12-01",
@@ -26060,13 +26056,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kalabhairav Jayanti on December 1st (Tuesday)\">Kalabhairav Jayanti",
-          "category": "Jayanti",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/12/2026"
-        }
-      ]
+      "events": []
     },
     "2026-12-02": {
       "date": "2026-12-02",
@@ -28513,7 +28503,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Anvadhan on January 2nd (Friday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        }
+      ]
     },
     {
       "date": "2026-01-03",
@@ -28598,7 +28594,7 @@
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
         },
         {
-          "title": "Anvadhan on January 3rd (Saturday)\">Anvadhan",
+          "title": "Ishti on January 3rd (Saturday)\">Ishti",
           "category": "Festival",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
         }
@@ -28675,13 +28671,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Ishti on January 4th (Sunday)\">Ishti",
-          "category": "Festival",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-01-05",
@@ -29511,7 +29501,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Guru Pradosh Vrat on January 15th (Thursday)\">Guru Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        }
+      ]
     },
     {
       "date": "2026-01-16",
@@ -29584,13 +29580,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Shukra Pradosh Vrat on January 16th (Friday)\">Shukra Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-01-17",
@@ -30516,7 +30506,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Jaya Ekadashi on January 28th (Wednesday)\">Jaya Ekadashi",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        }
+      ]
     },
     {
       "date": "2026-01-29",
@@ -30591,7 +30587,12 @@
       },
       "events": [
         {
-          "title": "Jaya Ekadashi on January 29th (Thursday)\">Jaya Ekadashi",
+          "title": "Gauna Jaya Ekadashi on January 29th (Thursday)\">Gauna Jaya Ekadashi",
+          "category": "Vrat",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
+        },
+        {
+          "title": "Vaishnava Jaya Ekadashi on January 29th (Thursday)\">Vaishnava Jaya Ekadashi",
           "category": "Vrat",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
         }
@@ -31056,7 +31057,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Dwijapriya Sankashti on February 4th (Wednesday)\">Dwijapriya Sankashti",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     {
       "date": "2026-02-05",
@@ -31129,13 +31136,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Dwijapriya Sankashti on February 5th (Thursday)\">Dwijapriya Sankashti",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-02-06",
@@ -31646,7 +31647,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kumbha Sankranti on February 12th (Thursday)\">Kumbha Sankranti",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     {
       "date": "2026-02-13",
@@ -31720,11 +31727,6 @@
         }
       },
       "events": [
-        {
-          "title": "Kumbha Sankranti on February 13th (Friday)\">Kumbha Sankranti",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
         {
           "title": "Vijaya Ekadashi on February 13th (Friday)\">Vijaya Ekadashi",
           "category": "Vrat",
@@ -31961,7 +31963,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
+          "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     {
       "date": "2026-02-17",
@@ -32041,12 +32054,7 @@
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
         {
-          "title": "Darsha Amavasya on February 17th (Tuesday)\">Darsha Amavasya",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
-        {
-          "title": "Anvadhan on February 17th (Tuesday)\">Anvadhan",
+          "title": "Ishti on February 17th (Tuesday)\">Ishti",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
@@ -32129,11 +32137,6 @@
         }
       },
       "events": [
-        {
-          "title": "Ishti on February 18th (Wednesday)\">Ishti",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
         {
           "title": "Chandra Darshana on February 18th (Wednesday)\">Chandra Darshana",
           "category": "Festival",
@@ -32881,7 +32884,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Shani Pradosh Vrat on February 28th (Saturday)\">Shani Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-01",
@@ -32954,13 +32963,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Ravi Pradosh Vrat on March 1st (Sunday)\">Ravi Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-03-02",
@@ -33033,7 +33036,23 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Chhoti Holi on March 2nd (Monday)\">Chhoti Holi",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Holika Dahan on March 2nd (Monday)\">Holika Dahan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Anvadhan on March 2nd (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-03",
@@ -33108,17 +33127,12 @@
       },
       "events": [
         {
-          "title": "Chhoti Holi on March 3rd (Tuesday)\">Chhoti Holi",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Holika Dahan on March 3rd (Tuesday)\">Holika Dahan",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
           "title": "Vasanta Purnima on March 3rd (Tuesday)\">Vasanta Purnima",
+          "category": "Festival",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Holi on March 3rd (Tuesday)\">Holi",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         },
@@ -33133,7 +33147,7 @@
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         },
         {
-          "title": "Anvadhan on March 3rd (Tuesday)\">Anvadhan",
+          "title": "Ishti on March 3rd (Tuesday)\">Ishti",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         }
@@ -33210,18 +33224,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Holi on March 4th (Wednesday)\">Holi",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Ishti on March 4th (Wednesday)\">Ishti",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-03-05",
@@ -33991,7 +33994,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Meena Sankranti on March 14th (Saturday)\">Meena Sankranti",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Papamochani Ekadashi on March 14th (Saturday)\">Papamochani Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-15",
@@ -34064,18 +34078,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Meena Sankranti on March 15th (Sunday)\">Meena Sankranti",
-          "category": "Festival",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Papamochani Ekadashi on March 15th (Sunday)\">Papamochani Ekadashi",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-03-16",
@@ -34302,6 +34305,11 @@
       },
       "events": [
         {
+          "title": "Chaitra Amavasya on March 18th (Wednesday)\">Chaitra Amavasya",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
           "title": "Darsha Amavasya on March 18th (Wednesday)\">Darsha Amavasya",
           "category": "Festival",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
@@ -34403,11 +34411,6 @@
         {
           "title": "Chaitra Navratri on March 19th (Thursday)\">Chaitra Navratri",
           "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Chaitra Amavasya on March 19th (Thursday)\">Chaitra Amavasya",
-          "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         },
         {
@@ -34656,7 +34659,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Lakshmi Panchami on March 22nd (Sunday)\">Lakshmi Panchami",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-23",
@@ -34729,13 +34738,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Lakshmi Panchami on March 23rd (Monday)\">Lakshmi Panchami",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-03-24",
@@ -34962,8 +34965,13 @@
       },
       "events": [
         {
-          "title": "Rama Navami *Smarta on March 26th (Thursday)\">Rama Navami *Smarta",
+          "title": "Rama Navami on March 26th (Thursday)\">Rama Navami",
           "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        },
+        {
+          "title": "Swaminarayan Jayanti on March 26th (Thursday)\">Swaminarayan Jayanti",
+          "category": "Jayanti",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         }
       ]
@@ -35039,18 +35047,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Rama Navami *ISKCON on March 27th (Friday)\">Rama Navami *ISKCON",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Swaminarayan Jayanti on March 27th (Friday)\">Swaminarayan Jayanti",
-          "category": "Jayanti",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-03-28",
@@ -35123,7 +35120,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kamada Ekadashi on March 28th (Saturday)\">Kamada Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-29",
@@ -35196,13 +35199,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kamada Ekadashi on March 29th (Sunday)\">Kamada Ekadashi",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-03-30",
@@ -35429,6 +35426,21 @@
       },
       "events": [
         {
+          "title": "Hanuman Jayanti on April 1st (Wednesday)\">Hanuman Jayanti",
+          "category": "Jayanti",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Hanuman Janmotsava on April 1st (Wednesday)\">Hanuman Janmotsava",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Chaitra Purnima on April 1st (Wednesday)\">Chaitra Purnima",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
           "title": "Anvadhan on April 1st (Wednesday)\">Anvadhan",
           "category": "Festival",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
@@ -35507,21 +35519,6 @@
         }
       },
       "events": [
-        {
-          "title": "Hanuman Jayanti on April 2nd (Thursday)\">Hanuman Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
-        {
-          "title": "Hanuman Janmotsava on April 2nd (Thursday)\">Hanuman Janmotsava",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
-        {
-          "title": "Chaitra Purnima on April 2nd (Thursday)\">Chaitra Purnima",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
         {
           "title": "Ishti on April 2nd (Thursday)\">Ishti",
           "category": "Festival",
@@ -36425,6 +36422,11 @@
           "title": "Solar New Year on April 14th (Tuesday)\">Solar New Year",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Bhauma Pradosh Vrat on April 14th (Tuesday)\">Bhauma Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
         }
       ]
     },
@@ -36499,13 +36501,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Budha Pradosh Vrat on April 15th (Wednesday)\">Budha Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-04-16",
@@ -36578,7 +36574,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Darsha Amavasya on April 16th (Thursday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        },
+        {
+          "title": "Anvadhan on April 16th (Thursday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        }
+      ]
     },
     {
       "date": "2026-04-17",
@@ -36653,12 +36660,7 @@
       },
       "events": [
         {
-          "title": "Darsha Amavasya on April 17th (Friday)\">Darsha Amavasya",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
-        {
-          "title": "Anvadhan on April 17th (Friday)\">Anvadhan",
+          "title": "Ishti on April 17th (Friday)\">Ishti",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
         },
@@ -36741,11 +36743,6 @@
         }
       },
       "events": [
-        {
-          "title": "Ishti on April 18th (Saturday)\">Ishti",
-          "category": "Festival",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        },
         {
           "title": "Chandra Darshana on April 18th (Saturday)\">Chandra Darshana",
           "category": "Festival",
@@ -37589,7 +37586,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Narasimha Jayanti on April 29th (Wednesday)\">Narasimha Jayanti",
+          "category": "Jayanti",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
+        }
+      ]
     },
     {
       "date": "2026-04-30",
@@ -37662,13 +37665,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Narasimha Jayanti on April 30th (Thursday)\">Narasimha Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-05-01",
@@ -39665,7 +39662,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Padmini Ekadashi on May 26th (Tuesday)\">Padmini Ekadashi",
+          "category": "Vrat",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
+        }
+      ]
     },
     {
       "date": "2026-05-27",
@@ -39738,13 +39741,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Padmini Ekadashi on May 27th (Wednesday)\">Padmini Ekadashi",
-          "category": "Vrat",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-05-28",
@@ -39969,7 +39966,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Anvadhan on May 30th (Saturday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
+        }
+      ]
     },
     {
       "date": "2026-05-31",
@@ -40049,7 +40052,7 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
         },
         {
-          "title": "Anvadhan on May 31st (Sunday)\">Anvadhan",
+          "title": "Ishti on May 31st (Sunday)\">Ishti",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
         }
@@ -40126,13 +40129,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Ishti on June 1st (Monday)\">Ishti",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-06-02",
@@ -41106,6 +41103,11 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
         },
         {
+          "title": "Jyeshtha Adhika Amavasya on June 14th (Sunday)\">Jyeshtha Adhika Amavasya",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
+        },
+        {
           "title": "Anvadhan on June 14th (Sunday)\">Anvadhan",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
@@ -41186,11 +41188,6 @@
       "events": [
         {
           "title": "Mithuna Sankranti on June 15th (Monday)\">Mithuna Sankranti",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        },
-        {
-          "title": "Jyeshtha Adhika Amavasya on June 15th (Monday)\">Jyeshtha Adhika Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
         },
@@ -42019,7 +42016,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Shukra Pradosh Vrat on June 26th (Friday)\">Shukra Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
+        }
+      ]
     },
     {
       "date": "2026-06-27",
@@ -42092,13 +42095,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Shani Pradosh Vrat on June 27th (Saturday)\">Shani Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-06-28",
@@ -43161,12 +43158,7 @@
       },
       "events": [
         {
-          "title": "Gauna Yogini Ekadashi on July 11th (Saturday)\">Gauna Yogini Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
+          "title": "Shani Pradosh Vrat on July 11th (Saturday)\">Shani Pradosh Vrat",
           "category": "Vrat",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
@@ -43178,6 +43170,79 @@
       "monthName": "July",
       "day": 12,
       "weekday": "Sunday",
+      "panchang": {
+        "modernClock": {
+          "supports12Hour": true,
+          "supports24Hour": true,
+          "supports24PlusHour": true
+        },
+        "sun": {
+          "sunrise": null,
+          "sunset": null
+        },
+        "moon": {
+          "moonrise": null,
+          "moonset": null
+        },
+        "calendar": {
+          "shakaSamvat": {
+            "year": null,
+            "name": null
+          },
+          "vikramSamvat": {
+            "year": null,
+            "name": null
+          },
+          "gujaratiSamvat": {
+            "year": null,
+            "name": null
+          },
+          "amantaMonth": null,
+          "purnimantaMonth": null,
+          "paksha": null,
+          "pravishte": null
+        },
+        "tithi": {
+          "name": "",
+          "endsAtText": null
+        },
+        "nakshatra": {
+          "name": "",
+          "endsAtText": null
+        },
+        "yoga": {
+          "name": "",
+          "endsAtText": null
+        },
+        "karana": [],
+        "zodiac": {
+          "sunSign": {
+            "name": null,
+            "untilText": null
+          },
+          "moonSign": {
+            "name": null,
+            "untilText": null
+          }
+        },
+        "timings": {
+          "rahuKalam": null,
+          "gulikaiKalam": null,
+          "yamaganda": null,
+          "abhijit": null,
+          "durMuhurtam": null,
+          "amritKalam": null,
+          "varjyam": null
+        }
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-13",
+      "month": 7,
+      "monthName": "July",
+      "day": 13,
+      "weekday": "Monday",
       "panchang": {
         "modernClock": {
           "supports12Hour": true,
@@ -43245,84 +43310,16 @@
       },
       "events": [
         {
-          "title": "Ravi Pradosh Vrat on July 12th (Sunday)\">Ravi Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+          "title": "Darsha Amavasya on July 13th (Monday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
+          "title": "Anvadhan on July 13th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
       ]
-    },
-    {
-      "date": "2026-07-13",
-      "month": 7,
-      "monthName": "July",
-      "day": 13,
-      "weekday": "Monday",
-      "panchang": {
-        "modernClock": {
-          "supports12Hour": true,
-          "supports24Hour": true,
-          "supports24PlusHour": true
-        },
-        "sun": {
-          "sunrise": null,
-          "sunset": null
-        },
-        "moon": {
-          "moonrise": null,
-          "moonset": null
-        },
-        "calendar": {
-          "shakaSamvat": {
-            "year": null,
-            "name": null
-          },
-          "vikramSamvat": {
-            "year": null,
-            "name": null
-          },
-          "gujaratiSamvat": {
-            "year": null,
-            "name": null
-          },
-          "amantaMonth": null,
-          "purnimantaMonth": null,
-          "paksha": null,
-          "pravishte": null
-        },
-        "tithi": {
-          "name": "",
-          "endsAtText": null
-        },
-        "nakshatra": {
-          "name": "",
-          "endsAtText": null
-        },
-        "yoga": {
-          "name": "",
-          "endsAtText": null
-        },
-        "karana": [],
-        "zodiac": {
-          "sunSign": {
-            "name": null,
-            "untilText": null
-          },
-          "moonSign": {
-            "name": null,
-            "untilText": null
-          }
-        },
-        "timings": {
-          "rahuKalam": null,
-          "gulikaiKalam": null,
-          "yamaganda": null,
-          "abhijit": null,
-          "durMuhurtam": null,
-          "amritKalam": null,
-          "varjyam": null
-        }
-      },
-      "events": []
     },
     {
       "date": "2026-07-14",
@@ -43397,12 +43394,7 @@
       },
       "events": [
         {
-          "title": "Darsha Amavasya on July 14th (Tuesday)\">Darsha Amavasya",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Anvadhan on July 14th (Tuesday)\">Anvadhan",
+          "title": "Ishti on July 14th (Tuesday)\">Ishti",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
@@ -43491,12 +43483,7 @@
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
         {
-          "title": "Ishti on July 15th (Wednesday)\">Ishti",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Chandra Darshana on July 15th (Wednesday)\">Chandra Darshana",
+          "title": "Jagannath Rathyatra on July 15th (Wednesday)\">Jagannath Rathyatra",
           "category": "Festival",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
@@ -43575,12 +43562,12 @@
       },
       "events": [
         {
-          "title": "Jagannath Rathyatra on July 16th (Thursday)\">Jagannath Rathyatra",
+          "title": "Karka Sankranti on July 16th (Thursday)\">Karka Sankranti",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
         {
-          "title": "Karka Sankranti on July 16th (Thursday)\">Karka Sankranti",
+          "title": "Chandra Darshana on July 16th (Thursday)\">Chandra Darshana",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         }
@@ -44808,6 +44795,11 @@
           "title": "Jayaparvati Vrat Ends on August 1st (Saturday)\">Jayaparvati Vrat Ends",
           "category": "Vrat",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Gajanana Sankashti on August 1st (Saturday)\">Gajanana Sankashti",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         }
       ]
     },
@@ -44882,13 +44874,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Gajanana Sankashti on August 2nd (Sunday)\">Gajanana Sankashti",
-          "category": "Vrat",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-08-03",
@@ -45326,7 +45312,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kamika Ekadashi on August 8th (Saturday)\">Kamika Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     {
       "date": "2026-08-09",
@@ -45401,7 +45393,12 @@
       },
       "events": [
         {
-          "title": "Kamika Ekadashi on August 9th (Sunday)\">Kamika Ekadashi",
+          "title": "Gauna Kamika Ekadashi on August 9th (Sunday)\">Gauna Kamika Ekadashi",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Vaishnava Kamika Ekadashi on August 9th (Sunday)\">Vaishnava Kamika Ekadashi",
           "category": "Vrat",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         }
@@ -46041,6 +46038,11 @@
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
         {
+          "title": "Kalki Jayanti on August 17th (Monday)\">Kalki Jayanti",
+          "category": "Jayanti",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
           "title": "Simha Sankranti on August 17th (Monday)\">Simha Sankranti",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
@@ -46118,13 +46120,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kalki Jayanti on August 18th (Tuesday)\">Kalki Jayanti",
-          "category": "Jayanti",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-08-19",
@@ -46343,7 +46339,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Varalakshmi Vrat on August 21st (Friday)\">Varalakshmi Vrat",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     {
       "date": "2026-08-22",
@@ -46568,13 +46570,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vaishnava Shravana Putrada Ekadashi on August 24th (Monday)\">Vaishnava Shravana Putrada Ekadashi",
-          "category": "Vrat",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-08-25",
@@ -46801,6 +46797,26 @@
       },
       "events": [
         {
+          "title": "Raksha Bandhan on August 27th (Thursday)\">Raksha Bandhan",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Rakhi on August 27th (Thursday)\">Rakhi",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Gayatri Jayanti on August 27th (Thursday)\">Gayatri Jayanti",
+          "category": "Jayanti",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Shravana Purnima on August 27th (Thursday)\">Shravana Purnima",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
           "title": "Anvadhan on August 27th (Thursday)\">Anvadhan",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
@@ -46880,32 +46896,7 @@
       },
       "events": [
         {
-          "title": "Varalakshmi Vrat on August 28th (Friday)\">Varalakshmi Vrat",
-          "category": "Vrat",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Raksha Bandhan on August 28th (Friday)\">Raksha Bandhan",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Rakhi on August 28th (Friday)\">Rakhi",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Gayatri Jayanti on August 28th (Friday)\">Gayatri Jayanti",
-          "category": "Jayanti",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
           "title": "Chandra Grahan *Anshika on August 28th (Friday)\">Chandra Grahan *Anshika",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Shravana Purnima on August 28th (Friday)\">Shravana Purnima",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
@@ -47060,7 +47051,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kajari Teej on August 30th (Sunday)\">Kajari Teej",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     {
       "date": "2026-08-31",
@@ -47134,11 +47131,6 @@
         }
       },
       "events": [
-        {
-          "title": "Kajari Teej on August 31st (Monday)\">Kajari Teej",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
         {
           "title": "Bahula Chaturthi on August 31st (Monday)\">Bahula Chaturthi",
           "category": "Vrat",
@@ -47374,7 +47366,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Janmashtami *Smarta on September 3rd (Thursday)\">Janmashtami *Smarta",
+          "category": "Vrat",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        }
+      ]
     },
     {
       "date": "2026-09-04",
@@ -47449,12 +47447,12 @@
       },
       "events": [
         {
-          "title": "Krishna Janmashtami on September 4th (Friday)\">Krishna Janmashtami",
+          "title": "Janmashtami *ISKCON on September 4th (Friday)\">Janmashtami *ISKCON",
           "category": "Vrat",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         },
         {
-          "title": "Agastya Arghya on September 4th (Friday)\">Agastya Arghya",
+          "title": "Dahi Handi on September 4th (Friday)\">Dahi Handi",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
@@ -47531,13 +47529,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Dahi Handi on September 5th (Saturday)\">Dahi Handi",
-          "category": "Festival",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-09-06",
@@ -47934,6 +47926,11 @@
           "title": "Anvadhan on September 10th (Thursday)\">Anvadhan",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
+        {
+          "title": "Bhadrapada Amavasya on September 10th (Thursday)\">Bhadrapada Amavasya",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
       ]
     },
@@ -48013,11 +48010,6 @@
           "title": "Ishti on September 11th (Friday)\">Ishti",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
-        {
-          "title": "Bhadrapada Amavasya on September 11th (Friday)\">Bhadrapada Amavasya",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
       ]
     },
@@ -48092,7 +48084,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Chandra Darshana on September 12th (Saturday)\">Chandra Darshana",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        }
+      ]
     },
     {
       "date": "2026-09-13",
@@ -48172,7 +48170,7 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         },
         {
-          "title": "Chandra Darshana on September 13th (Sunday)\">Chandra Darshana",
+          "title": "Hartalika Teej on September 13th (Sunday)\">Hartalika Teej",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
@@ -48250,11 +48248,6 @@
         }
       },
       "events": [
-        {
-          "title": "Hartalika Teej on September 14th (Monday)\">Hartalika Teej",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
         {
           "title": "Ganesh Chaturthi on September 14th (Monday)\">Ganesh Chaturthi",
           "category": "Vrat",
@@ -48491,18 +48484,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vishwakarma Puja on September 17th (Thursday)\">Vishwakarma Puja",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
-        {
-          "title": "Kanya Sankranti on September 17th (Thursday)\">Kanya Sankranti",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-09-18",
@@ -48575,7 +48557,18 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Radha Ashtami on September 18th (Friday)\">Radha Ashtami",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
+        {
+          "title": "Durva Ashtami on September 18th (Friday)\">Durva Ashtami",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        }
+      ]
     },
     {
       "date": "2026-09-19",
@@ -48649,11 +48642,6 @@
         }
       },
       "events": [
-        {
-          "title": "Radha Ashtami on September 19th (Saturday)\">Radha Ashtami",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        },
         {
           "title": "Mahalakshmi Vrat Begins on September 19th (Saturday)\">Mahalakshmi Vrat Begins",
           "category": "Vrat",
@@ -48880,6 +48868,11 @@
       },
       "events": [
         {
+          "title": "Vamana Jayanti on September 22nd (Tuesday)\">Vamana Jayanti",
+          "category": "Jayanti",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
+        {
           "title": "Parsva Ekadashi on September 22nd (Tuesday)\">Parsva Ekadashi",
           "category": "Vrat",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
@@ -48959,8 +48952,8 @@
       },
       "events": [
         {
-          "title": "Vamana Jayanti on September 23rd (Wednesday)\">Vamana Jayanti",
-          "category": "Jayanti",
+          "title": "Budha Pradosh Vrat on September 23rd (Wednesday)\">Budha Pradosh Vrat",
+          "category": "Vrat",
           "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
         }
       ]
@@ -49036,13 +49029,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Guru Pradosh Vrat on September 24th (Thursday)\">Guru Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-09-25",
@@ -50052,7 +50039,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Budha Pradosh Vrat on October 7th (Wednesday)\">Budha Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        }
+      ]
     },
     {
       "date": "2026-10-08",
@@ -50125,13 +50118,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Guru Pradosh Vrat on October 8th (Thursday)\">Guru Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-10-09",
@@ -50927,7 +50914,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Durga Ashtami on October 18th (Sunday)\">Durga Ashtami",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        }
+      ]
     },
     {
       "date": "2026-10-19",
@@ -51001,11 +50994,6 @@
         }
       },
       "events": [
-        {
-          "title": "Durga Ashtami on October 19th (Monday)\">Durga Ashtami",
-          "category": "Vrat",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        },
         {
           "title": "Maha Navami on October 19th (Monday)\">Maha Navami",
           "category": "Festival",
@@ -51091,11 +51079,6 @@
       },
       "events": [
         {
-          "title": "Durga Visarjan on October 20th (Tuesday)\">Durga Visarjan",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        },
-        {
           "title": "Dussehra on October 20th (Tuesday)\">Dussehra",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
@@ -51173,7 +51156,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Durga Visarjan on October 21st (Wednesday)\">Durga Visarjan",
+          "category": "Festival",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        }
+      ]
     },
     {
       "date": "2026-10-22",
@@ -51489,6 +51478,11 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
         },
         {
+          "title": "Ashwina Purnima on October 25th (Sunday)\">Ashwina Purnima",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
+        },
+        {
           "title": "Anvadhan on October 25th (Sunday)\">Anvadhan",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
@@ -51567,11 +51561,6 @@
         }
       },
       "events": [
-        {
-          "title": "Ashwina Purnima on October 26th (Monday)\">Ashwina Purnima",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026"
-        },
         {
           "title": "Ishti on October 26th (Monday)\">Ishti",
           "category": "Festival",
@@ -52245,7 +52234,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Rama Ekadashi on November 4th (Wednesday)\">Rama Ekadashi",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     {
       "date": "2026-11-05",
@@ -52325,7 +52320,7 @@
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Rama Ekadashi on November 5th (Thursday)\">Rama Ekadashi",
+          "title": "Vaishnava Rama Ekadashi on November 5th (Thursday)\">Vaishnava Rama Ekadashi",
           "category": "Vrat",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -52491,6 +52486,11 @@
           "title": "Kali Chaudas on November 7th (Saturday)\">Kali Chaudas",
           "category": "Festival",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        },
+        {
+          "title": "Narak Chaturdashi on November 7th (Saturday)\">Narak Chaturdashi",
+          "category": "Festival",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
       ]
     },
@@ -52572,17 +52572,22 @@
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Narak Chaturdashi on November 8th (Sunday)\">Narak Chaturdashi",
-          "category": "Festival",
-          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
           "title": "Diwali on November 8th (Sunday)\">Diwali",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
           "title": "Darsha Amavasya on November 8th (Sunday)\">Darsha Amavasya",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        },
+        {
+          "title": "Anvadhan on November 8th (Sunday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        },
+        {
+          "title": "Kartika Amavasya on November 8th (Sunday)\">Kartika Amavasya",
           "category": "Festival",
           "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -52661,12 +52666,12 @@
       },
       "events": [
         {
-          "title": "Anvadhan on November 9th (Monday)\">Anvadhan",
+          "title": "Govardhan Puja on November 9th (Monday)\">Govardhan Puja",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Kartika Amavasya on November 9th (Monday)\">Kartika Amavasya",
+          "title": "Ishti on November 9th (Monday)\">Ishti",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -52745,17 +52750,12 @@
       },
       "events": [
         {
-          "title": "Govardhan Puja on November 10th (Tuesday)\">Govardhan Puja",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
           "title": "Dyuta Krida on November 10th (Tuesday)\">Dyuta Krida",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         },
         {
-          "title": "Ishti on November 10th (Tuesday)\">Ishti",
+          "title": "Bhaiya Dooj on November 10th (Tuesday)\">Bhaiya Dooj",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
@@ -52833,11 +52833,6 @@
         }
       },
       "events": [
-        {
-          "title": "Bhaiya Dooj on November 11th (Wednesday)\">Bhaiya Dooj",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
         {
           "title": "Chandra Darshana on November 11th (Wednesday)\">Chandra Darshana",
           "category": "Festival",
@@ -53457,7 +53452,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kansa Vadh on November 19th (Thursday)\">Kansa Vadh",
+          "category": "Festival",
+          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     {
       "date": "2026-11-20",
@@ -53530,13 +53531,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kansa Vadh on November 20th (Friday)\">Kansa Vadh",
-          "category": "Festival",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-11-21",
@@ -53614,16 +53609,6 @@
           "title": "Tulasi Vivah on November 21st (Saturday)\">Tulasi Vivah",
           "category": "Festival",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
-          "title": "Gauna Devutthana Ekadashi on November 21st (Saturday)\">Gauna Devutthana Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
-        {
-          "title": "Vaishnava Devutthana Ekadashi on November 21st (Saturday)\">Vaishnava Devutthana Ekadashi",
-          "category": "Vrat",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
         }
       ]
     },
@@ -53698,7 +53683,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Vaikuntha Chaturdashi on November 22nd (Sunday)\">Vaikuntha Chaturdashi",
+          "category": "Festival",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     {
       "date": "2026-11-23",
@@ -53771,13 +53762,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vaikuntha Chaturdashi on November 23rd (Monday)\">Vaikuntha Chaturdashi",
-          "category": "Festival",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-11-24",
@@ -53851,11 +53836,6 @@
         }
       },
       "events": [
-        {
-          "title": "Dev Diwali on November 24th (Tuesday)\">Dev Diwali",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
-        },
         {
           "title": "Kartika Purnima on November 24th (Tuesday)\">Kartika Purnima",
           "category": "Festival",
@@ -54316,7 +54296,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Kalabhairav Jayanti on November 30th (Monday)\">Kalabhairav Jayanti",
+          "category": "Jayanti",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026"
+        }
+      ]
     },
     {
       "date": "2026-12-01",
@@ -54389,13 +54375,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Kalabhairav Jayanti on December 1st (Tuesday)\">Kalabhairav Jayanti",
-          "category": "Jayanti",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/12/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-12-02",
@@ -56699,6 +56679,12 @@
       "type": "Vrat"
     },
     {
+      "date": "2026-01-02",
+      "title": "Anvadhan on January 2nd (Friday)\">Anvadhan",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
+      "type": "Festival"
+    },
+    {
       "date": "2026-01-03",
       "title": "Shakambhari Purnima on January 3rd (Saturday)\">Shakambhari Purnima",
       "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
@@ -56712,14 +56698,8 @@
     },
     {
       "date": "2026-01-03",
-      "title": "Anvadhan on January 3rd (Saturday)\">Anvadhan",
+      "title": "Ishti on January 3rd (Saturday)\">Ishti",
       "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-01-04",
-      "title": "Ishti on January 4th (Sunday)\">Ishti",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
       "type": "Festival"
     },
     {
@@ -56753,9 +56733,9 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-01-16",
-      "title": "Shukra Pradosh Vrat on January 16th (Friday)\">Shukra Pradosh Vrat",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
+      "date": "2026-01-15",
+      "title": "Guru Pradosh Vrat on January 15th (Thursday)\">Guru Pradosh Vrat",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
       "type": "Vrat"
     },
     {
@@ -56813,8 +56793,20 @@
       "type": "Vrat"
     },
     {
+      "date": "2026-01-28",
+      "title": "Jaya Ekadashi on January 28th (Wednesday)\">Jaya Ekadashi",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
+      "type": "Vrat"
+    },
+    {
       "date": "2026-01-29",
-      "title": "Jaya Ekadashi on January 29th (Thursday)\">Jaya Ekadashi",
+      "title": "Gauna Jaya Ekadashi on January 29th (Thursday)\">Gauna Jaya Ekadashi",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Vaishnava Jaya Ekadashi on January 29th (Thursday)\">Vaishnava Jaya Ekadashi",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
       "type": "Vrat"
     },
@@ -56843,15 +56835,15 @@
       "type": "Festival"
     },
     {
-      "date": "2026-02-05",
-      "title": "Dwijapriya Sankashti on February 5th (Thursday)\">Dwijapriya Sankashti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "date": "2026-02-04",
+      "title": "Dwijapriya Sankashti on February 4th (Wednesday)\">Dwijapriya Sankashti",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Vrat"
     },
     {
-      "date": "2026-02-13",
-      "title": "Kumbha Sankranti on February 13th (Friday)\">Kumbha Sankranti",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "date": "2026-02-12",
+      "title": "Kumbha Sankranti on February 12th (Thursday)\">Kumbha Sankranti",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
     {
@@ -56873,6 +56865,18 @@
       "type": "Festival"
     },
     {
+      "date": "2026-02-16",
+      "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "type": "Festival"
+    },
+    {
       "date": "2026-02-17",
       "title": "Surya Grahan *Valayakara on February 17th (Tuesday)\">Surya Grahan *Valayakara",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -56880,13 +56884,7 @@
     },
     {
       "date": "2026-02-17",
-      "title": "Darsha Amavasya on February 17th (Tuesday)\">Darsha Amavasya",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-02-17",
-      "title": "Anvadhan on February 17th (Tuesday)\">Anvadhan",
+      "title": "Ishti on February 17th (Tuesday)\">Ishti",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
@@ -56894,12 +56892,6 @@
       "date": "2026-02-17",
       "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-02-18",
-      "title": "Ishti on February 18th (Wednesday)\">Ishti",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
     {
@@ -56921,26 +56913,38 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-03-01",
-      "title": "Ravi Pradosh Vrat on March 1st (Sunday)\">Ravi Pradosh Vrat",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-02-28",
+      "title": "Shani Pradosh Vrat on February 28th (Saturday)\">Shani Pradosh Vrat",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Vrat"
     },
     {
-      "date": "2026-03-03",
-      "title": "Chhoti Holi on March 3rd (Tuesday)\">Chhoti Holi",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-02",
+      "title": "Chhoti Holi on March 2nd (Monday)\">Chhoti Holi",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-03-03",
-      "title": "Holika Dahan on March 3rd (Tuesday)\">Holika Dahan",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-02",
+      "title": "Holika Dahan on March 2nd (Monday)\">Holika Dahan",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "Anvadhan on March 2nd (Monday)\">Anvadhan",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
     {
       "date": "2026-03-03",
       "title": "Vasanta Purnima on March 3rd (Tuesday)\">Vasanta Purnima",
+      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Holi on March 3rd (Tuesday)\">Holi",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
@@ -56958,20 +56962,8 @@
     },
     {
       "date": "2026-03-03",
-      "title": "Anvadhan on March 3rd (Tuesday)\">Anvadhan",
+      "title": "Ishti on March 3rd (Tuesday)\">Ishti",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-03-04",
-      "title": "Holi on March 4th (Wednesday)\">Holi",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-03-04",
-      "title": "Ishti on March 4th (Wednesday)\">Ishti",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
     {
@@ -57017,15 +57009,15 @@
       "type": "Festival"
     },
     {
-      "date": "2026-03-15",
-      "title": "Meena Sankranti on March 15th (Sunday)\">Meena Sankranti",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-14",
+      "title": "Meena Sankranti on March 14th (Saturday)\">Meena Sankranti",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-03-15",
-      "title": "Papamochani Ekadashi on March 15th (Sunday)\">Papamochani Ekadashi",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-14",
+      "title": "Papamochani Ekadashi on March 14th (Saturday)\">Papamochani Ekadashi",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Vrat"
     },
     {
@@ -57033,6 +57025,12 @@
       "title": "Soma Pradosh Vrat on March 16th (Monday)\">Soma Pradosh Vrat",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Vrat"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Chaitra Amavasya on March 18th (Wednesday)\">Chaitra Amavasya",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "type": "Festival"
     },
     {
       "date": "2026-03-18",
@@ -57072,12 +57070,6 @@
     },
     {
       "date": "2026-03-19",
-      "title": "Chaitra Amavasya on March 19th (Thursday)\">Chaitra Amavasya",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-03-19",
       "title": "Ishti on March 19th (Thursday)\">Ishti",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
@@ -57107,9 +57099,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-03-23",
-      "title": "Lakshmi Panchami on March 23rd (Monday)\">Lakshmi Panchami",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-22",
+      "title": "Lakshmi Panchami on March 22nd (Sunday)\">Lakshmi Panchami",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
     {
@@ -57120,26 +57112,20 @@
     },
     {
       "date": "2026-03-26",
-      "title": "Rama Navami *Smarta on March 26th (Thursday)\">Rama Navami *Smarta",
+      "title": "Rama Navami on March 26th (Thursday)\">Rama Navami",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-03-27",
-      "title": "Rama Navami *ISKCON on March 27th (Friday)\">Rama Navami *ISKCON",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-03-27",
-      "title": "Swaminarayan Jayanti on March 27th (Friday)\">Swaminarayan Jayanti",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-26",
+      "title": "Swaminarayan Jayanti on March 26th (Thursday)\">Swaminarayan Jayanti",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Jayanti"
     },
     {
-      "date": "2026-03-29",
-      "title": "Kamada Ekadashi on March 29th (Sunday)\">Kamada Ekadashi",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-28",
+      "title": "Kamada Ekadashi on March 28th (Saturday)\">Kamada Ekadashi",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Vrat"
     },
     {
@@ -57150,26 +57136,26 @@
     },
     {
       "date": "2026-04-01",
-      "title": "Anvadhan on April 1st (Wednesday)\">Anvadhan",
+      "title": "Hanuman Jayanti on April 1st (Wednesday)\">Hanuman Jayanti",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Hanuman Janmotsava on April 1st (Wednesday)\">Hanuman Janmotsava",
       "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-04-02",
-      "title": "Hanuman Jayanti on April 2nd (Thursday)\">Hanuman Jayanti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
-      "type": "Jayanti"
-    },
-    {
-      "date": "2026-04-02",
-      "title": "Hanuman Janmotsava on April 2nd (Thursday)\">Hanuman Janmotsava",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "date": "2026-04-01",
+      "title": "Chaitra Purnima on April 1st (Wednesday)\">Chaitra Purnima",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-04-02",
-      "title": "Chaitra Purnima on April 2nd (Thursday)\">Chaitra Purnima",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "date": "2026-04-01",
+      "title": "Anvadhan on April 1st (Wednesday)\">Anvadhan",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Festival"
     },
     {
@@ -57203,20 +57189,26 @@
       "type": "Festival"
     },
     {
-      "date": "2026-04-15",
-      "title": "Budha Pradosh Vrat on April 15th (Wednesday)\">Budha Pradosh Vrat",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "date": "2026-04-14",
+      "title": "Bhauma Pradosh Vrat on April 14th (Tuesday)\">Bhauma Pradosh Vrat",
+      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Vrat"
     },
     {
-      "date": "2026-04-17",
-      "title": "Darsha Amavasya on April 17th (Friday)\">Darsha Amavasya",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "date": "2026-04-16",
+      "title": "Darsha Amavasya on April 16th (Thursday)\">Darsha Amavasya",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Anvadhan on April 16th (Thursday)\">Anvadhan",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Festival"
     },
     {
       "date": "2026-04-17",
-      "title": "Anvadhan on April 17th (Friday)\">Anvadhan",
+      "title": "Ishti on April 17th (Friday)\">Ishti",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Festival"
     },
@@ -57224,12 +57216,6 @@
       "date": "2026-04-17",
       "title": "Vaishakha Amavasya on April 17th (Friday)\">Vaishakha Amavasya",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-04-18",
-      "title": "Ishti on April 18th (Saturday)\">Ishti",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Festival"
     },
     {
@@ -57275,9 +57261,9 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-04-30",
-      "title": "Narasimha Jayanti on April 30th (Thursday)\">Narasimha Jayanti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
+      "date": "2026-04-29",
+      "title": "Narasimha Jayanti on April 29th (Wednesday)\">Narasimha Jayanti",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/04/2026",
       "type": "Jayanti"
     },
     {
@@ -57389,9 +57375,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-05-27",
-      "title": "Padmini Ekadashi on May 27th (Wednesday)\">Padmini Ekadashi",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
+      "date": "2026-05-26",
+      "title": "Padmini Ekadashi on May 26th (Tuesday)\">Padmini Ekadashi",
+      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
       "type": "Vrat"
     },
     {
@@ -57401,6 +57387,12 @@
       "type": "Vrat"
     },
     {
+      "date": "2026-05-30",
+      "title": "Anvadhan on May 30th (Saturday)\">Anvadhan",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
+      "type": "Festival"
+    },
+    {
       "date": "2026-05-31",
       "title": "Jyeshtha Adhika Purnima on May 31st (Sunday)\">Jyeshtha Adhika Purnima",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
@@ -57408,14 +57400,8 @@
     },
     {
       "date": "2026-05-31",
-      "title": "Anvadhan on May 31st (Sunday)\">Anvadhan",
+      "title": "Ishti on May 31st (Sunday)\">Ishti",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "Ishti on June 1st (Monday)\">Ishti",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
       "type": "Festival"
     },
     {
@@ -57444,6 +57430,12 @@
     },
     {
       "date": "2026-06-14",
+      "title": "Jyeshtha Adhika Amavasya on June 14th (Sunday)\">Jyeshtha Adhika Amavasya",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-06-14",
       "title": "Anvadhan on June 14th (Sunday)\">Anvadhan",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
       "type": "Festival"
@@ -57451,12 +57443,6 @@
     {
       "date": "2026-06-15",
       "title": "Mithuna Sankranti on June 15th (Monday)\">Mithuna Sankranti",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-06-15",
-      "title": "Jyeshtha Adhika Amavasya on June 15th (Monday)\">Jyeshtha Adhika Amavasya",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
       "type": "Festival"
     },
@@ -57485,9 +57471,9 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-06-27",
-      "title": "Shani Pradosh Vrat on June 27th (Saturday)\">Shani Pradosh Vrat",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
+      "date": "2026-06-26",
+      "title": "Shukra Pradosh Vrat on June 26th (Friday)\">Shukra Pradosh Vrat",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
       "type": "Vrat"
     },
     {
@@ -57534,31 +57520,25 @@
     },
     {
       "date": "2026-07-11",
-      "title": "Gauna Yogini Ekadashi on July 11th (Saturday)\">Gauna Yogini Ekadashi",
+      "title": "Shani Pradosh Vrat on July 11th (Saturday)\">Shani Pradosh Vrat",
       "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Vrat"
     },
     {
-      "date": "2026-07-11",
-      "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Vrat"
+      "date": "2026-07-13",
+      "title": "Darsha Amavasya on July 13th (Monday)\">Darsha Amavasya",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "type": "Festival"
     },
     {
-      "date": "2026-07-12",
-      "title": "Ravi Pradosh Vrat on July 12th (Sunday)\">Ravi Pradosh Vrat",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Darsha Amavasya on July 14th (Tuesday)\">Darsha Amavasya",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "date": "2026-07-13",
+      "title": "Anvadhan on July 13th (Monday)\">Anvadhan",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Festival"
     },
     {
       "date": "2026-07-14",
-      "title": "Anvadhan on July 14th (Tuesday)\">Anvadhan",
+      "title": "Ishti on July 14th (Tuesday)\">Ishti",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Festival"
     },
@@ -57576,25 +57556,19 @@
     },
     {
       "date": "2026-07-15",
-      "title": "Ishti on July 15th (Wednesday)\">Ishti",
+      "title": "Jagannath Rathyatra on July 15th (Wednesday)\">Jagannath Rathyatra",
       "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Chandra Darshana on July 15th (Wednesday)\">Chandra Darshana",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Jagannath Rathyatra on July 16th (Thursday)\">Jagannath Rathyatra",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Festival"
     },
     {
       "date": "2026-07-16",
       "title": "Karka Sankranti on July 16th (Thursday)\">Karka Sankranti",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Chandra Darshana on July 16th (Thursday)\">Chandra Darshana",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Festival"
     },
@@ -57659,14 +57633,26 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-08-02",
-      "title": "Gajanana Sankashti on August 2nd (Sunday)\">Gajanana Sankashti",
+      "date": "2026-08-01",
+      "title": "Gajanana Sankashti on August 1st (Saturday)\">Gajanana Sankashti",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Kamika Ekadashi on August 8th (Saturday)\">Kamika Ekadashi",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-08-09",
+      "title": "Gauna Kamika Ekadashi on August 9th (Sunday)\">Gauna Kamika Ekadashi",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Vrat"
     },
     {
       "date": "2026-08-09",
-      "title": "Kamika Ekadashi on August 9th (Sunday)\">Kamika Ekadashi",
+      "title": "Vaishnava Kamika Ekadashi on August 9th (Sunday)\">Vaishnava Kamika Ekadashi",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Vrat"
     },
@@ -57726,26 +57712,26 @@
     },
     {
       "date": "2026-08-17",
+      "title": "Kalki Jayanti on August 17th (Monday)\">Kalki Jayanti",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-08-17",
       "title": "Simha Sankranti on August 17th (Monday)\">Simha Sankranti",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-08-18",
-      "title": "Kalki Jayanti on August 18th (Tuesday)\">Kalki Jayanti",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Jayanti"
+      "date": "2026-08-21",
+      "title": "Varalakshmi Vrat on August 21st (Friday)\">Varalakshmi Vrat",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Vrat"
     },
     {
       "date": "2026-08-23",
       "title": "Shravana Putrada Ekadashi on August 23rd (Sunday)\">Shravana Putrada Ekadashi",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-08-24",
-      "title": "Vaishnava Shravana Putrada Ekadashi on August 24th (Monday)\">Vaishnava Shravana Putrada Ekadashi",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Vrat"
     },
     {
@@ -57756,43 +57742,37 @@
     },
     {
       "date": "2026-08-27",
+      "title": "Raksha Bandhan on August 27th (Thursday)\">Raksha Bandhan",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Rakhi on August 27th (Thursday)\">Rakhi",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Gayatri Jayanti on August 27th (Thursday)\">Gayatri Jayanti",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Shravana Purnima on August 27th (Thursday)\">Shravana Purnima",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-27",
       "title": "Anvadhan on August 27th (Thursday)\">Anvadhan",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Festival"
     },
     {
       "date": "2026-08-28",
-      "title": "Varalakshmi Vrat on August 28th (Friday)\">Varalakshmi Vrat",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Raksha Bandhan on August 28th (Friday)\">Raksha Bandhan",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Rakhi on August 28th (Friday)\">Rakhi",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Gayatri Jayanti on August 28th (Friday)\">Gayatri Jayanti",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Jayanti"
-    },
-    {
-      "date": "2026-08-28",
       "title": "Chandra Grahan *Anshika on August 28th (Friday)\">Chandra Grahan *Anshika",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Shravana Purnima on August 28th (Friday)\">Shravana Purnima",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Festival"
     },
@@ -57803,9 +57783,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-08-31",
-      "title": "Kajari Teej on August 31st (Monday)\">Kajari Teej",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "date": "2026-08-30",
+      "title": "Kajari Teej on August 30th (Sunday)\">Kajari Teej",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Festival"
     },
     {
@@ -57827,21 +57807,21 @@
       "type": "Festival"
     },
     {
+      "date": "2026-09-03",
+      "title": "Janmashtami *Smarta on September 3rd (Thursday)\">Janmashtami *Smarta",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "type": "Vrat"
+    },
+    {
       "date": "2026-09-04",
-      "title": "Krishna Janmashtami on September 4th (Friday)\">Krishna Janmashtami",
+      "title": "Janmashtami *ISKCON on September 4th (Friday)\">Janmashtami *ISKCON",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Vrat"
     },
     {
       "date": "2026-09-04",
-      "title": "Agastya Arghya on September 4th (Friday)\">Agastya Arghya",
+      "title": "Dahi Handi on September 4th (Friday)\">Dahi Handi",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-09-05",
-      "title": "Dahi Handi on September 5th (Saturday)\">Dahi Handi",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Festival"
     },
     {
@@ -57881,15 +57861,21 @@
       "type": "Festival"
     },
     {
+      "date": "2026-09-10",
+      "title": "Bhadrapada Amavasya on September 10th (Thursday)\">Bhadrapada Amavasya",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "type": "Festival"
+    },
+    {
       "date": "2026-09-11",
       "title": "Ishti on September 11th (Friday)\">Ishti",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-09-11",
-      "title": "Bhadrapada Amavasya on September 11th (Friday)\">Bhadrapada Amavasya",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "date": "2026-09-12",
+      "title": "Chandra Darshana on September 12th (Saturday)\">Chandra Darshana",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Festival"
     },
     {
@@ -57900,14 +57886,8 @@
     },
     {
       "date": "2026-09-13",
-      "title": "Chandra Darshana on September 13th (Sunday)\">Chandra Darshana",
+      "title": "Hartalika Teej on September 13th (Sunday)\">Hartalika Teej",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-09-14",
-      "title": "Hartalika Teej on September 14th (Monday)\">Hartalika Teej",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Festival"
     },
     {
@@ -57929,21 +57909,15 @@
       "type": "Jayanti"
     },
     {
-      "date": "2026-09-17",
-      "title": "Vishwakarma Puja on September 17th (Thursday)\">Vishwakarma Puja",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
-      "type": "Festival"
+      "date": "2026-09-18",
+      "title": "Radha Ashtami on September 18th (Friday)\">Radha Ashtami",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "type": "Vrat"
     },
     {
-      "date": "2026-09-17",
-      "title": "Kanya Sankranti on September 17th (Thursday)\">Kanya Sankranti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Radha Ashtami on September 19th (Saturday)\">Radha Ashtami",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "date": "2026-09-18",
+      "title": "Durva Ashtami on September 18th (Friday)\">Durva Ashtami",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Vrat"
     },
     {
@@ -57954,20 +57928,20 @@
     },
     {
       "date": "2026-09-22",
+      "title": "Vamana Jayanti on September 22nd (Tuesday)\">Vamana Jayanti",
+      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-09-22",
       "title": "Parsva Ekadashi on September 22nd (Tuesday)\">Parsva Ekadashi",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Vrat"
     },
     {
       "date": "2026-09-23",
-      "title": "Vamana Jayanti on September 23rd (Wednesday)\">Vamana Jayanti",
+      "title": "Budha Pradosh Vrat on September 23rd (Wednesday)\">Budha Pradosh Vrat",
       "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
-      "type": "Jayanti"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Guru Pradosh Vrat on September 24th (Thursday)\">Guru Pradosh Vrat",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Vrat"
     },
     {
@@ -58037,9 +58011,9 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-10-08",
-      "title": "Guru Pradosh Vrat on October 8th (Thursday)\">Guru Pradosh Vrat",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
+      "date": "2026-10-07",
+      "title": "Budha Pradosh Vrat on October 7th (Wednesday)\">Budha Pradosh Vrat",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
       "type": "Vrat"
     },
     {
@@ -58115,9 +58089,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-10-19",
-      "title": "Durga Ashtami on October 19th (Monday)\">Durga Ashtami",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
+      "date": "2026-10-18",
+      "title": "Durga Ashtami on October 18th (Sunday)\">Durga Ashtami",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
       "type": "Vrat"
     },
     {
@@ -58134,14 +58108,14 @@
     },
     {
       "date": "2026-10-20",
-      "title": "Durga Visarjan on October 20th (Tuesday)\">Durga Visarjan",
+      "title": "Dussehra on October 20th (Tuesday)\">Dussehra",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-10-20",
-      "title": "Dussehra on October 20th (Tuesday)\">Dussehra",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
+      "date": "2026-10-21",
+      "title": "Durga Visarjan on October 21st (Wednesday)\">Durga Visarjan",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
       "type": "Festival"
     },
     {
@@ -58170,14 +58144,14 @@
     },
     {
       "date": "2026-10-25",
-      "title": "Anvadhan on October 25th (Sunday)\">Anvadhan",
+      "title": "Ashwina Purnima on October 25th (Sunday)\">Ashwina Purnima",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
       "type": "Festival"
     },
     {
-      "date": "2026-10-26",
-      "title": "Ashwina Purnima on October 26th (Monday)\">Ashwina Purnima",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
+      "date": "2026-10-25",
+      "title": "Anvadhan on October 25th (Sunday)\">Anvadhan",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/10/2026",
       "type": "Festival"
     },
     {
@@ -58199,6 +58173,12 @@
       "type": "Vrat"
     },
     {
+      "date": "2026-11-04",
+      "title": "Rama Ekadashi on November 4th (Wednesday)\">Rama Ekadashi",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
+      "type": "Vrat"
+    },
+    {
       "date": "2026-11-05",
       "title": "Govatsa Dwadashi on November 5th (Thursday)\">Govatsa Dwadashi",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
@@ -58206,7 +58186,7 @@
     },
     {
       "date": "2026-11-05",
-      "title": "Rama Ekadashi on November 5th (Thursday)\">Rama Ekadashi",
+      "title": "Vaishnava Rama Ekadashi on November 5th (Thursday)\">Vaishnava Rama Ekadashi",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Vrat"
     },
@@ -58229,14 +58209,14 @@
       "type": "Festival"
     },
     {
-      "date": "2026-11-08",
-      "title": "Lakshmi Puja on November 8th (Sunday)\">Lakshmi Puja",
-      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
+      "date": "2026-11-07",
+      "title": "Narak Chaturdashi on November 7th (Saturday)\">Narak Chaturdashi",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
     {
       "date": "2026-11-08",
-      "title": "Narak Chaturdashi on November 8th (Sunday)\">Narak Chaturdashi",
+      "title": "Lakshmi Puja on November 8th (Sunday)\">Lakshmi Puja",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
@@ -58253,21 +58233,27 @@
       "type": "Festival"
     },
     {
+      "date": "2026-11-08",
+      "title": "Anvadhan on November 8th (Sunday)\">Anvadhan",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Kartika Amavasya on November 8th (Sunday)\">Kartika Amavasya",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
+      "type": "Festival"
+    },
+    {
       "date": "2026-11-09",
-      "title": "Anvadhan on November 9th (Monday)\">Anvadhan",
+      "title": "Govardhan Puja on November 9th (Monday)\">Govardhan Puja",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
     {
       "date": "2026-11-09",
-      "title": "Kartika Amavasya on November 9th (Monday)\">Kartika Amavasya",
+      "title": "Ishti on November 9th (Monday)\">Ishti",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Govardhan Puja on November 10th (Tuesday)\">Govardhan Puja",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
     {
@@ -58278,14 +58264,8 @@
     },
     {
       "date": "2026-11-10",
-      "title": "Ishti on November 10th (Tuesday)\">Ishti",
+      "title": "Bhaiya Dooj on November 10th (Tuesday)\">Bhaiya Dooj",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Bhaiya Dooj on November 11th (Wednesday)\">Bhaiya Dooj",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
     {
@@ -58325,9 +58305,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-11-20",
-      "title": "Kansa Vadh on November 20th (Friday)\">Kansa Vadh",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
+      "date": "2026-11-19",
+      "title": "Kansa Vadh on November 19th (Thursday)\">Kansa Vadh",
+      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
     {
@@ -58337,27 +58317,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-11-21",
-      "title": "Gauna Devutthana Ekadashi on November 21st (Saturday)\">Gauna Devutthana Ekadashi",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-11-21",
-      "title": "Vaishnava Devutthana Ekadashi on November 21st (Saturday)\">Vaishnava Devutthana Ekadashi",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Vaikuntha Chaturdashi on November 23rd (Monday)\">Vaikuntha Chaturdashi",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-11-24",
-      "title": "Dev Diwali on November 24th (Tuesday)\">Dev Diwali",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
+      "date": "2026-11-22",
+      "title": "Vaikuntha Chaturdashi on November 22nd (Sunday)\">Vaikuntha Chaturdashi",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Festival"
     },
     {
@@ -58385,9 +58347,9 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-12-01",
-      "title": "Kalabhairav Jayanti on December 1st (Tuesday)\">Kalabhairav Jayanti",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/12/2026",
+      "date": "2026-11-30",
+      "title": "Kalabhairav Jayanti on November 30th (Monday)\">Kalabhairav Jayanti",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/11/2026",
       "type": "Jayanti"
     },
     {
