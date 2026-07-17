@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-07-16T23:23:00.137732Z",
+  "generatedAt": "2026-07-17T20:25:37.613242Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -13527,7 +13527,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Gayatri Jayanti on June 24th (Wednesday)\">Gayatri Jayanti",
+          "category": "Jayanti",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
+        }
+      ]
     },
     "2026-06-25": {
       "date": "2026-06-25",
@@ -13601,11 +13607,6 @@
         }
       },
       "events": [
-        {
-          "title": "Gayatri Jayanti on June 25th (Thursday)\">Gayatri Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        },
         {
           "title": "Nirjala Ekadashi on June 25th (Thursday)\">Nirjala Ekadashi",
           "category": "Vrat",
@@ -14151,13 +14152,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Krishnapingala Sankashti on July 2nd (Thursday)\">Krishnapingala Sankashti",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        }
-      ]
+      "events": []
     },
     "2026-07-03": {
       "date": "2026-07-03",
@@ -14231,6 +14226,11 @@
         }
       },
       "events": [
+        {
+          "title": "Krishnapingala Sankashti on July 3rd (Friday)\">Krishnapingala Sankashti",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
         {
           "title": "Krishnapingala Sankashti Chaturthi",
           "category": "Vrat",
@@ -15222,11 +15222,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -15301,11 +15301,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -16146,7 +16146,17 @@
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
         {
+          "title": "Guru Purnima on July 28th (Tuesday)\">Guru Purnima",
+          "category": "Festival",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
           "title": "Vyasa Puja on July 28th (Tuesday)\">Vyasa Puja",
+          "category": "Festival",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
+          "title": "Ashadha Purnima on July 28th (Tuesday)\">Ashadha Purnima",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
@@ -16229,16 +16239,6 @@
         }
       },
       "events": [
-        {
-          "title": "Guru Purnima on July 29th (Wednesday)\">Guru Purnima",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Ashadha Purnima on July 29th (Wednesday)\">Ashadha Purnima",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
         {
           "title": "Ishti on July 29th (Wednesday)\">Ishti",
           "category": "Festival",
@@ -41865,7 +41865,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Gayatri Jayanti on June 24th (Wednesday)\">Gayatri Jayanti",
+          "category": "Jayanti",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
+        }
+      ]
     },
     {
       "date": "2026-06-25",
@@ -41939,11 +41945,6 @@
         }
       },
       "events": [
-        {
-          "title": "Gayatri Jayanti on June 25th (Thursday)\">Gayatri Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026"
-        },
         {
           "title": "Nirjala Ekadashi on June 25th (Thursday)\">Nirjala Ekadashi",
           "category": "Vrat",
@@ -42489,13 +42490,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Krishnapingala Sankashti on July 2nd (Thursday)\">Krishnapingala Sankashti",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-07-03",
@@ -42569,6 +42564,11 @@
         }
       },
       "events": [
+        {
+          "title": "Krishnapingala Sankashti on July 3rd (Friday)\">Krishnapingala Sankashti",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
         {
           "title": "Krishnapingala Sankashti Chaturthi",
           "category": "Vrat",
@@ -43560,11 +43560,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -43639,11 +43639,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -44484,7 +44484,17 @@
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
         {
+          "title": "Guru Purnima on July 28th (Tuesday)\">Guru Purnima",
+          "category": "Festival",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
           "title": "Vyasa Puja on July 28th (Tuesday)\">Vyasa Puja",
+          "category": "Festival",
+          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
+          "title": "Ashadha Purnima on July 28th (Tuesday)\">Ashadha Purnima",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
         },
@@ -44567,16 +44577,6 @@
         }
       },
       "events": [
-        {
-          "title": "Guru Purnima on July 29th (Wednesday)\">Guru Purnima",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
-        {
-          "title": "Ashadha Purnima on July 29th (Wednesday)\">Ashadha Purnima",
-          "category": "Festival",
-          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
-        },
         {
           "title": "Ishti on July 29th (Wednesday)\">Ishti",
           "category": "Festival",
@@ -57485,9 +57485,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-06-25",
-      "title": "Gayatri Jayanti on June 25th (Thursday)\">Gayatri Jayanti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
+      "date": "2026-06-24",
+      "title": "Gayatri Jayanti on June 24th (Wednesday)\">Gayatri Jayanti",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/06/2026",
       "type": "Jayanti"
     },
     {
@@ -57527,9 +57527,15 @@
       "type": "Festival"
     },
     {
-      "date": "2026-07-02",
-      "title": "Krishnapingala Sankashti on July 2nd (Thursday)\">Krishnapingala Sankashti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "date": "2026-07-03",
+      "title": "Krishnapingala Sankashti on July 3rd (Friday)\">Krishnapingala Sankashti",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Krishnapingala Sankashti Chaturthi",
+      "detail": "Friday. Source: local verified fallback",
       "type": "Vrat"
     },
     {
@@ -57624,7 +57630,19 @@
     },
     {
       "date": "2026-07-28",
+      "title": "Guru Purnima on July 28th (Tuesday)\">Guru Purnima",
+      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-28",
       "title": "Vyasa Puja on July 28th (Tuesday)\">Vyasa Puja",
+      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Ashadha Purnima on July 28th (Tuesday)\">Ashadha Purnima",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Festival"
     },
@@ -57632,18 +57650,6 @@
       "date": "2026-07-28",
       "title": "Anvadhan on July 28th (Tuesday)\">Anvadhan",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Guru Purnima on July 29th (Wednesday)\">Guru Purnima",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Ashadha Purnima on July 29th (Wednesday)\">Ashadha Purnima",
-      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Festival"
     },
     {
@@ -58514,12 +58520,6 @@
       "date": "2026-12-26",
       "title": "Akhuratha Sankashti on December 26th (Saturday)\">Akhuratha Sankashti",
       "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/12/2026",
-      "type": "Vrat"
-    },
-    {
-      "date": "2026-07-03",
-      "title": "Krishnapingala Sankashti Chaturthi",
-      "detail": "Friday. Source: local verified fallback",
       "type": "Vrat"
     }
   ]
