@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-07-17T23:13:48.918598Z",
+  "generatedAt": "2026-07-18T20:10:58.821427Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -2260,13 +2260,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vaishnava Jaya Ekadashi on January 29th (Thursday)\">Vaishnava Jaya Ekadashi",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
-        }
-      ]
+      "events": []
     },
     "2026-01-30": {
       "date": "2026-01-30",
@@ -3634,12 +3628,22 @@
       },
       "events": [
         {
+          "title": "Somavati Amavasya on February 16th (Monday)\">Somavati Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
           "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
         {
           "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
+          "title": "Phalguna Amavasya on February 16th (Monday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -3724,11 +3728,6 @@
         },
         {
           "title": "Ishti on February 17th (Tuesday)\">Ishti",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
-        {
-          "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -6164,7 +6163,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Matsya Jayanti on March 20th (Friday)\">Matsya Jayanti",
+          "category": "Jayanti",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-21": {
       "date": "2026-03-21",
@@ -6238,11 +6243,6 @@
         }
       },
       "events": [
-        {
-          "title": "Matsya Jayanti on March 21st (Saturday)\">Matsya Jayanti",
-          "category": "Jayanti",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
         {
           "title": "Gauri Puja on March 21st (Saturday)\">Gauri Puja",
           "category": "Festival",
@@ -15304,11 +15304,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -15377,11 +15377,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -17067,7 +17067,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Ravi Pradosh Vrat on August 9th (Sunday)\">Ravi Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     "2026-08-10": {
       "date": "2026-08-10",
@@ -17140,13 +17146,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Soma Pradosh Vrat on August 10th (Monday)\">Soma Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     "2026-08-11": {
       "date": "2026-08-11",
@@ -30598,13 +30598,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Vaishnava Jaya Ekadashi on January 29th (Thursday)\">Vaishnava Jaya Ekadashi",
-          "category": "Vrat",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-01-30",
@@ -31972,12 +31966,22 @@
       },
       "events": [
         {
+          "title": "Somavati Amavasya on February 16th (Monday)\">Somavati Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
           "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
         {
           "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
+          "title": "Phalguna Amavasya on February 16th (Monday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -32062,11 +32066,6 @@
         },
         {
           "title": "Ishti on February 17th (Tuesday)\">Ishti",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
-        {
-          "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -34502,7 +34501,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Matsya Jayanti on March 20th (Friday)\">Matsya Jayanti",
+          "category": "Jayanti",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-21",
@@ -34576,11 +34581,6 @@
         }
       },
       "events": [
-        {
-          "title": "Matsya Jayanti on March 21st (Saturday)\">Matsya Jayanti",
-          "category": "Jayanti",
-          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
         {
           "title": "Gauri Puja on March 21st (Saturday)\">Gauri Puja",
           "category": "Festival",
@@ -43642,11 +43642,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -43715,11 +43715,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -45405,7 +45405,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Ravi Pradosh Vrat on August 9th (Sunday)\">Ravi Pradosh Vrat",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        }
+      ]
     },
     {
       "date": "2026-08-10",
@@ -45478,13 +45484,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Soma Pradosh Vrat on August 10th (Monday)\">Soma Pradosh Vrat",
-          "category": "Vrat",
-          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-08-11",
@@ -56831,12 +56831,6 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-01-29",
-      "title": "Vaishnava Jaya Ekadashi on January 29th (Thursday)\">Vaishnava Jaya Ekadashi",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
-      "type": "Vrat"
-    },
-    {
       "date": "2026-01-30",
       "title": "Shukra Pradosh Vrat on January 30th (Friday)\">Shukra Pradosh Vrat",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
@@ -56892,6 +56886,12 @@
     },
     {
       "date": "2026-02-16",
+      "title": "Somavati Amavasya on February 16th (Monday)\">Somavati Amavasya",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-16",
       "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
@@ -56899,6 +56899,12 @@
     {
       "date": "2026-02-16",
       "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Phalguna Amavasya on February 16th (Monday)\">Phalguna Amavasya",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
@@ -56911,12 +56917,6 @@
     {
       "date": "2026-02-17",
       "title": "Ishti on February 17th (Tuesday)\">Ishti",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-02-17",
-      "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
@@ -57107,9 +57107,9 @@
       "type": "Festival"
     },
     {
-      "date": "2026-03-21",
-      "title": "Matsya Jayanti on March 21st (Saturday)\">Matsya Jayanti",
-      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-20",
+      "title": "Matsya Jayanti on March 20th (Friday)\">Matsya Jayanti",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Jayanti"
     },
     {
@@ -57683,9 +57683,9 @@
       "type": "Vrat"
     },
     {
-      "date": "2026-08-10",
-      "title": "Soma Pradosh Vrat on August 10th (Monday)\">Soma Pradosh Vrat",
-      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "date": "2026-08-09",
+      "title": "Ravi Pradosh Vrat on August 9th (Sunday)\">Ravi Pradosh Vrat",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Vrat"
     },
     {
