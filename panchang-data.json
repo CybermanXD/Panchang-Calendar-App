@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-07-21T23:26:29.605914Z",
+  "generatedAt": "2026-07-22T20:35:40.644412Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -15593,11 +15593,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -15666,11 +15666,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -43931,11 +43931,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -44004,11 +44004,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
