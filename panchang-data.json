@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-08-14T22:45:49.235782Z",
+  "generatedAt": "2026-08-15T19:41:29.901033Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -3634,12 +3634,22 @@
       },
       "events": [
         {
+          "title": "Somavati Amavasya on February 16th (Monday)\">Somavati Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
           "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
         {
           "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
+          "title": "Phalguna Amavasya on February 16th (Monday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -3724,11 +3734,6 @@
         },
         {
           "title": "Ishti on February 17th (Tuesday)\">Ishti",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
-        {
-          "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -17447,11 +17452,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -17526,11 +17531,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -31972,12 +31977,22 @@
       },
       "events": [
         {
+          "title": "Somavati Amavasya on February 16th (Monday)\">Somavati Amavasya",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
           "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         },
         {
           "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+          "category": "Festival",
+          "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
+        },
+        {
+          "title": "Phalguna Amavasya on February 16th (Monday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -32062,11 +32077,6 @@
         },
         {
           "title": "Ishti on February 17th (Tuesday)\">Ishti",
-          "category": "Festival",
-          "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
-        },
-        {
-          "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
           "category": "Festival",
           "description": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026"
         }
@@ -45785,11 +45795,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -45864,11 +45874,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -56892,6 +56902,12 @@
     },
     {
       "date": "2026-02-16",
+      "title": "Somavati Amavasya on February 16th (Monday)\">Somavati Amavasya",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-16",
       "title": "Darsha Amavasya on February 16th (Monday)\">Darsha Amavasya",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
@@ -56899,6 +56915,12 @@
     {
       "date": "2026-02-16",
       "title": "Anvadhan on February 16th (Monday)\">Anvadhan",
+      "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Phalguna Amavasya on February 16th (Monday)\">Phalguna Amavasya",
       "detail": "Monday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
@@ -56911,12 +56933,6 @@
     {
       "date": "2026-02-17",
       "title": "Ishti on February 17th (Tuesday)\">Ishti",
-      "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-02-17",
-      "title": "Phalguna Amavasya on February 17th (Tuesday)\">Phalguna Amavasya",
       "detail": "Tuesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
       "type": "Festival"
     },
