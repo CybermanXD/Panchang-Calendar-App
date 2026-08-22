@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-08-21T22:47:05.333941Z",
+  "generatedAt": "2026-08-22T19:42:36.838544Z",
   "sourceUrls": [
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/01/2026",
     "https://www.drikpanchang.com/panchang/month-panchang.html?date=07/02/2026",
@@ -6650,11 +6650,6 @@
           "title": "Rama Navami on March 26th (Thursday)\">Rama Navami",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Swaminarayan Jayanti on March 26th (Thursday)\">Swaminarayan Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         }
       ]
     },
@@ -6729,7 +6724,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Swaminarayan Jayanti on March 27th (Friday)\">Swaminarayan Jayanti",
+          "category": "Jayanti",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-28": {
       "date": "2026-03-28",
@@ -6881,7 +6882,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Vaishnava Kamada Ekadashi on March 29th (Sunday)\">Vaishnava Kamada Ekadashi",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     "2026-03-30": {
       "date": "2026-03-30",
@@ -11423,7 +11430,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Vaishnava Padmini Ekadashi on May 27th (Wednesday)\">Vaishnava Padmini Ekadashi",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
+        }
+      ]
     },
     "2026-05-28": {
       "date": "2026-05-28",
@@ -14840,6 +14853,11 @@
       },
       "events": [
         {
+          "title": "Gauna Yogini Ekadashi on July 11th (Saturday)\">Gauna Yogini Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
           "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
           "category": "Vrat",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
@@ -18008,11 +18026,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -18026,13 +18044,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Varalakshmi Vrat on August 21st (Friday)\">Varalakshmi Vrat",
-          "category": "Vrat",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     "2026-08-22": {
       "date": "2026-08-22",
@@ -18087,11 +18099,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -18494,16 +18506,6 @@
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
         {
-          "title": "Gayatri Jayanti on August 27th (Thursday)\">Gayatri Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Shravana Purnima on August 27th (Thursday)\">Shravana Purnima",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
           "title": "Anvadhan on August 27th (Thursday)\">Anvadhan",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
@@ -18583,7 +18585,22 @@
       },
       "events": [
         {
+          "title": "Varalakshmi Vrat on August 28th (Friday)\">Varalakshmi Vrat",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Gayatri Jayanti on August 28th (Friday)\">Gayatri Jayanti",
+          "category": "Jayanti",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
           "title": "Chandra Grahan *Anshika on August 28th (Friday)\">Chandra Grahan *Anshika",
+          "category": "Festival",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Shravana Purnima on August 28th (Friday)\">Shravana Purnima",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
@@ -20329,6 +20346,11 @@
         }
       },
       "events": [
+        {
+          "title": "Radha Ashtami on September 19th (Saturday)\">Radha Ashtami",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
         {
           "title": "Mahalakshmi Vrat Begins on September 19th (Saturday)\">Mahalakshmi Vrat Begins",
           "category": "Vrat",
@@ -34980,11 +35002,6 @@
           "title": "Rama Navami on March 26th (Thursday)\">Rama Navami",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
-        },
-        {
-          "title": "Swaminarayan Jayanti on March 26th (Thursday)\">Swaminarayan Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
         }
       ]
     },
@@ -35059,7 +35076,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Swaminarayan Jayanti on March 27th (Friday)\">Swaminarayan Jayanti",
+          "category": "Jayanti",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-28",
@@ -35211,7 +35234,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Vaishnava Kamada Ekadashi on March 29th (Sunday)\">Vaishnava Kamada Ekadashi",
+          "category": "Vrat",
+          "description": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026"
+        }
+      ]
     },
     {
       "date": "2026-03-30",
@@ -39753,7 +39782,13 @@
           "varjyam": null
         }
       },
-      "events": []
+      "events": [
+        {
+          "title": "Vaishnava Padmini Ekadashi on May 27th (Wednesday)\">Vaishnava Padmini Ekadashi",
+          "category": "Vrat",
+          "description": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026"
+        }
+      ]
     },
     {
       "date": "2026-05-28",
@@ -43170,6 +43205,11 @@
       },
       "events": [
         {
+          "title": "Gauna Yogini Ekadashi on July 11th (Saturday)\">Gauna Yogini Ekadashi",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
+        },
+        {
           "title": "Vaishnava Yogini Ekadashi on July 11th (Saturday)\">Vaishnava Yogini Ekadashi",
           "category": "Vrat",
           "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026"
@@ -46338,11 +46378,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           },
           "moonSign": {
-            "name": "",
+            "name": null,
             "untilText": null
           }
         },
@@ -46356,13 +46396,7 @@
           "varjyam": null
         }
       },
-      "events": [
-        {
-          "title": "Varalakshmi Vrat on August 21st (Friday)\">Varalakshmi Vrat",
-          "category": "Vrat",
-          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-08-22",
@@ -46417,11 +46451,11 @@
         "karana": [],
         "zodiac": {
           "sunSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           },
           "moonSign": {
-            "name": null,
+            "name": "",
             "untilText": null
           }
         },
@@ -46824,16 +46858,6 @@
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
         {
-          "title": "Gayatri Jayanti on August 27th (Thursday)\">Gayatri Jayanti",
-          "category": "Jayanti",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
-          "title": "Shravana Purnima on August 27th (Thursday)\">Shravana Purnima",
-          "category": "Festival",
-          "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
-        },
-        {
           "title": "Anvadhan on August 27th (Thursday)\">Anvadhan",
           "category": "Festival",
           "description": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
@@ -46913,7 +46937,22 @@
       },
       "events": [
         {
+          "title": "Varalakshmi Vrat on August 28th (Friday)\">Varalakshmi Vrat",
+          "category": "Vrat",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Gayatri Jayanti on August 28th (Friday)\">Gayatri Jayanti",
+          "category": "Jayanti",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
           "title": "Chandra Grahan *Anshika on August 28th (Friday)\">Chandra Grahan *Anshika",
+          "category": "Festival",
+          "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
+        },
+        {
+          "title": "Shravana Purnima on August 28th (Friday)\">Shravana Purnima",
           "category": "Festival",
           "description": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026"
         },
@@ -48659,6 +48698,11 @@
         }
       },
       "events": [
+        {
+          "title": "Radha Ashtami on September 19th (Saturday)\">Radha Ashtami",
+          "category": "Vrat",
+          "description": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026"
+        },
         {
           "title": "Mahalakshmi Vrat Begins on September 19th (Saturday)\">Mahalakshmi Vrat Begins",
           "category": "Vrat",
@@ -57139,15 +57183,21 @@
       "type": "Festival"
     },
     {
-      "date": "2026-03-26",
-      "title": "Swaminarayan Jayanti on March 26th (Thursday)\">Swaminarayan Jayanti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "date": "2026-03-27",
+      "title": "Swaminarayan Jayanti on March 27th (Friday)\">Swaminarayan Jayanti",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Jayanti"
     },
     {
       "date": "2026-03-28",
       "title": "Kamada Ekadashi on March 28th (Saturday)\">Kamada Ekadashi",
       "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Vaishnava Kamada Ekadashi on March 29th (Sunday)\">Vaishnava Kamada Ekadashi",
+      "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/03/2026",
       "type": "Vrat"
     },
     {
@@ -57403,6 +57453,12 @@
       "type": "Vrat"
     },
     {
+      "date": "2026-05-27",
+      "title": "Vaishnava Padmini Ekadashi on May 27th (Wednesday)\">Vaishnava Padmini Ekadashi",
+      "detail": "Wednesday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
+      "type": "Vrat"
+    },
+    {
       "date": "2026-05-28",
       "title": "Guru Pradosh Vrat on May 28th (Thursday)\">Guru Pradosh Vrat",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/05/2026",
@@ -57538,6 +57594,12 @@
       "date": "2026-07-10",
       "title": "Yogini Ekadashi on July 10th (Friday)\">Yogini Ekadashi",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Gauna Yogini Ekadashi on July 11th (Saturday)\">Gauna Yogini Ekadashi",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/07/2026",
       "type": "Vrat"
     },
     {
@@ -57751,12 +57813,6 @@
       "type": "Festival"
     },
     {
-      "date": "2026-08-21",
-      "title": "Varalakshmi Vrat on August 21st (Friday)\">Varalakshmi Vrat",
-      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Vrat"
-    },
-    {
       "date": "2026-08-23",
       "title": "Shravana Putrada Ekadashi on August 23rd (Sunday)\">Shravana Putrada Ekadashi",
       "detail": "Sunday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
@@ -57782,25 +57838,31 @@
     },
     {
       "date": "2026-08-27",
-      "title": "Gayatri Jayanti on August 27th (Thursday)\">Gayatri Jayanti",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Jayanti"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Shravana Purnima on August 27th (Thursday)\">Shravana Purnima",
-      "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
-      "type": "Festival"
-    },
-    {
-      "date": "2026-08-27",
       "title": "Anvadhan on August 27th (Thursday)\">Anvadhan",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Festival"
     },
     {
       "date": "2026-08-28",
+      "title": "Varalakshmi Vrat on August 28th (Friday)\">Varalakshmi Vrat",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Vrat"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Gayatri Jayanti on August 28th (Friday)\">Gayatri Jayanti",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Jayanti"
+    },
+    {
+      "date": "2026-08-28",
       "title": "Chandra Grahan *Anshika on August 28th (Friday)\">Chandra Grahan *Anshika",
+      "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
+      "type": "Festival"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Shravana Purnima on August 28th (Friday)\">Shravana Purnima",
       "detail": "Friday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/08/2026",
       "type": "Festival"
     },
@@ -57947,6 +58009,12 @@
       "title": "Kanya Sankranti on September 17th (Thursday)\">Kanya Sankranti",
       "detail": "Thursday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
       "type": "Festival"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Radha Ashtami on September 19th (Saturday)\">Radha Ashtami",
+      "detail": "Saturday. Source: https://www.drikpanchang.com/panchang/month-panchang.html?date=07/09/2026",
+      "type": "Vrat"
     },
     {
       "date": "2026-09-19",
